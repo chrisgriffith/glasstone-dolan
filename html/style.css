@@ -1,5 +1,6 @@
 body {font: 1em/1.35 Cambria, Times, serif;}
 main {max-width: 40em; margin: 0 auto;}
+p {margin: 0.25em 0;}
 p strong {margin: 0 1ch;}
 p:target {background: #FED;}
 a.xref {white-space: nowrap;}
