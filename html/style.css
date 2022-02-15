@@ -1,6 +1,12 @@
 body {font: 1em/1.35 Cambria, Times, serif;}
 main {max-width: 40em; margin: 0 auto;}
-p {margin: 0.25em 0;}
+main section {margin: 4em 0 2em;}
+main h2 {text-align: center;}
+main *:is(h1, h2, h3, h4, h5, h6) {text-transform: uppercase;}
+figure {margin: 1em 2em; text-align: center; font-size: 95%;}
+figure img {max-width: 100%;}
+figure figcaption {padding: 0.5em 1.5em;}
+p {margin: 0 -1em; padding: 0.25em 1em;}
 p strong {margin: 0 1ch;}
 p:target {background: #FED;}
 a.xref {white-space: nowrap;}
