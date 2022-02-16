@@ -17,7 +17,7 @@ sup {font-size: 75%; line-height: 0.5;}
 
 section.biblio ul {margin: 0; padding: 0; list-style: none; columns: 2; gap: 1.5em; font-size: 90%;}
 section.biblio ul li {text-indent: -1em; padding-inline-start: 1em; break-inside: avoid;}
-section.biblio span.authors {font-variant: small-caps; font-weight: 550;}
+section.biblio span.authors {font-variant: small-caps; font-weight: 500;}
 section.biblio span.authors span {font-variant: normal;}
 
 .endnotes {font-size: 90%;}
