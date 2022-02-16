@@ -2,7 +2,7 @@ body {font: 1em/1.35 Cambria, Times, serif; hyphens: auto;}
 main {max-width: 40em; margin: 0 auto;}
 main section {margin: 4em 0 2em;}
 main h2 {text-align: center;}
-main *:is(h1, h2, h3, h4, h5, h6) {font-weight: normal;}
+main *:is(h1, h2, h3, h4, h5, h6) {font-weight: normal; transform: scaleY(0.9);}
 figure {margin: 1em 2em; text-align: center; font-size: 95%;}
 figure img {max-width: 100%;}
 figure figcaption {padding: 0.5em 1.5em;}
