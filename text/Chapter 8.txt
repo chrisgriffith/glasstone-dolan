@@ -55,7 +55,7 @@ RADIATION DOSE AND DOSE RATE
 
 MEASUREMENT OF GAMMA RADIATION
 8.20 Thermal radiation from a nuclear explosion can be felt (as heat), and the portion in the visible region of the spectrum can be seen as light. The human senses, however, do not respond to nuclear radiations except at very high intensities (or dose rates), when itching and tingling of the skin are experienced. Special instrumental methods, based on the interaction of these radiations with matter, have therefore been developed
- 
+
 INITIAL NUCLEAR RADIATION
 
 
@@ -69,7 +69,7 @@ for the detection and measurement of various nuclear radiations. Some of the ins
 8.27 Other optical density dosi meters depend on the production by radiation of stable color centers which absorb light at a certain wavelength. An example is a device that measures radi ation by a change in the transmission of light through a cobalt-glass chip. A lead borate glass containing bismuth has also been developed for the measurement of high levels of radiation, specifically for use in mixed gamma-neutron environments. Other materials that are utilized in instruments for the measurement of radiation by color changes include dyed plastics, such as blue cellophane and "cinemoid" film, i.e., a celluloid-like film containing a red dye.
 8.28 In practice, measuring instruments do not determine the exposure in roentgens or the absorbed dose in rads directly. One or other of several observable effects, such as current pulses produced by ionization, scintillations, changes in optical response, or temperature rise, serves as the basis for the actual determination. The instruments can indicate the exposure in roentgens or the dose in rads after being calibrated with a standard gamma-ray source, usually a known quantity of a radioactive material that emits a gamma ray of the appropriate energy at a known rate.
 8.29 Some instruments can record both the total radiation dose (or exposure) and the dose (or exposure) rate, but most radiation measuring devices are designed to indicate either the total or the rate. Total radiation doses (or exposures) are measured by personnel dosimeters worn by individuals who may be exposed to unusual amounts of nuclear radiation in the course of their work. Examples of such instruments are pocket ion chambers, optical density devices (especially film badges). and photoluminescent, thermoluminescent, and color-change dosimeters. Calorie meters also measure total radiation doses. The charge collection time in semiconductor detectors is so short that these instruments lend themselves to the measurement of gamma-ray dose rates
- 
+
 INITIAL NUCLEAR RADIATION
 
 
@@ -148,7 +148,7 @@ GENERAL CHARACTERISTICS OF TREE
 8.75 The term "electronics" as used in TREE may refer to any or all of the following: individual electronic component parts, component parts assembled into a circuit, and circuits combined to form a complete system. TREE studies may also include electro mechanical components connected to the electronics, e.g., gyros, inertial instruments, etc. Purely mechanical or structural components are excluded since they are much less sensitive to radiation than are components or systems that depend on electrical currents (or voltages) for their operation.
 8. 76  Radiation effects on elec
 tronics may be temporary or more-or-less permanent. Even though the effects on a particular component, e.g., a transistor, may be temporary, these effects may result in permanent damage to some other part of a circuit. The component responses of short duration are usually the result of ionization caused by gamma radiation and are dependent upon the dose rate, e.g., in rads per second, rather than the dose. The more permanent effects are generally-but not always--due to the displacement of atoms in a crystal lattice by high-energy (fast) neutrons. In such cases the extent of damage is determined by the neutron fluence, expressed in neutrons/cm2 (§ 8.61). When a permanent effect is produced in an electronic component by gamma radiation, the important quantity usually is the dose in rads. A brief description of the responses of some components of electronics systems are given below; the mechanisms of the interactions with nuclear radiations are explained later(§ 8.133 et seq.).
- 
+
 OBSERVED EFFECTS ON ELECTRONICS COMPONENTS
 Solid-State Devices
 8.77 Solid-state devices, such as diodes, transistors, and integrated circuits, are widely used in electronics systems. They consist of semiconductor materials that are quite sensitive to nuclear radiations. Temporary effects are the production of spurious current pulses caused by gamma rays absorbed in the solid. This phenomenon is turned to advantage in the semiconductor detectors of nuclear radiation (§ 8.22). The strength of the current pulse is proportional to the dose rate of the radiation and is much larger in a transistor than in a diode because the primary current resulting from ionization produces an amplified secondary current in the transistor.
@@ -161,7 +161,7 @@ Vacuum Tubes and Thyratrons
 1°For the dependence of  neutron fluences at various energies on the energy  yield and distance from a nuclear explosion-; see Figs. 8.117a and b.
 8.82 Gas-filled tubes (thyratrons) exposed to gamma radiation exhibit a transient, spurious firing due to partial ionization of the gas, usually xenon. Additional ionization is caused by collisions between ions and neutral molecules in the gas. As with vacuum tubes, large fluences of thermal neutrons can cause thyratrons to become useless as a result of breakage of the glass envelope or failure of glass-to-metal seals.
 Capacitors, Resistors, and Batteries
- 
+
 8.83 Nuclear radiation affects the electrical properties of capacitors to some extent. Changes in the capacitance value, dissipation factor. and leakage resistance have been observed as a consequence of exposure. The effects are generally not considered to be severe for fast-neutron fluences less than 101s neutrons/cm2. During a high-intensity pulse of nuclear radiation, the most pronounced effect in a capacitor is a transient change in the conductivity of the dielectric (insulating) material with a corresponding increase in the leakage currents through the capacitor.
 8.84 Radiation effects in resistors are generally small compared with those in semiconductors and capacitors and are usually negligible. However, in circuits requiring high-precision carbon resistors transient effects may be significant at gamma-ray dose rates of 107 rads (carbon)/sec 11 and at fast-neutron fluences of 1014 neutrons/cm2. The transient effects are generally attributed to gamma rays that interact with materials to produce electrons; however, energetic neutrons can also cause significant ionization by recoiling nuclei. The transient effects on resistors include (1) a change in the effective resistance due to leakage in the insulating material and the surrounding medium, and (2) induced current that is the result of the difference between the emission and absorption of secondary electrons by the resistor materials. The permanent effects are generally due to the displacement of atoms by neutrons, thereby causing a change in the resistivity of the material.
 8.85 Batteries are affected much less by radiation than other components. The effects of radiation on nickel-cadmium batteries appear to be insignificant at gamma-ray dose rates up to 107 rads (air)/sec. No radiation damage was apparent in a number of batteries and standard cells that were subjected to l013 fast neutrons/cm2. Mercury batteries can withstand fast neutron fluences up to 1016 neutrons/cm2.
@@ -179,7 +179,7 @@ INTERACTION OF GAMMA RAYS WITH MATTER
 8.91 The second type of interaction of gamma rays and matter is by the "photoelectric effect." A photon, with energy somewhat greater than the binding energy of an electron in an atom, transfers all its energy to the electron which is consequently ejected from the atom. Since the photon involved in the photoelectric effect loses all of its energy, it ceases to exist. In this respect, it differs from the Compton effect, in which a photon still remains after the interaction, although with decreased energy. The magnitude of the photoelectric effect per atom, like that of the Compton effect, increases with the atomic number of the material through which the gamma rays pass, and decreases with increasing energy of the photon.
 8.92 Gamma radiation can interact
 with matter in a third manner,  called
- 
+
 INITIAL NUCLEAR RADIATION
 
 
@@ -190,7 +190,7 @@ decrease with increasing energy of the
 gamma-ray photon. However, pair production, which starts at 1.02 MeV, in- creases with the energy beyond this value. Combination of the various attenuating effects, two of which decrease
 whereas one increases with increasing photon energy, means that, at some energy in excess of 1.02 MeV, the absorption of gamma radiation by a particular material should be a minimum. That such minima do exist will be seen shortly.
 GAMMA-RAY ATTENUATION COEFFICIENTS
-8.95 When a narrow (or collimated) beam of gamma rays passes through a material, photons are removed as a result of the Compton scattering interaction as well as by the photoelectric and pair-production interactions. In other words, the scattered photons are regarded as being lost from the beam, although only part of their energy will have been deposited in the material. If such a collimated beam of gamma rays of a specific energy, having an initial intensity (or flux) of /0 photons per square centimeter per second, traverses a thickness of x of a given material, the intensity, I, of the rays which emerge without having undergone any interactions can be represented by the equation 
+8.95 When a narrow (or collimated) beam of gamma rays passes through a material, photons are removed as a result of the Compton scattering interaction as well as by the photoelectric and pair-production interactions. In other words, the scattered photons are regarded as being lost from the beam, although only part of their energy will have been deposited in the material. If such a collimated beam of gamma rays of a specific energy, having an initial intensity (or flux) of /0 photons per square centimeter per second, traverses a thickness of x of a given material, the intensity, I, of the rays which emerge without having undergone any interactions can be represented by the equation
   (8.95.))13
 where µ is called the "linear attenuation coefficient." The distance x is usually
 ·expressed in centimeters, so that the corresponding units for µ are reciprocal centimeters (cm-1). It can be seen from the equation (8.95.1) that, for a given thickness x of material, the intensity I of the emerging gamma rays will be less the larger is the value of µ. In other words, the linear attenuation coefficient is a measure of the shielding ability of a definite thickness, e.g., 1 cm, 1 foot, or other thickness, or any material for a collimated beam of monoenergetic gamma rays.
@@ -212,7 +212,7 @@ attenuation coefficient, irrespective of the material of which the shield is com
 
 MASS ATTENUATION COEFFICIENT
 8.100 As a very rough approximation, it has been found that the linear attenuation coefficient for gamma rays of a particular energy is proportional to the density of the absorbing (shield) material. That is to say, the linear attenuation coefficient divided by the density, giving what is called the "mass attenuation coefficient," is approximately the same for all substances for a specified gamma-ray energy. This is especially true for elements of low and medium atomic weight, up to that of iron (about 56), where the Compton effect makes the major contribution to the attenuation coefficient for energies up to a few million electron volts (cf. Fig. 8.97b). For the initial gamma rays of higher energy, the effective mass attenuation coefficient (§ 8.104) is close to 0.023 for water, wood, concrete, and earth, with the densities expressed in grams per cubic centimeter. The value
- 
+
 INITIAL NUCLEAR RADIATION
 
 
@@ -239,7 +239,7 @@ gamma rays. The D x T for iron (or steel) is smaller than for the other mate ria
 
 THICK SHIELDS: BUILDUP FACTOR
 8.103 Equation (8.95. l) is strictly applicable· only to cases in which the photons scattered in Compton interactions may be regarded as having been removed from the gamma-ray beam. This situation holds reasonably well for narrow beams or for shields of moderate thickness, but it fails for broad beams or thick shields. In the latter circumstances, the photon may be scattered several times before emerging from the shield. For broad radiation beams and thick shields, such as are of interest in shielding from nuclear explosions, the value of I, the intensity (or dose) of the emerging radiation, is larger than that given by equation (8.95. l). Allowance for the multiple scattering of the radiation is made by including a ''buildup factor," represented by B(x), the value of which depends upon the thickness x of the shield, the nature of the material,
- 
+
 and the energy of the impinging radiation; thus, equation (8.95. l) is now written as
 I = 10B(x)e-11-•.
 Values of the buildup factor for a variety of conditions have been calculated for a number of elements from a theoretical consideration of the scattering of photons by electrons. The fact that these values are frequently in the range from 10 to 100 shows that serious errors could arise if equation (8.95. l) is used to determine the attenuation of gamma rays by thick shields.
@@ -249,7 +249,7 @@ Values of the buildup factor for a variety of conditions have been calculated fo
 THE INITIAL GAMMA-RAY SPECTRUM
 8.105 The major proportion of the initial gamma radiation received at a distance from a nuclear explosion arises from the interaction of neutrons with nuclei, especially nitrogen, in the atmosphere and from the fission products during the first minute after the burst. Gamma rays from inelastic scattering and neutron capture by nitrogen have effective energies ranging up to 7.5 MeV (or more) and those from the fission products are mainly in the 1 to 2 MeV range. After passage through a distance in air, some of the photons will have been removed by photoelectric and pair-production effects and others will have had their energies decreased as a result of successive Compton scattering. There will consequently be a change in the gamma-ray energy distribution, i.e., in the spectrum.
 8.106 Information concerning the gamma-ray spectrum of the initial radiation is important because the susceptibility of living organisms and of various electronics components, the attenuation properties of air and shielding materials, and the response of radiation detectors are dependent upon it. Although the interactions of both neutrons and gamma rays with the atmosphere, which
- 
+
 INITIAL NUCLEAR RADIATION
 
 
@@ -263,7 +263,7 @@ INTERACTIONS OP NEUTRONS WITH MATTER
 8.69 serves this purpose.
 8.109 The second fundamental type of interaction of neutrons with matter involves complete removal of the neutron by capture. Radiative capture (§ 8.08) is the most common kind of capture reaction; it occurs to some extent, at least, with nearly all nuclei. The probability of capture is greater for slow neutrons than for those of high energy. Most light nuclei, e.g., carbon and oxygen, have little tendency to undergo the radiative capture reaction with neutrons. With nitrogen, however, the tendency is significant (§ 8.11), but not great. For other nuclei, especially some of medium or high mass, e.g., cadmium, the radiative capture reaction occurs very readily. In certain cases, the reaction product is radioactive (§ 8.61); this is of importance in some aspects of weapons effects, as will be seen in Chapter IX.
 8.110 Another type of reaction is that in which the incident neutron enters the target nucleus and the compound nucleus so formed has enough excitation energy to permit the expulsion of another (charged) particle, e.g., a proton, deuteron, or alpha particle. The residual nucleus is often in an excited state and
- 
+
 INITIAL NUCLEAR RADIATION
 
 
@@ -338,8 +338,8 @@ ETHERINGTON, H. (Ed.), "Nuclear Engineering Handbook," McGraw-Hill Book Co., Inc
 FRENCH, R. L., '' A First-Last Collision Model of the Air/Ground Interface Effects on Fast-Neutron Distributions," Nuclear Sci. and Eng., 19, 151 (1964).
 FRENCH, R. L., and L. G. MOONEY, "Initial Radiation Exposure from Nuclear Weapons," Radiation Research Associates, Fort Worth, Texas, July 1972, RRA-T7201.
 *FRITZSCHE, A. E., N. E. LORIMIER, and Z. G. BURSON, "Measured Low-Altitude Neutron and Gamma Dose Distributions Due to a 14- MeV Neutron Source," E.G., and G., Inc., Las Vegas, Nevada, 1%9, EGG 1183-1449.
-*FRITZSCHE, A. E., N. E. LORIMIER, and z. G. BURSON, "Measured High-Altitude Neutron and Gamma Dose Distributions Due to a 14- MeV Neutron Source," E. G., and G., Inc., Las Vegas, Nevada, 1%9, EGG 1183-1438. GWYN, C. W., D. L. SCHARFETTER, and J. L.
-WIRTH, "The Analysis of Radiation Effects in Semiconductor Junction Devices," Sandia Corporation, Albuquerque, New Mexico, July 1%7, SC-R-67-1158.
+*FRITZSCHE, A. E., N. E. LORIMIER, and z. G. BURSON, "Measured High-Altitude Neutron and Gamma Dose Distributions Due to a 14- MeV Neutron Source," E. G., and G., Inc., Las Vegas, Nevada, 1%9, EGG 1183-1438.
+GWYN, C. W., D. L. SCHARFETTER, and J. L. WIRTH, "The Analysis of Radiation Effects in Semiconductor Junction Devices," Sandia Corporation, Albuquerque, New Mexico, July 1%7, SC-R-67-1158.
 JONES, T. D., and F. F. HAYWOOD, "Transmission of Photons Through Common Shield ing Media," Oak Ridge National Laboratory, October 1974, ORNL-TM-4728.
 *KEITH, J. R., and F. H. SHELTON, "Neutron Transport in Non-Uniform Air by Monte Carlo Calculations, Volume I," Kaman Nuclear, Colorado Springs, Colorado, January 1969, DASA 2236--1, KN-774-69-1.
 *KUKHTEVICH, V. I., et al., "Protection from Penetrating Radiation of Nuclear Explosions," English translation, Joint Publications Research Service, U.S. Department of Commerce, July 1971, JPRS 53498.
