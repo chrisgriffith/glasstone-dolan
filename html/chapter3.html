@@ -461,11 +461,340 @@ BLAST EFFICIENCY FACTORS FOR HIGH ALTITUDE BURSTS
 <p id="§3.78"><strong>3.78</strong> The peak overpressures in Figs. 3.74a, b, and c, which allow for reflection at the ground surface, are considered to be the side-on overpressures (<a href="chapter4.html#§4.06" class="xref">§ 4.06</a> footnote) to be used in determining target loading and response. However, further reflection is possible at the front face of a structure when it is struck by the blast wave. The magnitude of the reflected pressure $p_r(\alpha)$ depends on the side-on pressure $p$ and the angle $\alpha$, between blast wave front and the struck surface (Fig. 3.78a). The values of the ratio $p_r(\alpha)/p$ as a function of angle of incidence for various indicated side-on pressures are given in Fig. 3.78b. It is seen that for normal incidence, i.e., when $\alpha$ = 0°, the ratio $p_r(\alpha)/p$ is approximately 2 at low overpressures and increases with the overpressure (<a href="#§3.56" class="xref">§ 3.56</a>). The curves in Fig. 3.78b are particularly applicable in the Mach region where an essentially vertical shock front moving radially strikes a reflecting surface such as the front wall of a structure (see Fig. 4.07).</p>
 
 
- <aside>
-***********
-(multi-page aside TK)
-***********
+
+<aside>
+
+<p>The curve in Fig. 3.72 shows the variation of peak overpressure with distance for a 1 KT free air burst in a standard sea-level atmosphere.</p>
+
+<p><em>Scaling.</em> For targets below 5,000 feet and for burst altItudes below 40,000 feet, the range to which a given peak overpressure extends for yields other than 1 KT scales as the cube root of the yield, i.e.,</p>
+
+\[
+D = D_1 \times W^{1/3},
+\]
+
+<p>where, for a given peak overpressure, $D_1$ is the distance (slant range) from the explosion for 1 KT, and $D$ is the distance from the explosion for $W$ KT. (For higher target or burst altitudes, see <a href="chapter3.html#§3.64" class="xref">§ 3.64</a> <i>et seq.</i>)</p>
+
+<h4>Example</h4>
+
+<p><em>Given:</em> A 2 MT burst at an altitude of 100,000 feet.</p>
+<p><em>Find:</em> The highest value of peak overpressure that reasonably may be expected to be incident on a target (an aircraft or missile) at an altitude of 60,000 feet.</p>
+<p><em>Solution:</em> The blast efficiency factor is based on the burst altitude, but the altitude scaling factors are based on target altitude (<a href="chapter3.html#§3.64" class="xref">§ 3.64</a>). The highest value of peak overpressure will occur with the upper limit of the blast efficiency factor.</p>
+
+<p>From Table 3.68, this upper limit for a burst at an altitude of 100,000 feet is somewhat less than 0.9. Hence, the effective yield is approximately</p>
+
+\[
+0.9W = 0.9 \times 2
+= 1.8 \text{MT} = 1,800 \text{ KT.}
+\]
+
+<p>The shortest distance from burst point to target, i.e., where the overpressure would be largest, is</p>
+
+\[
+D = 100,000 - 60,000 = 40,000 \text{ feet.}
+\]
+
+<p>From equation (3.66.2), the corresponding distance from a 1 KT burst for sea-level conditions is</p>
+
+\[
+D = \frac{D}{W^{1/3}} . \frac{1}{S_4} .
+\]
+
+<p>From Table 3.66, $S_d$ at the target altitude of 60,000 feet is 2.41; hence;</p>
+
+\[
+D = \frac{40,000}{(1,800)^{1/3}} . \frac{1}{2.41} = 1,360 \text{ feet.}
+\]
+
+<p>From Fig. 3.72, the peak overpressure at a distance of 1,360 feet from a 1 KT free air burst at sea-level conditions is 4.2 psi. The corresponding overpressure at an altitude of 60,000 feet is obtained from equation (3.66.1) and Table 3.66; thus</p>
+
+\[
+p = p_1 S_p = 4.2 \times 0.071 = 0.30\text{ psi.} \textit{ Answer}
+\]
+
+<figure>
+<img src="figures/fig03-72.png" alt="">
+<figcaption>
+Figure 3.72. Peak overpressure from a 1-kiloton free air burst for sea-level ambient conditions.
+</figcaption>
+</figure>
+
+<p>The curves in Fig. 3.73a show peak overpressures on the ground in the high-pressure range as a function of distance from ground zero and height of burst for a 1 KT burst in a standard sea-level atmosphere. The broken line separates the regular reflection region from the Mach region and indicates where the triple point is formed (<a href="chapter3.html#§3.24" class="xref">§ 3.24</a> <i>et seq.</i>). The data are considered appropriate to nearly ideal surface conditions. (For terrain, surface, and meteorological effects, see <a href="chapter3.html#§3.35" class="xref">§§ 3.35-3.43</a>, <a href="chapter3.html#§3.47" class="xref">§§ 3.47-3.49</a>, and <a href="chapter3.html#§3.79" class="xref">§ 3.79</a> <i>et seq.</i>)</p>
+
+<p><em>Scaling.</em> The height of burst and distance from ground zero to which a given overpressure extends scale as the cube root of the yield, i.e.,</p>
+
+\[
+\frac{d}{d_1} = \frac{h}{h_1} = W^{1/3},
+\]
+
+<p>where, for a given peak overpressure, $d_1$ and $h_1$ are distance from ground zero and height of burst for 1 KT, and $d$ and $h$ are the corresponding distance and height of burst for $W$ KT. For a height of burst of 5,000 feet or less, a homogeneous sea-level atmosphere may be assumed.</p>
+
+<h4>Example</h4>
+<p><em>Given:</em> An 80 KT detonation at a height of 860 feet.
+<p><em>Find:</em> The distance from ground zero to which 1,000 psi overpressure extends.
+<p><em>Solution:</em> The corresponding height of burst for 1 KT, i.e., the scaled height, is</p>
+
+\[
+h_1 = \frac{h}{W^{1/3}} = \frac{860}{(80)^{1/3}} = 200 \;\text{ feet.}
+\]
+\[
+d = d_1 W^{1/3} = 110 \times (80)^{1/3} = 475 \text{ feet.}
+\textit{ Answer.}
+\]
+
+<p>From Fig. 3.73a, an overpressure of 1,000 psi extends 110 feet from ground zero for a 200-foot burst height for a 1 KT weapon. The corresponding distance for 80 KT is</p>
+
+\[
+d = d_1 W^{1/3} = 110 \times (80)^{1/3} = 475 \text{ feet.}
+\textit{ Answer.}
+\]
+
+<p>The procedure described above is applicable to similar problems for the curves in Figs. 3.73b and c.</p>
+
+<figure>
+<img src="figures/fig03-73a.png" alt="">
+<figcaption>
+Figure 3.73a. Peak overpressures on the ground for a 1-kiloton burst (high-pressure range).
+</figcaption>
+</figure>
+
+<p>The curves in Fig. 3.73b show peak overpressures on the ground in the intermediate-pressure range as a function of distance from ground zero and height of burst for a 1 KT burst in a standard sea-level atmosphere. The broken line separates the regular reflection region from the Mach region and indicates where the triple point is formed (<a href="chapter3.html#§3.24" class="xref">§ 3.24</a> <i>et seq.</i>). The data are considered appropriate for nearly ideal surface conditions. (For terrain, surface, and meteorological effects, see <a href="chapter3.html#§3.35" class="xref">§§ 3.35-3.43</a>, <a href="chapter3.html#§3.47" class="xref">§§ 3.47-3.49</a>, and <a href="chapter3.html#§3.79" class="xref">§ 3.79</a> <i>et seq.</i>)</p>
+<p><em>Scaling.</em> The height of burst and the distance from ground zero to which a given peak overpressure extends scale as the cube root of the yield, i.e.,</p>
+
+\[
+\frac{d}{d_1} = \frac{h}{h_1} = W^{1/3},
+\]
+
+<p>where, for a given peak overpressure, $d_1$ and $h_1$ are distance from ground zero and height of burst for 1 KT, and $d$ and $h$ are the corresponding distance and height of burst for $W$ KT.  For a height of burst of 5,000 feet or less, a homogeneous sea-level atmosphere may be assumed.</p>
+
+<h4>Example</h4>
+<p><em>Given:</em> A 100 KT detonation at a height of 2,320 feet.
+<p><em>Find:</em> The peak overpressure at 1,860 feet from ground zero.
+<p><em>Solution:</em> The corresponding height of burst for 1 KT is</p>
+
+\[
+h_1 = \frac{h}{W^{1/3}} = \frac{2,320}{(100)^{1/3}} = 500 \text{ feet.}
+\]
+
+<p>and the ground distance is</p>
+
+\[
+d_1 = \frac{d}{W^{1/3}} = \frac{1,860}{(100)^{1/3}} = 400 \text{ feet.}
+\]
+
+<p>From Fig. 3.73b, at a ground distance of 400 feet and a burst height of 500 feet, the peak overpressure is 50 psi. <em>Answer.</em></p>
+
+<p>The procedure described above is applicable to similar problems for the curves in Figs. 3.73a and c.</p>
+
+<figure>
+<img src="figures/fig03-73b.png" alt="">
+<figcaption>
+Figure 3.73b. Peak overpressures on the ground for a 1-kiloton burst (intermediate-pressure range).
+</figcaption>
+</figure>
+
+<p>The curves in Fig. 3.73c show peak overpressures on the ground in the low-pressure range as a function of distance from ground zero and height of burst for a 1 KT burst in a standard sea-level
+atmosphere. The broken line separates the regular reflection region from the Mach region and indicates where the triple point is formed (<a href="chapter3.html#§3.24" class="xref">§ 3.24</a> <i>et seq.</i>). The data are considered appropriate for nearly ideal surface conditions. (For terrain, surface, and meteorological effects, see <a href="chapter3.html#§3.35" class="xref">§§ 3.35-3.43</a>, <a href="chapter3.html#§3.47" class="xref">§§ 3.47-3.49</a>, and <a href="chapter3.html#§3.79" class="xref">§ 3.79</a> <i>et seq.</i>)</p>
+
+<p><em>Scaling.</em> The height of burst and the distance from ground zero to which a
+given peak overpressure extends scale as the cube root of the yield, i.e.,</p>
+
+\[
+\frac{d}{d_1} = \frac{h}{h_1} = W^{1/3},
+\]
+
+<p>where, for a given peak overpressure, $d_1$ and $h_1$ are distance from ground zero and height of burst for 1 KT, and $d$ and $h$ are the corresponding distance and height of burst for $W$ KT.  For a height of burst of 5,000 feet or less, a homogeneous sea-level atmosphere may be assumed.</p>
+
+<h4>Example</h4>
+
+<p><em>Given:</em> A 125 KT detonation.
+<p><em>Find:</em> The maximum distance from ground zero to which 4 psi extends, and the height of burst at which 4 psi extends to this distance.
+<p><em>Solution:</em> From Fig. 3.73c, the maximum ground distance to which 4 psi extends for a 1 KT weapon is 2,600 feet. This occurs for a burst height of approximately 1,100 feet. Hence, for a 125 KT detonation, the required burst height is</p>
+
+\[
+h = h_1 W^{1/3} = 1,100 \times (125)^{1/3} = 5,500 \text{ feet.}
+\]
+
+<p>This is sufficiently close to 5,000 feet for a homogeneous atmosphere to be assumed. The distance from ground zero is then</p>
+
+\[
+d = d_1 W^{1/3} = 2,600 \times (125)^{1/3} = 13,000 \text{ feet.} \textit{ Answer.}
+\]
+
+<p>The procedure described above is applicable to similar problems for the curves in Figs. 3.73a and b.</p>
+
+<figure>
+<img src="figures/fig03-73c.png" alt="">
+<figcaption>
+Figure 3.73c. Peak overpressures on the ground for a 1-kiloton burst (low-pressure range).
+</figcaption>
+</figure>
+
+<p>The curves in Fig. 3.75 show the horizontal component of peak dynamic pressure on the ground as a function of distance from ground zero and height of burst for a 1 KT burst in a standard sea-level atmosphere. The data are considered appropriate for nearly ideal surface conditions. (For terrain, surface, and meteorological effects, see <a href="chapter3.html#§3.35" class="xref">§§ 3.35-3.43</a>, <a href="chapter3.html#§3.47" class="xref">§§ 3.47-3.49</a>, and <a href="chapter3.html#§3.79" class="xref">§ 3.79</a> <i>et seq.</i>)</p>
+
+<p><em>Scaling.</em> The height of burst and distance from ground zero to which a given peak dynamic pressure value extends scale as the cube root of the yield, i.e.,</p>
+
+\[
+\frac{d}{d_1} = \frac{h}{h_1} = W^{1/3},
+\]
+
+<p>where, for a given peak overpressure, $d_1$ and $h_1$ are distance from ground zero and height of burst for 1 KT, and $d$ and $h$ are the corresponding distance and height of burst for $W$ KT.  For a height of burst of 5,000 feet or less, a homogeneous sea-level atmosphere may be assumed.</p>
+
+<h4>Example</h4>
+
+<p><em>Given:</em> A 160 KT burst at a height of 3:000 feet.
+<p><em>Find:</em> The horizontal component of peak dynamic pressure on the surface at 6,000 feet from ground zero.
+<p><em>Solution:</em> The corresponding height of burst for 1 KT is
+
+\[
+h_1 = \frac{h}{W^{1/3}} = \frac{3,000}{(160)^{1/3}} = 550 \text{ feet.}
+\]
+
+<p>The corresponding distance for 1 KT is</p>
+
+\[
+d_1 = \frac{d}{W^{1/3}} = \frac{6,000}{(160)^{1/3}} = 1,110 \text{ feet.}
+\]
+
+<p>From Fig. 3.75, at a distance of 1,110 feet from ground zero and a burst height of 550 feet, the horizontal component of the peak dynamic pressure is approximately 3 psi. <em>Answer.</em></p>
+<p>Calculations similar to those described in connection with Figs. 3.74a and c may be made for the horizontal component of the peak dynamic pressure (instead of the peak overpressure) by using Fig. 3.75.</p>
+
+<figure>
+<img src="figures/fig03-75.png" alt="">
+<figcaption>
+Figure 3.75. Horizontal component of peak dynamic pressure for a 1-kiloton burst.
+</figcaption>
+</figure>
+
+<p>The curves in Fig. 3.76 show the duration on the ground of the positive phase of the overpressure and of the dynamic pressure (in parentheses) as a function of distance from ground zero and height of burst for a 1 KT burst in a standard sea-level atmosphere. The curves are considered appropriate for nearly ideal surface conditions.</p>
+
+<p><em>Scaling.</em> The required relationships are</p>
+
+\[
+\frac{d}{d_1} = \frac{h}{h_1} = \frac{t}{t_1} = W^{1/3},
+\]
+
+<p>where, for a given peak overpressure, $d_1$, $h_1$, and $t_1$ are distance from ground zero, the height of burst, and duration, respectively, for 1 KT, and $d$, $h$, and $t$ are the corresponding distance, height of burst, and duration for $W$ KT.  For a height of burst of 5,000 feet or less, a homogeneous sea-level atmosphere may be assumed.</p>
+
+<h4>Example</h4>
+
+<p><em>Given:</em> A 160 KT explosIon at a height of 3,000 feet.</p>
+<p><em>Find:</em> The positive phase duration on the ground of (a) the overpressure, (b) the dynamic pressure at 4,000 feet from ground zero.</p>
+<p><em>Solution:</em> The corresponding height of burst for 1 KT is</p>
+
+\[
+h_1 = \frac{h}{W^{1/3}} = \frac{3,000}{(160)^{1/3}} = 550 \text{ feet,}
+\]
+
+<p>and the corresponding distance from ground zero is</p>
+
+\[
+d_1 = \frac{d}{W^{1/3}} = \frac{4,000}{(160)^{1/3}} = 740 \text{ feet.}
+\]
+
+(a) From Fig. 3.76, the positive phase duration of the overpressure for a 1 KT at 740 feet from ground zero and a burst height of 550 feet is 0.18 second. The corresponding duration of the overpressure positive phase for 160 KT is, therefore,
+
+\[
+t = t_1 W^{1/3} = 0.18 \times (160)^{1/3} = 1.0 \text{ second.} \textit{ Answer.}
+\]
+
+(b) From Fig. 3.76, the positive phase duration of the dynamic pressure for 1 KT at 740 feet from ground zero and a burst height of 550 feet is 0.34 second. The corresponding duration of the dynamic pressure positive phase for 160 KT is, therefore,
+
+\[
+t = t_1 W^{1/3} = 0.34 \times (160)^{1/3} = 1.8 \text{ second.} \textit{ Answer.}
+\]
+
+<figure>
+<img src="figures/fig03-76.png" alt="">
+<figcaption>
+Figure 3.76. Positive phase duration on the ground of overpressure and dynamic pressure (in parentheses) for a 1-kiloton burst.
+</figcaption>
+</figure>
+
+<p>The curves in Figs. 3.77a and b give the time of arrival in seconds of the blast wave on the ground as a function of distance from ground zero and height of burst for a 1 KT burst in a standard sea-level atmosphere. The curves are considered appropriate for nearly ideal surface conditions.</p>
+<p><em>Scaling.</em> The required relationships are</p>
+
+\[
+\frac{d}{d_1} = \frac{h}{h_1} = \frac{t}{t_1} = W^{1/3},
+\]
+
+<p>where, for a given peak overpressure, $d_1$, $h_1$, and $t_1$ are distance from ground zero, the height of burst, and duration, respectively, for 1 KT, and $d$, $h$, and $t$ are the corresponding distance, height of burst, and duration for $W$ KT.  For a height of burst of 5,000 feet or less, a homogeneous sea-level atmosphere may be assumed.</p>
+
+<h4>Example</h4>
+<p><em>Given:</em> A 1 MT explosion at a height of 5,000 feet.</p>
+<p><em>Find:</em> The time of arrival of the blast wave at a distance of 10 miles from ground zero.</p>
+<p><em>Solution:</em> The corresponding burst height for 1 KT is</p>
+
+\[
+h_1 = \frac{h}{W^{1/3}} = \frac{5,000}{(1,000)^{1/3}} = 500 \text{ feet.}
+\]
+
+<p>The corresponding distance from ground zero for 1 KT is</p>
+
+\[
+d_1 = \frac{D}{W^{1/3}} = \frac{5,280 \times 10}{(1,000)^{1/3}} = 5,280 \text{ feet.}
+\]
+
+<p>From Fig. 3.77b, at a height of burst of 500 feet and a distance of 5,280 feet from ground zero, the arrival time is 4.0 seconds for 1 KT. The corresponding arrival time for 1 MT is</p>
+
+\[
+t = t_1 W^{1/3} = 4.0 \times (1,000)^{1/3} = 40 \text{ seconds.} \textit{ Answer.}
+\]
+
+<figure>
+<img src="figures/fig03-77a.png" alt="">
+<figcaption>
+Figure 3.77a. Arrival times on the ground of blast wave for 1-kiloton burst (early times).
+</figcaption>
+</figure>
+
+<figure>
+<img src="figures/fig03-77b.png" alt="">
+<figcaption>
+Figure 3.77b. Arrival times on the ground of blast wave for 1-kiloton burst (late times).
+</figcaption>
+</figure>
+
+<p>The reflected overpressure ratio $p_{r(\alpha)}/p$ is plotted in Fig. 3.78b as a function of the angle of incidence of the blast wave front for various values of the peak (side-on) overpressure. The curves apply to a wave front striking a reflecting surface, such as a wall of a structure.</p>
+
+<p id="sec378">
+<style>
+#sec378 {display: grid; grid-template-columns: max-content min-content auto; gap: 0 0.5em; margin-block: 0.5em; margin-inline: 3em 5em;}
+#sec378 span {text-indent: 0;}
+</style>
+<span>$p_{r(\alpha)}$</span> <span>=</span> <span>reflected blast wave overpressure for any given angle of incidence (psi).</span>
+<span>$p$</span> <span>=</span> <span>initial peak incident overpressure (psi).</span>
+<span>$\alpha$</span> <span>=</span> <span>angle between the blast wave front and the reflecting surface (degrees).</span>
+</p>
+
+<h4>Example</h4>
+
+<p><em>Given:</em> A shock wave of 50 psi initial peak overpressure striking the surface at an angle of 35º.</p>
+<p><em>Find:</em> The reflected shock wave overpressure.</p>
+<p><em>Solution:</em> From Fig. 3.78b, the reflected overpressure ratio, pr(a)/p for 50 psi and an angle of incidence of 35º is 3.6; hence,</p>
+
+\[
+p_{r(35º)} = 3.6p = 3.6 \times 50 = 180 \text{ psi.} \textit{ Answer.}
+\]
+
+
+<figure>
+<img src="figures/fig03-78a.png" alt="">
+<figcaption>
+Figure 3.78a. Angle of incidence ($\alpha$) of blast wave front with reflecting surface.
+</figcaption>
+</figure>
+
+<figure>
+<img src="figures/fig03-78b.png" alt="">
+<figcaption>
+Figure 3.78b. Reflected overpressure ratio as a function of angle of incidence for various side-on overpressures.
+</figcaption>
+</figure>
+
 </aside>
+
+
+
 
 <h3>THE PRECURSOR</h3>
 <p id="§3.79"><strong>3.79</strong> The foregoing results have referred to blast wave conditions near the surfaces that are ideal or nearly ideal (<a href="#§3.47" class="xref">§ 3.47</a>), so that the Rankine-Hugoniot equations are applicable. When the surface is nonideal, there may be mechanical or thermal effects (or both) on the blast wave. Some of the phenomena associated with mechanical effects were mentioned in <a href="#§3.48" class="xref">§ 3.48</a>. As a consequence of thermal nonideal behavior, the overpressure and dynamic pressure patterns can be distorted. Severe thermal effects are associated with the formation of a precursor (<a href="#§3.49" class="xref">§ 3.49</a>) which produces significant changes in the parameters of the blast wave.</p>
