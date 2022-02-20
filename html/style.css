@@ -8,12 +8,18 @@ figure img {max-width: 100%;}
 figure figcaption {padding: 0.5em 1.5em;}
 figure.numbered.equation {display: grid; grid-template-columns: auto min-content; align-items: center;}
 figure.numbered.equation figcaption {padding: 0;}
-p {margin: 0 -1em; padding: 0.25em 1em; text-align: justify;}
-p strong {margin: 0 1ch;}
+p {margin: 0; padding: 0.25em 0; text-align: justify; text-indent: 1em;}
+:not(p, h2, h3, h4, figure) + p {text-indent: 0;}
+p strong {margin-inline-end: 1ch;}
 p:target {background: #FED;}
 p.cases {white-space: pre-wrap; margin-block: 0 1em; margin-inline: 1em;}
 a.xref {white-space: nowrap;}
 sup {font-size: 75%; line-height: 0.5;}
+
+main aside {border-block: 2px solid; padding-block: 2em; padding-inline: 2em; margin-block: 4em;}
+main aside h4 {margin-block: 2em 0.25em; font-style: italic; font-size: inherit; transform: none;}
+main aside figure {margin-block: 2em;}
+main aside em {margin-inline-end: 1ch;}
 
 section.biblio ul {margin: 0; padding: 0; list-style: none; columns: 2; gap: 1.5em; font-size: 90%;}
 section.biblio ul li {text-indent: -1em; padding-inline-start: 1em; break-inside: avoid;}
