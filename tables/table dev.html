@@ -5,21 +5,56 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Table Dev</title>
+  <link rel="stylesheet" href="../html/style.css">
   <style>
-    body {
-      font: 1em Times New Roman, Times, serif;
+    body main > :is(figure, table) {
+      margin-block: 3em;
+      border-block-end: 2px solid gray;
+      padding-block: 0 3em;
+    }
+    figure.table figcaption, figure.table caption {
+    	font-weight: bold;
+    }
+    figure.table figcaption {
+    	font-size: 110%;
+    }
+    figure.table figcaption + figcaption {
+    	padding: 0;
+    }
+    figure.table :is(td,th) {
+    	padding-inline: 0.5em;
+    }
+    figure.table thead th:not(:empty) {
+    	border-bottom: 1px solid;
+    }
+    figure.table :is(tbody,tfoot) th {
+    	text-align: left;
+    }
+    figure.table tr:first-child > * {
+    	padding-top: 0.75em;
+    }
+    figure.table tr:last-child > * {
+    	padding-bottom: 0.75em;
+    }
+    figure.table tbody th {
+    	font-weight: normal;
+    }
+    figure.table :is(tbody,tfoot) td {
+    	text-align: right;
+    }
+    figure.table td.sum {
+    	border-top: 1px solid;
+    }
+    figure.table ul {
+    	text-align: left;
+    	list-style: none;
     }
 
-    body> :is(figure, table) {
-      margin-block: 3em;
-      border-block-end: 1px solid gray;
-      padding-block: 0 2.5em;
-    }
   </style>
 </head>
 
 <body>
-
+<main>
 
   <!--Table 1.43-->
   <figure class="table">
@@ -63,7 +98,7 @@
       <tfoot>
         <tr>
           <th scope="row">Total energy per fission</th>
-          <td>200 ± 6</td>
+          <td class="sum">200 ± 6</td>
         </tr>
       </tfoot>
     </table>
@@ -93,9 +128,9 @@
     <caption>RATE OF RISE OF RADIOACTIVE CLOUD FROM A 1-MEGATON AIR BURST</caption>
     <thead>
       <tr>
-        <th scope="col">Height (miles) </th>
-        <th scope="col">Time (minutes) </th>
-        <th scope="col">Rate of Rise (miles per hour) </th>
+        <th scope="col">Height<br>(miles)</th>
+        <th scope="col">Time<br>(minutes)</th>
+        <th scope="col">Rate of Rise<br>(miles per hour)</th>
       </tr>
     </thead>
     <tbody>
@@ -4038,10 +4073,11 @@
       </tr>
     </tbody>
   </table>
+  <p>* No experimental data available; estimates are based on grazing habits. anatomy. and physiology of the species</p>
   </figure>
 
-  <p>* No experimental data available; estimates are based on grazing habits. anatomy. and physiology of the species</p>
+
+</main>
 
 </body>
-
 </html>
