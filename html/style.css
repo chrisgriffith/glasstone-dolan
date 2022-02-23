@@ -5,6 +5,7 @@ main h2 {text-align: center;}
 main *:is(h1, h2, h3, h4, h5, h6) {font-weight: normal; transform: scaleY(0.9);}
 figure {margin: 1em 2em; text-align: center; font-size: 95%;}
 figure img, figure svg {max-width: 100%; height: auto;}
+figure .halfwidth {max-width: 50%; margin-inline: auto;}
 figure figcaption {padding: 0.5em 1.5em;}
 figure.numbered.equation {display: grid; grid-template-columns: auto min-content; align-items: center;}
 figure.numbered.equation figcaption {padding: 0;}
