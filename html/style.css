@@ -12,7 +12,7 @@ figure.numbered.equation figcaption {padding: 0;}
 p {margin: 0; padding: 0.25em 0; text-align: justify; text-indent: 1em;}
 :not(p, h2, h3, h4, figure) + p {text-indent: 0;}
 p strong {margin-inline-end: 1ch;}
-p:target {background: #FED;}
+p:target, dt:target, dt:target + dd {background: #FED;}
 p.cases {white-space: pre-wrap; margin-block: 0 1em; margin-inline: 1em;}
 a.xref {white-space: nowrap;}
 sup {font-size: 75%; line-height: 0.5;}
