@@ -5,13 +5,14 @@ main h2 {text-align: center;}
 main *:is(h1, h2, h3, h4, h5, h6) {font-weight: normal; transform: scaleY(0.9);}
 figure {margin: 1em 2em; text-align: center; font-size: 95%;}
 figure img, figure svg {max-width: 100%; height: auto;}
+figure .halfwidth {max-width: 50%; margin-inline: auto;}
 figure figcaption {padding: 0.5em 1.5em;}
 figure.numbered.equation {display: grid; grid-template-columns: auto min-content; align-items: center;}
 figure.numbered.equation figcaption {padding: 0;}
 p {margin: 0; padding: 0.25em 0; text-align: justify; text-indent: 1em;}
 :not(p, h2, h3, h4, figure) + p {text-indent: 0;}
 p strong {margin-inline-end: 1ch;}
-p:target {background: #FED;}
+p:target, dt:target, dt:target + dd {background: #FED;}
 p.cases {white-space: pre-wrap; margin-block: 0 1em; margin-inline: 1em;}
 a.xref {white-space: nowrap;}
 sup {font-size: 75%; line-height: 0.5;}
