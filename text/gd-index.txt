@@ -74,7 +74,8 @@ scaling laws, 3.60-3.63
 and structures, see Damage; Loading
 surface (or terrain) effects, see Terrain effects target response, 5.08-5.18, see also Damage velocity, 3.55
 wind, 3.07, 3.13, 3.55
-Blood, radiation effects, 12.124-12.132 Boltzmann constant, 7.73
+Blood, radiation effects, 12.124-12.132 
+Boltzmann constant, 7.73
 -Stefan law, 7.82
 Bone seekers, 12.165
 Boosted weapons, 1.72
@@ -261,8 +262,7 @@ uranium in, 9.40-9.43
 washout, 9.74
 worldwide, see Fallout, delayed Farm animals, see Animals
 Film badge, 8.26
-Fireball, 1.32, 1.36, 1.40, 2.03-2.05, 2.18, 2.36,
-2.38-2.40, 2.54-2.59, 2.110-2.137, 7.73-7.105
+Fireball, 1.32, 1.36, 1.40, 2.03-2.05, 2.18, 2.36, 2.38-2.40, 2.54-2.59, 2.110-2.137, 7.73-7.105
 air burst, 2.03-2.05, 2.106-2.129, 7.83, 7.86
 breakaway in, 2.120
 debris uptake, 2.09, 2.18, 2.19, 9.50, 9.59
@@ -300,8 +300,7 @@ Forests, damage, 5.146, 5.149, 5.150, 7.60
 Fractionation, fallout, 9.06-9.10
 Fusion reactions, 1.13, 1.16-1.18, 1.67-1.72 weapons, see Thermonuclear weapons
 
-Gamma rays {or radiation), 1.28-1.30, 1.43,
-1.61-1.66, 1.71, 8.01, 8.04, 8.08-8.48
+Gamma rays {or radiation), 1.28-1.30, 1.43, 1.61-1.66, 1.71, 8.01, 8.04, 8.08-8.48
 attenuation, 8.38-8.42, 8.95-8.104, 9.117-9.120
 coefficients, 8.95-8.102
 biological effectiveness, 12.94
@@ -383,7 +382,7 @@ and structure loading, 4.54, 4.56, 4.66 Incendiary effects, see Fires
 Induced radioactivity, 8.16, 9.31-9.39
 Industrial buildings, damage, 5.04, 5.28-5.51, 5.139, 5.140
 Initial nuclear radiation, 1.02, 1.26-1.29, 1.34, 1.37-1.39, 2.41-2.45, 8.01-8.72, 8.89-8.124, 9.04, see also Gamma rays; Neutrons
-Injuries, 12.01-12.239, see also Burns; Casual­ ties; Radiation injury
+Injuries, 12.01-12.239, see also Burns; Casual­ties; Radiation injury
 blast, direct 12.24-12.38, 12.239
 indirect, 12.39-12.50, 12.238
 blood, see Blood
@@ -397,17 +396,16 @@ from missiles, 12.41-12.48
 nuclear radiation, see Burns, beta; Radiation injury
 protection by buildings, 12.17 thermal radiation, see Burns
 Iodine in delayed fallout, 9.123 Ionization, 1.38, 8.17, 10.04
-atmospheric, 10.09-10.20, see also Geomag­ netic field
+atmospheric, 10.09-10.20, see also Geomag­netic field
 and electromagnetic waves, 10.04-10.08, 10.125-10.137
-in nuclear explosions, 10.21-10.74 below JO miles, 10.34-10.39
-JO to 40 miles, 10.40-10.52
+in nuclear explosions, 10.21-10.74 below 10 miles, 10.34-10.39
+10 to 40 miles, 10.40-10.52
 40 to 65 miles, 10.53-10.61
 above 65 miles, 10.62-10.74
-Ionizing radiation, 12.91, see also Nuclear radia­ tion
+Ionizing radiation, 12.91, see also Nuclear radia­tion
 Ionosphere, 10.09-10.20
 electron density, 10.09
-delayed radiation effects, 10.154-10.164 nuclear explosion effects, see Ionization, in
-nuclear explosions
+delayed radiation effects, 10.154-10.164 nuclear explosion effects, see Ionization, in nuclear explosions
 prompt radiation effects, 10.138-10.153 radio and radar effects, see Radio and radar
 Ion pairs, 1.38, 8.17
 Iron, radiation shielding, 8.41, 8.104
@@ -519,8 +517,7 @@ thermonuclear, see Thermonuclear weapons yield, 1.20, 1.21
 Nucleus, atomic, 1.08 Nuclide, 1.10
 radioactive, 1.30
 Oil-tank damage, 5.155
-Overpressure, 2.33, 3.01-3.05, 3.21-3.34,
-3.53-3.85, see also Blast; Loading; Mach ef­ fect
+Overpressure, 2.33, 3.01-3.05, 3.21-3.34, 3.53-3.85, see also Blast; Loading; Mach effect
 decay rate, 3.09, 3.57
 distance relationships, 3.73
 duration, 3.76
@@ -725,14 +722,14 @@ air blast, 6.02, 6.53
 base surge, 2.96-2.98
 cavity, 2.102, 6.85 .88
 characteristics, 2.90-2.105
-chimney, 2.103, 6.89 damage criteria, 6.104-6.J )4 fallout, 2.98, see also Fallout fault displacement, 6.20-6.27 fireball, 2.91
+chimney, 2.103, 6.89 damage criteria, 6.104-6.114 fallout, 2.98, see also Fallout fault displacement, 6.20-6.27 fireball, 2.91
 ground motion, 6.33-6.40
 loading, buried structures, 6.104-6.111 seismic effects, 6.19-6.27
 shallow, see Surface burst shock wave, 6.18, 6.19, 6.33 and structures, 6.33-6.40
-Underwater burst, 1.39, 2.63-2.89, 6.41-6.69,
-6.115-6.125
+Underwater burst, 1.39, 2.63-2.89, 6.41-6.69, 6.115-6.125
 air blast, 6.53, 6.68, 6.69
-base surge, radioactive, 2.76-2.79 visible.2.72-2.75
+base surge, radioactive, 2.76-2.79 
+visible.2.72-2.75
 characteristics, 2.63-2.79, 6.41-6.69
 cloud, 2.69
 column, 2.67, 2.68
@@ -741,8 +738,9 @@ crack, 2.65
 crater formation, 6.60, 6.61 damage, 6.62-6.64
 deep, 2.81-2.89
 fireball, 2.64
-hydraulic structures, damage, 6.122-6.124 nuclear radiation, 2.74-2.79, 2.81, 2.82, see
-lliso Fallout overpressure, water, 6.41
+hydraulic structures, damage, 6.122-6.124 
+nuclear radiation, 2.74-2.79, 2.81, 2.82, see also Fallout 
+overpressure, water, 6.41
 plume, 2.67
 shallow, 2.63-2.82
 ships, damage, 6.58, 6.63-6.69
