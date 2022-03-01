@@ -3,13 +3,13 @@ Afterwinds, 2.09, 2.18
 Air blast, see Blast
 Air burst, 1.31-1.35, 1.78, 2.03-2.17, 2.32-2.51, see also High-altitude burst
 	afterwinds, 2.09, 2.18
-	blast wave, 2.32-2.37, see also Blast 
-	damage, see Damage; Structures 
+	blast wave, 2.32-2.37, see also Blast
+	damage, see Damage; Structures
 	definition, 1.31
 	EMP, 11.66, 11.67
 	energy distribution, 1.24-1.27
 	fireball, 2.03-2.05, 2.110-2.129
-	ground shock, 3.51, 3.52 
+	ground shock, 3.51, 3.52
 	injuries, see Injuries
 	nuclear radiation, 2.41-2.45, see also Nuclear radiation
 	radioactive cloud, see Cloud
@@ -25,11 +25,11 @@ Alpha particles (or radiation), 1.65, 2.41, 8.01, 8.03, 9.40-9.42, 9.114
 	sources, 2.41, 8.01, 9.40-9.43
 Animals, nuclear explosion effects, 12.240- 12.254
 Arch, loading, 4.62-4.66
-Arching effect, soil, 6.96-6.99 
+Arching effect, soil, 6.96-6.99
 Area integral, fallout, 9.160
 ARGUS effect, 2.146, 2.147
 Atmosphere, density vs.altitude, 3.66, 10.123, 10.124
-	ionization, 10.09-10.12, see also Ionosphere 
+	ionization, 10.09-10.12, see also Ionosphere
 	pressure vs.altitude, 3.66
 	properties, 3.66
 	scale height, 10.123
@@ -41,7 +41,7 @@ Atomic bomb (or weapon), 1.11, see also Nuclear weapons
 	explosion, see Nuclear explosion
 	number, 1.09
 	structure, 1.06-1.09
-Atomic Bomb Casualty Commission, 12.142 
+Atomic Bomb Casualty Commission, 12.142
 Attenuation, radiation, see Alpha particles; Beta particles; Gamma rays, Neutrons; Transmission factors
 Aurora, artificial, 2.62, 2.142-2.145
 
@@ -50,94 +50,94 @@ Base surge, see Surface burst; Underground burst; Underwater burst
 Beta burns, 12.155-12.162
 Beta particles (or radiation), 1.29, 1.43, 1.61-1.66, 2.42, 8.01, 9.13
 	attenuation, 2.42, 9.115, 9.116
-	and geomagnetic field, see Geomagnetic field 
+	and geomagnetic field, see Geomagnetic field
 	hazard, external, 12.155-12.162
 	internal, 12.163-12.172
 	RBE, 12.97
 	sources, 1.61-1.63
 	stopping altitude, 10.29
 Beta patch, 2.141
-Biological effectiveness, relative (RBE), 12.95 
-Biological effects of nuclear radiations, see Nuclear radiations 
+Biological effectiveness, relative (RBE), 12.95
+Biological effects of nuclear radiations, see Nuclear radiations
 Biological half-life, 12.170
 Blackout radio, see Radio and radar
 Blast (and Blast wave), 1.01, 1.25, 2.32-2.37, 3.01-3.85, 6.02, 6.80, 6.81, see also Dynamic pressure; Overpressure; Shock wave
 	altitude effect, 3.44-3.46, 3.64-3.68
-	arrival time, 3.09, 3.14, 3.63, 3.77 
-	atmospheric effects on, 3.39-3.43 
+	arrival time, 3.09, 3.14, 3.63, 3.77
+	atmospheric effects on, 3.39-3.43
 	bending of, 3.42, 3.43
-	characteristics, 3.01-3.20 
+	characteristics, 3.01-3.20
 	damage, see Damage
-	and height of burst, 3.30-3.34 
-	development, 3.01-3.20 
-	diffraction, 4.03, see also Loading 
+	and height of burst, 3.30-3.34
+	development, 3.01-3.20
+	diffraction, 4.03, see also Loading
 	duration, 3.14, 3.15, 3.63, 3.76
 	front, 1.01, 2.32, 3.02, 3.03
 	and ground shock, 3.51, 3.52
-	impulse, 3.49 
+	impulse, 3.49
 	injuries, see Injuries
-	interaction with structures, 4.01-4.67 
+	interaction with structures, 4.01-4.67
 	loading, see Loading
 	Mach effect, see Mach effect
-	and meteorological conditions, 3.39-3.43 
+	and meteorological conditions, 3.39-3.43
 	negative phase, 3.04, 3.05
 	nonideal, 3.47, 4.67
 	positive phase, 3.05
 	precursor, 3.49, 3.79-3.85, 4.67
-	pressure, see Dynamic pressure; Overpressure 
+	pressure, see Dynamic pressure; Overpressure
 	properties, 3.53-3.59
 	height of burst curves, 3.73-3.77
-	Rankine-Hugoniot relations, 3.53-3.56 
+	Rankine-Hugoniot relations, 3.53-3.56
 	reflection, 3.21-3.29, 3.78, see also Mach effect
 		irregular, 3.24
 		regular, 3.22
 	refraction, 3.42, 3.43
 	scaling laws, 3.60-3.63
 	and structures, see Damage; Loading
-	surface (or terrain) effects, see Terrain effects 
-	target response, 5.08-5.18, see also Damage 
+	surface (or terrain) effects, see Terrain effects
+	target response, 5.08-5.18, see also Damage
 	velocity, 3.55
 	wind, 3.07, 3.13, 3.55
-Blood, radiation effects, 12.124-12.132 
+Blood, radiation effects, 12.124-12.132
 Boltzmann constant, 7.73
 	-Stefan law, 7.82
 Bone seekers, 12.165
 Boosted weapons, 1.72
 Breakaway, fireball, 2.120, 2.121
-Bridges, damage, 5.127, 5.139, 5.140 
+Bridges, damage, 5.127, 5.139, 5.140
 Buildings, damage, see Damage
 Burns, 7.32, 12.13, 12.14, 12.22, 12.51-12.89
 	beta, 12.155-12.162
 	classification, 12.51-12.58
-	under clothing, 12.59-12.60 
-	to eyes, see Eye injuries 
+	under clothing, 12.59-12.60
+	to eyes, see Eye injuries
 	flame, 12.51
 	flash, 7.32, 12.13, 12.14, 12.18, 12.51, 12.74-12.78
 	incapacitation from, 12.61, 12.62
 	in Japan, 12.13, 12.14, 12.18, 12.68-12.73
 	profile, 12.70
-	and radiant exposure, 12.63-12.69 
+	and radiant exposure, 12.63-12.69
 Buses, damage, 5.87
 
-Cancer, nuclear radiation, 12.147-12.151 
+Cancer, nuclear radiation, 12.147-12.151
 Capture gamma rays, 8.08
 Carbon-14, in nature, 12.198
-	in weapons residues, 12.197-12.199 
+	in weapons residues, 12.197-12.199
 Casualties, 12.01-12.21, see also Injuries
 	in buildings, 12.17
 	in Japan, 12.08-12.22
-Cataracts, nuclear radiation, 12.144-12.146 
+Cataracts, nuclear radiation, 12.144-12.146
 Cattle, see Animals
 Cavity, in underground burst, 2.102, 6.85-6.88
 Cesium-137, in delayed fallout, 9.124, 12.184-12.187
 Chain reaction, see Fission
-Chimney, in underground burst, 2.103, 6.88, 6.89 
+Chimney, in underground burst, 2.103, 6.88, 6.89
 Clean weapon, see Nuclear weapons
 Cloud, condensation, 2.47-2.50, 2.66
 	radioactive, 2.06-2.17, 2.19, 2.43, 2.68, 2.97, 9.07-9.09
 	dimensions, 2.16
 	height, 2.16, 9.96, 10.158
-	rate of rise, 2.12 
+	rate of rise, 2.12
 	radioactivity in, 9.61
 	radius, 2.16
 	scavenging, 9.67-9.74
@@ -155,7 +155,7 @@ Contamination, radioactive, 9.48-9.113, 9.154- 9.162, see also Fallout; Fission 
 	dose calculations, 9.15-9.30
 	hot spots, 2.31, 9.66, 9.105
 	in surface and subsurface bursts, 9.50-9.52, 9.61
-	in underwater bursts, 9.53-9.55 
+	in underwater bursts, 9.53-9.55
 Crack, in underwater burst, 2.65
 Crater, 2.21, 2.90, 6.03-6.11, 6.70-6.79
 	dimensions, 6.08-6.11, 6.70-6.72
@@ -172,7 +172,7 @@ Curie, 9.141
 Damage, 5.01-5.161, 6.104-6.114
 	administrative buildings, 5.19-5.27, S.139- 5.141
 	aircraft, 5.94, 5.95, 5.151-5.154
-	arches and domes, 6.101 
+	arches and domes, 6.101
 	automobiles, 5.86-S.91, 5.146
 	brick structures, 5.139, 5.140
 	bridges, 5.127, 5.139, 5.140
@@ -184,16 +184,16 @@ Damage, 5.01-5.161, 6.104-6.114
 	diffraction-sensitive structures, 5.139-5.145
 	-distance relationships, 5.140, 5.146
 	domestic appliances, 5.114
-	drag-sensitive structures, 5.146-5.154 
-	dwellings, see Damage, residences electrical distribution systems, 5.98-5.105 
+	drag-sensitive structures, 5.146-5.154
+	dwellings, see Damage, residences electrical distribution systems, 5.98-5.105
 	fabrics, 7.33-7.36, 7.44-7.48
 	forests, 5.146, 5.149, 5.150, 7.60
 	frame buildings, 5.25, 5.26, 5.37-5.51, 5.139, 5.140
-	gas systems, 5.108-5.121 
-	houses, see Damage, residences 
+	gas systems, 5.108-5.121
+	houses, see Damage, residences
 	hydraulic structures, 6.122-6.125
 	industrial buildings, 5.04, 5.28-5.51, 5.139, 5.140
-	in Japan, see Japan, nuclear explosions 
+	in Japan, see Japan, nuclear explosions
 	machine tools, 5.128-5.133
 	masonry buildings, 5.76-5.79, 5.139, 5.140
 	mobile homes, 5.80-5.84
@@ -211,34 +211,34 @@ Damage, 5.01-5.161, 6.104-6.114
 	vehicles, 5.86-5.91, 5.146
 	water systems, 5.106, 5.107
 Decay, radioactive, 1.02, 1.62
-	fission products, 1.54; see also Fallout, decay 
+	fission products, 1.54; see also Fallout, decay
 Decibel, 10.126
-Detection ionizing radiation, see Measurement 
-Deuterium fusion reactions, 1.16, 1.67-1.71 
+Detection ionizing radiation, see Measurement
+Deuterium fusion reactions, 1.16, 1.67-1.71
 Diffraction loading, see Loading-sensitive structures, 5.139-5.145
 Dirty weapons, 9.47
-Dose (and dose rate), radiation, 8.17-8.19 
+Dose (and dose rate), radiation, 8.17-8.19
 	absorbed, 8.18, 12.94
 	biologically effective, 12.93-12.97
 	exposure, 8.19, 12.93
 	from initial radiation, 8.33, 8.64, 8.121-8.127
 	from residual (fallout) radiation, 9.12-9.30
 	transmission factors, 8.72, 9.120
-Dosimeter, 8.21, 8.24, 8.29 
+Dosimeter, 8.21, 8.24, 8.29
 Drag loading, see Loading-sensitive structures, 5.146-5.154
 Ductility, materials and structures, 5 .14-5.18
 Dynamic pressure, 3.06-3.08, 3.13-3.20
 	decay rate, 3.07, 3.13, 3.58
 	-distance relationships, 3.75
 	duration, 3.76
-	and height of burst, 3.75 
+	and height of burst, 3.75
 	loading, see Loading, drag
 	Rankine-Hugoniot relations, 3.55
 	surface effects, 3.50, 3.82
 	and wind, 3.07, 3.13-3.17, 3.55
 
-Earth, shielding, 8.41, 8.72, 9.156, 9.161 
-Earthquakes, and underground bursts, 6.24-6.27 
+Earth, shielding, 8.41, 8.72, 9.156, 9.161
+Earthquakes, and underground bursts, 6.24-6.27
 Effective half-life, 12.170
 Electrical and electronic equipment, EMP effects, 11.26-11.59
 	nuclear radiation effects, 8.73-8.88, 8.133-8.144
@@ -249,30 +249,30 @@ Electromagnetic pulse (EMP), 1.38, 2.46, 2.61, 11.01-11.76
 	damage, 11.18-11.20, 11.26, 11.30-11.33, 11.49-11.59
 		electrical systems, 11.26, 11.32, 11.33, 11.49-11.53
 		electronic equipment, 11.30, 11.31
-	and electrical power systems, 11.49-11.53 
+	and electrical power systems, 11.49-11.53
 	energy collectors, 11.16, 11.17
 		coupling, 11.27-11.29
 	high-altitude bursts, 11.03, 11.13-11.15, 11.26, 11.70-11.76
 	medium-altitude bursts, 11.66, 11.67
-	protection, 11.19, 11.33-11.40 
+	protection, 11.19, 11.33-11.40
 	and radio stations, 11.54-11.57
 	surface bursts, 11.03, 11.10-11.12, 11.68, 11.69
 	system-generated, 11.21-11.25
-	and telephone systems, 11.58, 11.59 
-	testing for response, 11.41-11.48 
+	and telephone systems, 11.58, 11.59
+	testing for response, 11.41-11.48
 	theory, 11.60-11.76
 Electromagnetic radiation, 1.73-1.79, see also Thermal radiation
-Electromagnetic waves, see Radio and radar 
-Electron, 1.08, see also Beta particles 
+Electromagnetic waves, see Radio and radar
+Electron, 1.08, see also Beta particles
 Electron volt, definition, 1.42
 EMP, see Electromagnetic pulse
 Energy distribution in nuclear explosions, 1.22- 1.27, 7.88, 7.10_1, 7.102
 Energy, fission, 1.43
 	fusion, 1.69
-Energy yield, explosion, 1.20, 1.21, 1.45 
+Energy yield, explosion, 1.20, 1.21, 1.45
 Evasive action, nuclear radiation, 8.48
 	thermal radiation, 7.87
-Explosion, atomic, see Nuclear explosion 
+Explosion, atomic, see Nuclear explosion
 Eye injuries, 7.32, 12.79-12.89
 	cataracts, 12.144
 	flashblindness, 12.83, 12.84, 12.87-12.89
@@ -282,7 +282,7 @@ Eye injuries, 7.32, 12.79-12.89
 Fabric damage, thermal, 7.33-7.36, 7.44, 7.48
 Fallout, 2.18-2.31, 2.99, 9.01-9.166
 	air burst, 9.48, 9.49
-	attenuation of radiation from, 9.114-9.120 
+	attenuation of radiation from, 9.114-9.120
 	from BRAVO explosion, 9.114-9.120
 	cesium-137 in delayed, 9.124, 9.145, 12.184-12.187
 	contamination, 9.48-9.113
@@ -292,20 +292,20 @@ Fallout, 2.18-2.31, 2.99, 9.01-9.166
 		half-residence time, 9.133
 		stratospheric, 9.130, 9.131, 9.135-9.139
 		tropospheric, 9.130-9.134
-		from weapons tests, 9.140-9.141 
+		from weapons tests, 9.140-9.141
 	distribution, 9.59-9.63, see also Fallout patterns
 	dose, 9.16-9.30, 9.146-9.162
 		rate, area integral, 9.160
 	early, 2.28, 9.03, 9.06-9.30
 	fractionation, 9.06-9.10
-	hazard, to animals, 12.244-12.254 
+	hazard, to animals, 12.244-12.254
 		to humans, 12.155-12.200
 		to plants, 12.255-12.265
 	and height of burst, 2.128
-	hot spots, 2.31, 9.66, 9.105 
-	iodine in delayed, 9.123 
+	hot spots, 2.31, 9.66, 9.105
+	iodine in delayed, 9.123
 	local, see Fallout, early
-	particles, rate of fall, 9.163-9.166 
+	particles, rate of fall, 9.163-9.166
 	patterns, 9.75-9.114
 		idealized, 9.83-9.103
 		limitations, 9.99-9.103
@@ -356,17 +356,17 @@ Fission, 1.13, 1.14, 1.21, 1.42-1.56
 	explosion time scale, 1.54-1.59
 	fragments, 1.42, 1.43
 	generation time, 1.54
-	products, 1.15, 1.26, 1.29, 1.43, 1.60-1.66, 2.06, 2.10, 2.11, see also Fallout, decay 
+	products, 1.15, 1.26, 1.29, 1.43, 1.60-1.66, 2.06, 2.10, 2.11, see also Fallout, decay
 	weapons, see Nuclear weapons
 Flame burns, see Burns, flame
-Flash blindness, 12.83, 12.84, 12.87-12.89 
+Flash blindness, 12.83, 12.84, 12.87-12.89
 Flash burns, see Burns, flash
 Fluorescence radiation, high-altitude burst, 2.131, 2.138-2.141
-Fog, and thermal radiation, 7.16, 7.17 
+Fog, and thermal radiation, 7.16, 7.17
 Food plants, see Plants
 Forests, damage, 5.146, 5.149, 5.150, 7.60
 Fractionation, fallout, 9.06-9.10
-Fusion reactions, 1.13, 1.16-1.18, 1.67-1.72 
+Fusion reactions, 1.13, 1.16-1.18, 1.67-1.72
 	weapons, see Thermonuclear weapons
 
 Gamma rays {or radiation), 1.28-1.30, 1.43, 1.61-1.66, 1.71, 8.01, 8.04, 8.08-8.48
@@ -392,22 +392,22 @@ Gamma rays {or radiation), 1.28-1.30, 1.43, 1.61-1.66, 1.71, 8.01, 8.04, 8.08-8.
 	shielding, 8.05, 8.38-8.45, 8.72, 9.120
 	skyshine, 8.44
 	sources, 1.61-1.63, 8.08-8.16, 9.16
-	spectrum, nuclear explosion, 8.105 
+	spectrum, nuclear explosion, 8.105
 	stopping altitude, 10.29
 	tenth-value thickness, 8.39-8.42, 8.102-8.104
 	transmission factors, 8.72, 9.120
 	and weapon yield, 8.63, 8.64
 Gas systems, damage, 5.108-5.121
 Geiger counter, 8.21
-Genetic effects, radiation, 12.208-12.219 
+Genetic effects, radiation, 12.208-12.219
 Geomagnetic field, and auroral phenomena, 2.142-2.145
 	and beta particle motion, 2.143, 10.27, 10.46-10.51
 	conjugate regions, 2.141, 2.143, 10.27, 10.47, 10.64
 	and ionization, 10.46-10.51, 10.55, 10.63-10.66
 	and weapon debris, 10.55, 10.63, 10.64, 10.70
-Glass, missile hazard, 12.42, 12.43, 12.238 
+Glass, missile hazard, 12.42, 12.43, 12.238
 Ground motion, in surface burst, 6.12-6.17
-in underground burst, 6.33-6.40, 6.90-6.93 
+in underground burst, 6.33-6.40, 6.90-6.93
 Ground shock, see Shock
 Ground zero, 2.34
 Gun-barrel assembly, 1.52
@@ -415,11 +415,11 @@ Gun-barrel assembly, 1.52
 Half-life, biological, 12.170
 	effective, 12.170
 	radioactive, 1.63
-Half-residence time, delayed fallout, 9.133 
+Half-residence time, delayed fallout, 9.133
 Half-value thickness, 8.39
-Harbor damage, see Hydraulic structures 
+Harbor damage, see Hydraulic structures
 Height of burst and blast damage, 3.30-3.33
-	and blast wave arrival time, 3.77 
+	and blast wave arrival time, 3.77
 	and dynamic pressure, 3.75
 		duration, 3.76
 	and fallout, 2.128
@@ -427,41 +427,41 @@ Height of burst and blast damage, 3.30-3.33
 	and overpressure, 3.73
 		duration, 3.76
 	scaling, 3.62
-Hematological effects, radiation, 12.124-12.132 
+Hematological effects, radiation, 12.124-12.132
 High-altitude burst, 1.24, 1.36, 1.37, 2.52-2.62, 2.130-2.150
 	auroral phenomena, 2.62, 2.142-2.145
 	beta patch, 2.141
 	blast, 3.68
 	definition, 1.36, 2.130
-	and EMP, see Electromagnetic pulse 
+	and EMP, see Electromagnetic pulse
 	energy distribution, 1.36, 2.130, 7.89-7.92
 	eye injuries, 12.87
 	fireball, 2.53-2.59, 2.131, 2.136, 7.22
 	FISHBOWL series, 2.52
 	fluorescence radiation, 2.131, 2.138-2.141
-	ionization, atmospheric, 10.40-10.74 
+	ionization, atmospheric, 10.40-10.74
 	and ozone layer, 2.148-2.150
 	phenomena, 1.36, 1.37, 2.52-2.60, 2.130-2.150
-	radio and radar effects, 10.89-10.121 
+	radio and radar effects, 10.89-10.121
 	shock wave, 2.136
 	thermal radiation, 2.131-2.135, 7.89-7.92, 7.102-7.105
 	X-ray pancake, 2.130, 7.91, 7.103
 Hiroshima, nuclear explosion, 2.24, see also Japan
 Hot spots, 2.31, 9.66, 9.105
-House damage, see Damage, residences 
+House damage, see Damage, residences
 Hydraulic fill, craters, 6.09
-Hydraulic structures, damage, 6.122-6.125 
+Hydraulic structures, damage, 6.122-6.125
 Hydrodynamic enhancement, 8.36, 8.47, 8.128-8.131
 	phase, fireball, 2.117
 	separation, 2.115
 Hypocenter, explosion, 2.34
-Hydrogen bomb, see Thermonuclear weapons 
+Hydrogen bomb, see Thermonuclear weapons
 	isotopes, 1.16, 1.17, 1.67-1.69
 
 Ignition, materials, 7.33-7.40
 Implosion, 1.53
 Impulse, 3.59, 3.63, 3.65, 3.66
-	and structure loading, 4.54, 4.56, 4.66 
+	and structure loading, 4.54, 4.56, 4.66
 Incendiary effects, see Fires
 Induced radioactivity, 8.16, 9.31-9.39
 Industrial buildings, damage, 5.04, 5.28-5.51, 5.139, 5.140
@@ -470,23 +470,23 @@ Injuries, 12.01-12.239, see also Burns; Casualties; Radiation injury
 	blast, direct 12.24-12.38, 12.239
 		indirect, 12.39-12.50, 12.238
 	blood, see Blood
-	burn, 12.51-12.78, see also Burns 
+	burn, 12.51-12.78, see also Burns
 	causes, 12.18
 	combined, 12.133-12.143
-	eardrums, 12.38 
+	eardrums, 12.38
 	eye, see Eye injuries
 	in Japan, 12.08-12.23, 12.68-12.78, 12.114-12.132, 12.144-12.154
 	ionizing radiation, 12.91, see also Radiation injury
 	lung damage, 12.38
 	from missiles, 12.41-12.48
 	nuclear radiation, see Burns, beta; Radiation injury
-	protection by buildings, 12.17 
+	protection by buildings, 12.17
 	thermal radiation, see Burns
-Iodine in delayed fallout, 9.123 
+Iodine in delayed fallout, 9.123
 Ionization, 1.38, 8.17, 10.04
 	atmospheric, 10.09-10.20, see also Geomagnetic field
 	and electromagnetic waves, 10.04-10.08, 10.125-10.137
-	in nuclear explosions, 10.21-10.74 
+	in nuclear explosions, 10.21-10.74
 		below 10 miles, 10.34-10.39
 		10 to 40 miles, 10.40-10.52
 		40 to 65 miles, 10.53-10.61
@@ -494,28 +494,28 @@ Ionization, 1.38, 8.17, 10.04
 Ionizing radiation, 12.91, see also Nuclear radiation
 Ionosphere, 10.09-10.20
 	electron density, 10.09
-	delayed radiation effects, 10.154-10.164 
+	delayed radiation effects, 10.154-10.164
 	nuclear explosion effects, see Ionization, in nuclear explosions
-	prompt radiation effects, 10.138-10.153 
+	prompt radiation effects, 10.138-10.153
 	radio and radar effects, see Radio and radar
 Ion pairs, 1.38, 8.17
 Iron, radiation shielding, 8.41, 8.104
-Isothermal sphere, fireball, 2.114-2.120, 2.124 
+Isothermal sphere, fireball, 2.114-2.120, 2.124
 Isotopes, 1.09
 hydrogen, 1.16, 1.17, 1.67-1.69
 
-Japan, nuclear explosions, 2.24 
+Japan, nuclear explosions, 2.24
 	casualties, 12.08-12.23
 	nuclear radiation injuries, 12.114-12.132, 12.144-12.154
 	structural damage, 5.28-5.34, 5.52, 5.53, 5.85, 5.98, 5.106-5.108, 5.127
-	thermal radiation, burns, 12.68-12.78 
+	thermal radiation, burns, 12.68-12.78
 		incendiary effects, 7.61-7.72
 		materials effects, 7.44-7.48
 
 Keloid formation, 12.78
 Keratitis, 12.80
 
-Leukemia, nuclear radiation, 12.147-12.149 
+Leukemia, nuclear radiation, 12.147-12.149
 Lithium deuteride, 1.70, 1.71
 Loading, blast, 4.01-4.67, 6.94-6.103
 	arched structures, 4.62-4.66
@@ -525,7 +525,7 @@ Loading, blast, 4.01-4.67, 6.94-6.103
 		size effect, 4.31-4.34
 	diffraction, 4.03, 4.05-4.11
 	drag, 4.12-4.14, 4.29
-	nonideal blast wave, 4.67 
+	nonideal blast wave, 4.67
 	structures, 4.15-4.20, 4.41-4.67
 		box-like, closed, 4.41-4.45
 		partially open, 4.46-4.51
@@ -534,10 +534,10 @@ Loading, blast, 4.01-4.67, 6.94-6.103
 Lung injuries, 12.15, 12.28, 12.38
 
 Mach effect, 2.33-2.37, 3.24-3.31, 3.34
-	front (or stem), 2.33-2.37, 3.25 
+	front (or stem), 2.33-2.37, 3.25
 	and height of burst, 3.29
 	triple point, 3.25
-Machine tools damage, 5.128-5.133 
+Machine tools damage, 5.128-5.133
 Marshall Islands, inhabitants, 12.175-12.183
 Masonry buildings, damage, 5.76-5.79, 5.139, 5.140
 Mean free path, 2.113, 7.79
@@ -547,13 +547,13 @@ Mesosphere, 3.42, 9.126
 Meteorological effects, blast wave, 3.39-3.43
 	fallout, 9.66-9.74, 9.102, see also Hot spots; Scavenging
 	fires, 7.54, 7.58, 7.71, 7.72
-Million electron volt (or MeV), 1.42 
+Million electron volt (or MeV), 1.42
 Mobile homes, damage, 5.80-5.84
-Monitoring, ionizing radiation, see Measurement 
+Monitoring, ionizing radiation, see Measurement
 Mutations, see Genetic effects
 
-Nagasaki, nuclear explosion, 2.24, see also Japan 
-Neoplasms, nuclear radiation, 12.147-12.151 
+Nagasaki, nuclear explosion, 2.24, see also Japan
+Neoplasms, nuclear radiation, 12.147-12.151
 Neutron, 1.08, 1.31, 8.01, 8.04, 8.49-8.72
 	absorption (or attenuation), 8.66-8.72, 9.120
 	capture, 8.08, 8.11, 8.16, 8.54, 8.56, 9.31-9.39
@@ -566,8 +566,8 @@ Neutron, 1.08, 1.31, 8.01, 8.04, 8.49-8.72
 		measurement, 8.58-8.62
 	hydrodynamic enhancement, 8.50
 	induced activity, 8.16, 9.31-9.39
-	initial nuclear radiation, 8.01, 8.04, 8.49-8.72 
-	interaction with matter, 8.107-8.113 
+	initial nuclear radiation, 8.01, 8.04, 8.49-8.72
+	interaction with matter, 8.107-8.113
 	ionization, 8.58, 8.59
 	measurement, 8.58-8.62
 	prompt, 8.50
@@ -585,34 +585,34 @@ Neutron, 1.08, 1.31, 8.01, 8.04, 8.49-8.72
 	transmission from source, 8.52-8.56, 8.117-8.120
 Nitrogen, neutron reaction, 8.11, 8.54, 8.56, 8.110, 9.34
 Nuclear explosion, blast wave, 1.01, see also Blast; Shock
-	casualties, see Casualties 
+	casualties, see Casualties
 	characteristics, 1.01-1.23
-	and conventional explosions, 1.01-1.03 
+	and conventional explosions, 1.01-1.03
 	damage, see Damage
 	description, air burst, 2.03-2.51, see also Air burst
 		high-altitude burst, 2.52-2.62, see also High-altitude burst
 		surface burst, 2.03-2.51, see also Surface burst
 		underground burst, 2.90-2.105
 		underwater burst, 2.63-2.89
-	fireball development, see Fireball 
+	fireball development, see Fireball
 	incendiary effects, see Fires
-	injuries, see Injuries; Radiation 
+	injuries, see Injuries; Radiation
 	injury ionization, see Ionization
-	nuclear radiation, see Nuclear radiation 
+	nuclear radiation, see Nuclear radiation
 	pressures, 2.107
 	principles, 1.46-1.59
-	radio and radar effects, see Radio and radar 
-	shock wave, 1.01, see also Blast; Shock 
+	radio and radar effects, see Radio and radar
+	shock wave, 1.01, see also Blast; Shock
 	temperatures, 1.23, 2.107, 7.75
-	thermal radiation: see Thermal radiation 
+	thermal radiation: see Thermal radiation
 	types, 1.31-1.41, 2.01, 2.02
 Nuclear radiation, 1.02, 1.34-1.39, 2.41-2.45
-	from air burst, 1.33-1.35, 2.44, 2.45 
+	from air burst, 1.33-1.35, 2.44, 2.45
 	biological effects, on animals, 12.240-12.254
 		on man, see Radiation injury
 		on plants, 12.240-12.243, 12.255-12.265
-	initial, see Initial nuclear radiation 
-	injuries, see Radiation injury 
+	initial, see Initial nuclear radiation
+	injuries, see Radiation injury
 	prompt, 2.41
 	residual, see Residual nuclear radiation
 	from surface burst, 2.23-2.31, 8.37, 8.65, 9.50-9.52
@@ -626,7 +626,7 @@ Nuclear weapons, 1.02, 1.11, 1.19-1.21, 151-1.72, see also Nuclear explosions
 	fission, 1.46-1.59
 	fusion, 1.67-1.72, see also Thermonuclear weapons
 	salted, 9.11
-	thermonuclear, see Thermonuclear weapons 
+	thermonuclear, see Thermonuclear weapons
 	yield, 1.20, 1.21
 Nucleus, atomic, 1.08
 Nuclide, 1.10
@@ -637,8 +637,8 @@ Overpressure, 2.33, 3.01-3.05, 3.21-3.34, 3.53-3.85, see also Blast; Loading; Ma
 	distance relationships, 3.73
 	duration, 3.76
 	free air, 3.72
-	and height of burst, 3.73, 3.76 
-	loading, see Loading, diffraction 
+	and height of burst, 3.73, 3.76
+	loading, see Loading, diffraction
 	negative, 3.05
 	peak, 3.02, 3.74
 		arrival time, 3.77
@@ -649,19 +649,19 @@ Overpressure, 2.33, 3.01-3.05, 3.21-3.34, 3.53-3.85, see also Blast; Loading; Ma
 
 Ozone layer, nuclear explosion effects, 2.148-2.150
 
-Pair production, gamma-ray, 8.92 
-Particles, rate of fall, 9.163-9.166 
-Pathology, radiation injury, 12.220-12.237 
-Photoelectric effect, gamma-ray, 8.91 
+Pair production, gamma-ray, 8.92
+Particles, rate of fall, 9.163-9.166
+Pathology, radiation injury, 12.220-12.237
+Photoelectric effect, gamma-ray, 8.91
 Photon, 1.74, 7.79
-Planck equation (or theory), 1.74, 7.73, 7.74 
+Planck equation (or theory), 1.74, 7.73, 7.74
 Plants, nuclear explosion effects, 12.240-12.243, 12.255-12.265
-Plastic deformation, 5.15 
-Plastics, thermal damage, 7.39 
+Plastic deformation, 5.15
+Plastics, thermal damage, 7.39
 Plastic zone, crater, 6.07, 6.70
 Plutonium, fission, 1.14, 1.15, 1.18, 1.42, 1.44, 1.45
 	hazard, 12.173
-	in weapons residues, 9.40-9.43 
+	in weapons residues, 9.40-9.43
 Polar front, 9.127
 Precursor, blast wave, 3.49, 3.79-3.85
 	loading, 4.67
@@ -671,11 +671,11 @@ Protection, see Evasive action; Shielding factors, initial radiation, 8.72
 	fallout, 9.120
 Proton, 1.08
 
-Quantum, 1.74 
+Quantum, 1.74
 	theory, see Planck
 
 Rad, 8.18
-Radar effects, see Radio and radar 
+Radar effects, see Radio and radar
 Radiant exposure, 7.35
 	power, 7.74, 7.82-7.84, 7.86
 Radiation injury, 12.90-12.237
@@ -684,23 +684,23 @@ Radiation injury, 12.90-12.237
 	cancer (neoplasms), 12.147-12.151
 	cataracts, 12.144-12.146
 	clinical phenomena, 12.108-12.123
-	delayed, 12.142-12.154 
-	from fallout, 
+	delayed, 12.142-12.154
+	from fallout,
 	early, 12.155-12.183
 	delayed, 12.184-12.200
 	genetic, 12.208-12.219
 	pathology, 12.220-12.237
 	thyroid, 12.171, 12.181-12.183
-Radiation Effects Research Foundation, 12.142 
+Radiation Effects Research Foundation, 12.142
 Radiation, nuclear, see Gamma rays; Neutrons; Nuclear radiation
-Radioactive capture, neutrons, 8.08 
-Radioactive cloud, see Cloud 
+Radioactive capture, neutrons, 8.08
+Radioactive cloud, see Cloud
 Radioactive half-life, 1.63
 Radioactivity, 1.02, 1.28-1.30, 1.61-1.66, see also Fallout
 	induced, 8.16, 9.31-9.39
-Radioflash, see Electromagnetic pulse 
+Radioflash, see Electromagnetic pulse
 Radionuclide, 1.30
-Radio and radar effects, 10.01-10.164, see also Ionization, in nuclear explosions 
+Radio and radar effects, 10.01-10.164, see also Ionization, in nuclear explosions
 	attenuation, signal, 10.78, 10.79
 	blackout, 10.01
 	Doppler shift, 10.83
@@ -723,7 +723,7 @@ Radio and radar effects, 10.01-10.164, see also Ionization, in nuclear explosion
 Railroad equipment, damage, 5.92, 5.93, 5.146
 Rainout, 9.74
 Rankine-Hugoniot relations, 3.53-3.56
-RBE (Relative biological effectiveness), 12.94 
+RBE (Relative biological effectiveness), 12.94
 Reflection, blast wave, see Blast wave; Mach effect
 Reinforced-concrete buildings, damage, 5.20- 5.27, 5.139, 5.140
 Relative biological effectiveness (RBE), 12.94
@@ -731,7 +731,7 @@ Rem, 12.95
 Residences, damage, 5.04, 5.52-5.84, 5.139, 5.140, 7.28
 Residual nuclear radiation, 1.02, 1.26-1.30, 1.35, 1.39, 9.01-9.166, see also Fallout; Radioactivity, induced
 Response, spectrum, 6.90
-	structures, 5.08-5.18, see also Damage 
+	structures, 5.08-5.18, see also Damage
 Retinal burns, see Eye injuries
 Roentgen, 8.17
 Rupture zone, crater, 6.07, 6.70
@@ -748,30 +748,30 @@ Shielding, gamma rays, 8.05, 8.38-8.45, 8.72, 9.120
 	neutrons, 8.66-8.72
 	thermal radiation, 7.18, 7.19
 Ships, damage, 5.96, 5.97, 5.146, 6.63-6.65
-Shock (and Shock wave), 1.01, 1.33, 6.82-6.84, see also Blast 
+Shock (and Shock wave), 1.01, 1.33, 6.82-6.84, see also Blast
 	front, 1.01, 3.03
-		in fireball, 2.155-2.120 
+		in fireball, 2.155-2.120
 	ground, in air burst, 3.51, 3.52
-		damage from, 6.104-6.114 
+		damage from, 6.104-6.114
 		in surface burst, 6.12-6.17
 	in underground burst, 6.18, 6.19, see also Seismic effects
-	in underwater burst, 6.14-6.52, 6.115-6.118 
+	in underwater burst, 6.14-6.52, 6.115-6.118
 Skin burns, see Burns
-Skyshine, gamma-ray, 8.44 
+Skyshine, gamma-ray, 8.44
 Slick, in underwater burst, 2.65
-Smoke, and thermal radiation, 7.16, 7.17 
-Soil, vaporization in surface burst, 2.18 
+Smoke, and thermal radiation, 7.16, 7.17
+Soil, vaporization in surface burst, 2.18
 Spray dome in underwater burst, 2.66, 2.84
 Stagnation pressure, 4.25
 Stefan-Boltzmann law, 7.82
-Stopping altitude, 10.29 
-Storage tank, damage, 5.155 
+Stopping altitude, 10.29
+Storage tank, damage, 5.155
 Stratosphere, 9.126
-	fallout from, 9.130, 9.131, 9.135-9.139 
+	fallout from, 9.130, 9.131, 9.135-9.139
 Stopping altitude, radiation, 10.29
 Strontium-90 in delayed fallout, 9.124, 9.140-9.145
-	radiation hazard, 12.188-12.196 
-Structural damage, see Damage 
+	radiation hazard, 12.188-12.196
+Structural damage, see Damage
 Structures, see Damage; Loading
 Subsurface bursts, see Surface; Underground; Underwater
 Subways, damage, 6.106
@@ -790,8 +790,8 @@ Surface (and shallow underground) burst, 1.40, 2.18-2.31, 2.90-2.100, 6.01-6.18
 		residual, 2.23-2.31, 9.50-9.52
 	radioactive cloud, 2.19-2.22
 		contamination, 9.50-9.52
-	thermal radiation, 7.20, 7.42, 7.101 
-Surface effects on blast, see Terrain effects 
+	thermal radiation, 7.20, 7.42, 7.101
+Surface effects on blast, see Terrain effects
 Surface zero, 2.34
 Survey meter, 7.30
 
@@ -806,14 +806,14 @@ Thermal radiation, 1.02, 1.22-1.25, 1.73-1.79, 7.01-7.105
 	absorption, in materials, 7.23-7.31, 7.33, 7.34
 	in air burst, 1.33, 2.38-2.40, 7.03-7.05, 7.85-7.100
 	and atmospheric conditions, 7.11-7.17, 7.98
-	attenuation, 7.08-7.19, 7.94, 7.98 
+	attenuation, 7.08-7.19, 7.94, 7.98
 	burns, see Burns, flash
 	damage, 7.33-7.40
 	definition, 7.02
 	effects, 7.23-7.53
 	in Japan, 7.44-7.48, 7.61-7.72
 	energy fraction, air burst, 1.25, 7.04, 7.88
-		high-altitude burst, 7.22, 7.90, 7.102, 7.104 
+		high-altitude burst, 7.22, 7.90, 7.102, 7.104
 		surface burst, 7.101
 	evasive action, 7.87
 	exposure-distance relationship, 7.41-7.43, 7.93-7.105
@@ -827,7 +827,7 @@ Thermal radiation, 1.02, 1.22-1.25, 1.73-1.79, 7.01-7.105
 	and plastics, 7.39
 	primary, 1.77, 7.01, 7.75, see also Thermal X-rays
 	prompt, 7.02
-	pulses, see Thermal pulses 
+	pulses, see Thermal pulses
 	radiant exposure, 7.35
 		power, 7.74, 7.82-7.84, 7.86
 	scattering, 7.08, 7.10-7.17, 7.19, 7.95, 7.98
@@ -846,7 +846,7 @@ Thermonuclear (fusion) reactions, 1.17-1.19, 1.67-1.72
 		neutrons, 8.64, 8.116, 8.117, 8.119
 Thermosphere, 3.43, 9.126
 Thyroid abnormalities, 12.171, 12.181-12.183
-Time scale, fission explosion, 1.54-1.59 
+Time scale, fission explosion, 1.54-1.59
 TNT equivalent, 1.20, 1.45
 Trailer coach, damage, 5.80-5.84
 Transient-radiation effects on electronics (TREE), 8.73-8.88, 8.133-8.144
@@ -854,10 +854,10 @@ Transient-radiation effects on electronics (TREE), 8.73-8.88, 8.133-8.144
 	effects on equipment, 8.77, 8.78
 	mechanism, 8.133-8.144
 Transmission factors, initial nuclear radiation, 8.72
-	residual nuclear radiation, 9.120 
+	residual nuclear radiation, 9.120
 Transmittance, thermal radiation, 7.95-7.98, 7.101-7.104, 7.105
 Transportation equipment, damage, 5.85-5.97, 5.146, 5.147
-Trinity test, 2.36, 12.245, 12.246 
+Trinity test, 2.36, 12.245, 12.246
 Triple point, 3.25, see also Mach effect
 Tritium, thermonuclear (fusion) reactions, 1.67- 1.70
 	in residual radiation, 12.197, 12.200
@@ -873,32 +873,32 @@ Underground burst (deep), 1.39, 2.90-2.105, 6.19-6.40, 6.85-6.93
 	base surge, 2.96-2.98
 	cavity, 2.102, 6.85 .88
 	characteristics, 2.90-2.105
-	chimney, 2.103, 6.89 
-	damage criteria, 6.104-6.114 
-	fallout, 2.98, see also Fallout 
-	fault displacement, 6.20-6.27 
+	chimney, 2.103, 6.89
+	damage criteria, 6.104-6.114
+	fallout, 2.98, see also Fallout
+	fault displacement, 6.20-6.27
 	fireball, 2.91
 	ground motion, 6.33-6.40
-	loading, buried structures, 6.104-6.111 
+	loading, buried structures, 6.104-6.111
 	seismic effects, 6.19-6.27
-	shallow, see Surface burst 
-	shock wave, 6.18, 6.19, 6.33 
+	shallow, see Surface burst
+	shock wave, 6.18, 6.19, 6.33
 	and structures, 6.33-6.40
 Underwater burst, 1.39, 2.63-2.89, 6.41-6.69, 6.115-6.125
 	air blast, 6.53, 6.68, 6.69
-	base surge, radioactive, 2.76-2.79 
+	base surge, radioactive, 2.76-2.79
 		visible, 2.72-2.75
 	characteristics, 2.63-2.79, 6.41-6.69
 	cloud, 2.69
 	column, 2.67, 2.68
 	contamination, water, 9.53-9.58
 	crack, 2.65
-	crater formation, 6.60, 6.61 
+	crater formation, 6.60, 6.61
 	damage, 6.62-6.64
 	deep, 2.81-2.89
 	fireball, 2.64
-	hydraulic structures, damage, 6.122-6.124 
-	nuclear radiation, 2.74-2.79, 2.81, 2.82, see also Fallout 
+	hydraulic structures, damage, 6.122-6.124
+	nuclear radiation, 2.74-2.79, 2.81, 2.82, see also Fallout
 	overpressure, water, 6.41
 	plume, 2.67
 	shallow.2.63-2.82
@@ -919,8 +919,8 @@ Vehicle, damage, 5.86-5.91.5.146
 
 Wall-bearing structures, 5.27, 5.139
 Wall failure, 5.145
-Weapons, nuclear, see Nuclear weapons 
-Weather effects, see Meteorological effects 
+Weapons, nuclear, see Nuclear weapons
+Weather effects, see Meteorological effects
 Wien's displacement law, 7.77
 Wilson cloud, 2.47-2.50, 2.66
 Wind, and fallout patterns, 9.96-9.98
@@ -932,10 +932,10 @@ Worldwide fallout, see Fallout, oelayed
 X-ray fireball, 2.110
 X rays, 1.73, 1.77, 1.79
 	absorption, 2.134, 7.80, 7.81, 7.92
-	degradation, 1.78, 2.38, 7.02, 7.75 
+	degradation, 1.78, 2.38, 7.02, 7.75
 	ionization, atmospheric, 10.53, 10.57, 10.60, 10.62, 10.69
 	pancake, 2.134, 2.135, 7.91, 7.103
-	stopping altitude, 10.29 
+	stopping altitude, 10.29
 	thermal, see Thermal X-rays
 
 Yield, explosion, 1.20, 1.21, 1.45
