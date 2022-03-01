@@ -2,11 +2,20 @@ body {font: 1em/1.35 Cambria, Times, serif; hyphens: auto;}
 main {max-width: 40em; margin: 0 auto;}
 main section {margin: 4em 0 2em;}
 main h2 {text-align: center;}
-main *:is(h1, h2, h3, h4, h5, h6) {font-weight: normal; transform: scaleY(0.9);}
+main *:is(h1, h2, h3) {font-weight: normal; transform: scaleY(0.9); margin-block: 1.5em 0.25em;}
+main h4 {font-weight: normal; font-style: italic; margin-block: 1em 0.25em;}
 figure {margin: 1em 2em; text-align: center; font-size: 95%;}
 figure img, figure svg {max-width: 100%; height: auto;}
 figure .halfwidth {max-width: 50%; margin-inline: auto;}
 figure figcaption {padding: 0.5em 1.5em;}
+figure figcaption {
+	display: grid;
+	grid-template-columns: max-content auto;
+	justify-content: center;
+	gap: 0.75em;
+	text-align: justify;
+	text-align-last: center;
+}
 figure.numbered.equation {display: grid; grid-template-columns: auto min-content; align-items: center;}
 figure.numbered.equation figcaption {padding: 0;}
 p {margin: 0; padding: 0.25em 0; text-align: justify; text-indent: 1em;}
