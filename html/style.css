@@ -72,7 +72,7 @@ main aside em {
     margin-inline-end: 1ch;
 }
 
-section.biblio ul {
+section.biblio > * {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -80,7 +80,7 @@ section.biblio ul {
     gap: 1.5em;
     font-size: 90%;
 }
-section.biblio ul li {
+section.biblio li {
     text-indent: -1em;
     padding-inline-start: 1em;
     break-inside: avoid;
