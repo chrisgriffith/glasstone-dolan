@@ -300,10 +300,26 @@ MathJax.Hub.Config({
 
 
 <h3>DISTRIBUTION AND ABSORPTION OF ENERGY FROM THE FIREBALL</h3>
-<p id="§7.73"><strong>7.73</strong> Spectroscopic studies made in the course of weapons tests have shown that the fireball does not behave exactly like a black body, i.e., as a perfect radiator. Generally, the proportion of radiations of longer wavelength (greater than 5,500 A) corresponds to higher black body temperatures than does the shorter wave emission. The assumption of black body behavior for the fireball, however, serves as a reasonable approximation in interpreting the thermal radiation emission characteristics. For a black body, the distribution of radiant energy over the spectrum can be related to the surface temperature by Planck’s radiation equation. If E,.d>.. denotes the energy density, i.e., energy per unit volume,  in  the  wavelength  interval A to A + d>.., then,</p>
-where c is the velocity of light, h is Planck’s quantum of action, k is Boltzmann’s constant, i.e., the gas constant per molecule, and T is the absolute temperature. It will be noted that hdA is the energy of the photon of wavelength A (<a href="chapter1.html#§1.74" class="xref">§ 1.74</a>).
-<p id="§7.74"><strong>7.74</strong> From the Plank equation it is possible to calculate the rate of energy emission (or radiant power) of a black body for a given wavelength, i.e., 1,., as a function of wavelength for any specified temperature, since 1,. is related to E,. by</p>
-where 1,. is in units of energy (ergs) per unit area (cm2) per unit time (sec) per unit wavelength (A). The results of such calculations for temperatures ranging from 100 million (108) degrees to 2,000°K are shown in Fig. 7.74. It is seen that the total radiant power, which is given by the area under each curve, decreases greatly as the temperature is decreased.
+<p id="§7.73"><strong>7.73</strong> Spectroscopic studies made in the course of weapons tests have shown that the fireball does not behave exactly like a black body, i.e., as a perfect radiator. Generally, the proportion of radiations of longer wavelength (greater than 5,500 A) corresponds to higher black body temperatures than does the shorter wave emission. The assumption of black body behavior for the fireball, however, serves as a reasonable approximation in interpreting the thermal radiation emission characteristics. For a black body, the distribution of radiant energy over the spectrum can be related to the surface temperature by Planck’s radiation equation. If $E_\lambda d\lambda$ denotes the energy density, i.e., energy per unit volume, in the wavelength interval $\lambda$ to $\lambda + d\lambda$, then,</p>
+
+<figure class="numbered equation">
+\[
+E_\lambda = \frac{8\pi hc}{\lambda^5} . \frac{1}{e^{hc/\lambda kT}-1},
+\]
+<figcaption>(7.73.1)</figcaption>
+</figure>
+
+<p>where $c$ is the velocity of light, $h$ is Planck’s quantum of action, $k$ is Boltzmann’s constant, i.e., the gas constant per molecule, and $T$ is the absolute temperature. It will be noted that $hc/\lambda$ is the energy of the photon of wavelength $\lambda$ (<a href="chapter1.html#§1.74" class="xref">§ 1.74</a>).</p>
+<p id="§7.74"><strong>7.74</strong> From the Plank equation it is possible to calculate the rate of energy emission (or radiant power) of a black body for a given wavelength, i.e., $J_A$, as a function of wavelength for any specified temperature, since $J_A$ is related to $E_\lambda$ by</p>
+
+<figure class="numbered equation">
+\[
+J_A = \frac{c}{4} \; E_A \;,
+\]
+<figcaption>(7.74.1)</figcaption>
+</figure>
+
+<p>where $J_A$ is in units of energy (ergs) per unit area (cm<sup>2</sup>) per unit time (sec) per unit wavelength (A). The results of such calculations for temperatures ranging from 100 million (10<sup>8</sup>) degrees to 2,000°K are shown in Fig. 7.74. It is seen that the total radiant power, which is given by the area under each curve, decreases greatly as the temperature is decreased.</p>
 
 <figure>
 <img src="figures/fig07-74.png" alt="">
@@ -314,32 +330,71 @@ where 1,. is in units of energy (ergs) per unit area (cm2) per unit time (sec) p
 
 <p id="§7.75"><strong>7.75</strong>  An important aspect of Fig. 7.74 is the change in location of the curves with temperature; in other words, the spectrum of the radiant energy varies with the temperature. At high temperatures, radiations of short wavelength predominate, but at low temperatures those of long wavelength make the major contribution. For example, in the exploding weapon, before the formation of the fireball, the temperature is several tens of million degrees Kelvin. Most of the (primary) thermal radiation is then in the wavelength range from about 0.1 to 100 A, i.e., 120 to 0.12 kilo-electron volts (keV) energy. corresponding roughly to the soft X-ray region (Fig. l.74). This is the basis of the statement made earlier that the primary thermal radiation from a nuclear explosion consists largely of X rays. These radiations are absorbed by the surrounding air to form the fireball from which the effective thermal radiation of present interest is emitted in the ultraviolet, visible, and infrared regions of the spectrum. The dimensions of the fireball in which the thermal X rays are absorbed depends on the ambient air density, as will be seen shortly.</p>
 <p id="§7.76"><strong>7.76</strong> It will be recalled that the thermal radiation received at the earth’s surface differs to some extent from that leaving the fireball. The reason is that the radiations. of shorter wavelength, i.e., in the ultraviolet, are more readily absorbed than the others by the atmosphere between the burst point and the earth’s surface. The thermal radiation received at a distance from a nuclear explosion is fairly characteristic of a black body at a temperature of about 6,000 to 7,000°K, although somewhat depleted in the ultraviolet and other shorter wavelengths. Even if the detonation occurs at very high altitudes, the thermal radiation from the low-density fireball must pass through the denser atmosphere before reaching the ground. The effective thermal radiation received on the earth’s surface in this case is, therefore, also composed of the longer wavelengths.</p>
-<p id="§7.77"><strong>7.77</strong> An expression for the wave length (A,,) corresponding to the maximum in the radiant power as a function of the black body temperature can be obtained by differentiating equation (7.74. l) with respect to wavelength and equating the result to zero. It is then found that where C is a constant, equal to 2.90 x 107 angstroms-degrees K. This expression is known as Wien’s displacement law.</p>
+<p id="§7.77"><strong>7.77</strong> An expression for the wave length ($\lambda_m$) corresponding to the maximum in the radiant power as a function of the black body temperature can be obtained by differentiating equation (7.74.1) with respect to wavelength and equating the result to zero. It is then found that</p>
+
+<figure class="numbered equation">
+\[
+\lambda_m = \frac{C}{T} \;,
+\]
+<figcaption>(7.77.1)</figcaption>
+</figure>
+
+<p>where $C$ is a constant, equal to $2.90 \times 10^7$ angstroms-degrees K. This expression is known as Wien’s displacement law.</p>
 <p id="§7.78"><strong>7.78</strong> The temperature at which the maximum in the radiant power distribution from a black body should just fall into the visible spectrum, i.e., wave length 3,850 A, is found from equation (7.77. l) to be about 7,500°K. This happens to be very close to the maximum surface temperature of the fireball after the minimum, i.e., during the second radiation pulse (Fig. 2.39). Since the apparent surface temperature generally does not exceed 8,000°K and the average· is considerably less, it is evident that the thermal energy emitted in the second pulse should consist mainly of visible and infrared rays, with a smaller proportion in the ultraviolet region of the spectrum. This has been found to be the case in actual tests, even though the fireball deviates appreciably from black body behavior at this stage.</p>
 <p id="§7.79"><strong>7.79</strong> The mean free path (<a href="chapter2.html#§2.113" class="xref">§ 2.113</a>) in cold air, at sea-level density, of X-ray photons with energies from about 0.5 to 15 keV is given by the approximate relationship</p>
-Mean free path ““‘ 5 cm,   (7.79.1)
-where E is the photon energy in keV. In order to make some order-of-magnitude calculations of the distances in which thermal X rays from a nuclear explosion are absorbed in air, a convenient round number temperature of 107 degrees Kelvin will be used for simplicity. From equation (7.77. l), the wavelength at which the rate of emission of radiation from a black body at this temperature is a maximum is found to be 2.9 A. According to equation (1.74.2) this corresponds to a photon energy of 4.3 keV, and from equation (7.79.1) the mean free path of these photons in normal air is about 15 cm. In traversing a distance of one mean free path the energy of the radiations decreases by a factor of e, i.e., approximately 2.7; hence 90 per cent of the energy will be deposited within a radius of 2.3 mean free paths. It is seen, therefore, that 4.3-keV radiation will be largely absorbed in a distance of about 35 cm, i.e., a little over 1 foot, in a sea-level atmosphere.
+
+<figure class="numbered equation">
+\[
+\text{Mean free path } \approx \frac{E^3}{5} \text{ cm},
+\]
+<figcaption>(7.79.1)</figcaption>
+</figure>
+
+<p>where $E$ is the photon energy in keV. In order to make some order-of-magnitude calculations of the distances in which thermal X rays from a nuclear explosion are absorbed in air, a convenient round number temperature of 10<sup>7</sup> degrees Kelvin will be used for simplicity. From equation (7.77. l), the wavelength at which the rate of emission of radiation from a black body at this temperature is a maximum is found to be 2.9 A. According to equation (1.74.2) this corresponds to a photon energy of 4.3 keV, and from equation (7.79.1) the mean free path of these photons in normal air is about 15 cm. In traversing a distance of one mean free path the energy of the radiations decreases by a factor of e, i.e., approximately 2.7; hence 90 per cent of the energy will be deposited within a radius of 2.3 mean free paths. It is seen, therefore, that 4.3-keV radiation will be largely absorbed in a distance of about 35 cm, i.e., a little over 1 foot, in a sea-level atmosphere.</p>
 <p id="§7.80"><strong>7.80</strong> The primary thermal radiations from a nuclear explosion cover a wide range of wavelengths, as is evident from Fig. 7.74. But to obtain a rough indication of the initial size of the fire ball, the wavelength (or energy) at which the radiant power from a black body is a maximum may be taken as typical. It follows, therefore, from the results given above that the thermal X rays from a nuclear explosion will be almost completely absorbed by about a foot of air at normal density. The oxygen and nitrogen in the air in the vicinity of the explosion are considerably ionized, and the ions do not absorb as effectively as do neutral molecules. Nevertheless, in a nuclear explosion in the atmosphere where the air density does not differ greatly from the sea-level value, most of the X rays, which constitute the primary thermal radiation, will be absorbed within a few feet of the explosion. It is in this manner that the initial fireball is formed in an air burst.</p>
-<p id="§7.81"><strong>7.81</strong> With increasing altitude, the air density decreases roughly by a factor of ten for every 10 miles (see<a href="chapter10.html#§10.124" class="xref">§ 10.124</a>); hence at 155,000 feet (approximately 30 miles), for example, the density is about 10-3 of the sea-level value. The mean free path of the photon varies inversely as the density, so that for nuclear explosions at an altitude of about 30 miles, the region of the air heated by X rays, which is equivalent to the fireball, extends over a radius of some thousands of feet. In spite of the lower density, the mass of heated air in this large volume is much greater than in the fireball associated with a nuclear explosion at lower altitudes, and so the temperature attained by the air is lower.</p>
+<p id="§7.81"><strong>7.81</strong> With increasing altitude, the air density decreases roughly by a factor of ten for every 10 miles (see<a href="chapter10.html#§10.124" class="xref">§ 10.124</a>); hence at 155,000 feet (approximately 30 miles), for example, the density is about 10<sup>-3</sup> of the sea-level value. The mean free path of the photon varies inversely as the density, so that for nuclear explosions at an altitude of about 30 miles, the region of the air heated by X rays, which is equivalent to the fireball, extends over a radius of some thousands of feet. In spite of the lower density, the mass of heated air in this large volume is much greater than in the fireball associated with a nuclear explosion at lower altitudes, and so the temperature attained by the air is lower.</p>
 
 
 <h3>THERMAL POWER AND ENERGY FROM THE FIREBALL</h3>
-<p id="§7.82"><strong>7.82</strong> According to the Stefan Boltzmann law, the total amount of energy (of all wavelengths), J, radiated per square centimeter per second by a black body in all directions in one hemisphere is related to the absolute temperature, T, by the equation</p>
- (7.82.1)
-where a is the Stefan-Boltzmann constant. The value of J can also be obtained by integration of equation (7.74. l) over all wavelengths from zero to infinity. It is then found that
-a = 2’1TSk4/l5h3c2
-= 5.67 x 10-5 erg cm-2 sec-• deg-4
-= 1.36 x 10-12 cal cm-2 sec-1
-deg-4
-With a known, the total radiant energy intensity from the fireball behaving as a black body can be readily calculated for any required temperature.
-<p id="§7.83"><strong>7.83</strong> In accordance with the definition of J, given above, it follows that the total rate of emission of radiant energy from the fireball can be obtained upon multiplying the expression in equation (7.82.1) by the area. If R is the radius of the fireball, its area is 47rR2, so that the total rate of thermal energy emission (or total radiant power) is (TT4 x 47rR2. Representing this quantity by the symbol P, it follows that</p>
-p = 47r (TT4R2
-= 1.71 x 10-11 T4R2 cal/sec,
-where Tis in degrees Kelvin and R is in centimeters. Alternatively, if the radius, R, is expressed in feet, then
-P = 1.59 x 10-8 T4R2 cal/sec.
- (7.83.1)
-<p id="§7.84"><strong>7.84</strong> Complex interactions of hydrodynamic and radiation factors govern the variation of the apparent size and temperature of the fireball with time. Nevertheless, the fireball thermal power can be calculated as a function of time based upon theoretical considerations modified by experimental measurements. The results are conveniently expressed as the scaled power, i.e., P/Pmax’</p>
-purposes this may be taken as the explosion time.
+<p id="§7.82"><strong>7.82</strong> According to the Stefan Boltzmann law, the total amount of energy (of all wavelengths), $J$, radiated per square centimeter per second by a black body in all directions in one hemisphere is related to the absolute temperature, $T$, by the equation</p>
+
+<figure class="numbered equation">
+\[
+J = \sigma T^4
+\]
+<figcaption>(7.82.1)</figcaption>
+</figure>
+
+<p>where $\sigma$ is the Stefan-Boltzmann constant. The value of $J$ can also be obtained by integration of equation (7.74.1) over all wavelengths from zero to infinity. It is then found that</p>
+
+\[
+\begin{aligned}
+\sigma &= 2\pi^5k^4/15h^3c^2\\
+&= 5.67 \times 10^{-5} \text{ erg cm}^{-2} \text{ sec}^{-1} \text{ deg}^{-4}\\
+&= 1.36 \times 10^{-12} \text{ cal cm}^{-2} \text{ sec}^{-1} \text{ deg}^{-4}
+\end{aligned}
+\]
+
+<p>With a known, the total radiant energy intensity from the fireball behaving as a black body can be readily calculated for any required temperature.</p>
+<p id="§7.83"><strong>7.83</strong> In accordance with the definition of $J$, given above, it follows that the total rate of emission of radiant energy from the fireball can be obtained upon multiplying the expression in equation (7.82.1) by the area. If $R$ is the radius of the fireball, its area is $4\pi R^2$, so that the total rate of thermal energy emission (or total radiant power) is $\sigma T^4 \times 4\pi R^2$. Representing this quantity by the symbol $P$, it follows that</p>
+
+\[
+\begin{aligned}
+p &= 4\pi\sigma T^4R^2\\
+&= 1.71 \times 10^{-11} T^4R^2 \text{ cal/sec},
+\end{aligned}
+\]
+
+<p>where $T$ is in degrees Kelvin and $R$ is in centimeters. Alternatively, if the radius, $R$, is expressed in feet, then</p>
+
+<figure class="numbered equation">
+\[
+P = 1.59 \times 10^{-8} T^4R^2 \text{ cal/sec}
+\]
+<figcaption>(7.83.1)</figcaption>
+</figure>
+
+<p id="§7.84"><strong>7.84</strong> Complex interactions of hydrodynamic and radiation factors govern the variation of the apparent size and temperature of the fireball with time. Nevertheless, the fireball thermal power can be calculated as a function of time based upon theoretical considerations modified by experimental measurements. The results are conveniently expressed as the scaled power, i.e., $P/P_{max}$, versus the scaled time, i.e., $t/t_{max}$; $P$ is the thermal power at any time $t$ after the explosion, and the $P_{max}$ is the maximum value of the thermal power at the time, $t_{max}$, of the second temperature maximum (<a href="chapter2.html#§2.125" class="xref">§ 2.125</a>). The resulting (left scale) curve, shown in Fig. 7.84, is then of general applicability irrespective of the yield of the explosion. Changes in yield and altitude can affect the shape of the power pulse; however, the values in Fig. 7.84 are reasonably accurate for most air bursts below 100,000 feet. The zero of the scaled time axis is the time of the first maximum, but for all practical purposes this may be taken as the explosion time.</p>
 
 <figure>
 <img src="figures/fig07-84.png" alt="">
@@ -350,28 +405,34 @@ purposes this may be taken as the explosion time.
 
 
 <h3>THERMAL ENERGY FROM AN AIR BURST</h3>
-<p id="§7.85"><strong>7.85</strong> In order to make the power time curve specific for any particular explosion energy yield, it is necessary to know the appropriate values of Pmax and tmax Theoretically, these quantities should depend on the air density, but experimental evidence indicates that the dependence is small for air bursts at altitudes below 15,000 feet; in this altitude range, Pmax and tmax are related approximately to the yield, W kilotons, in the following manner:</p>
-Pmax = 3.18 W0-56 kilotons/sec
-tmax = 0.0417 W044 sec.
-For heights of burst above 15,000 feet the data are sparse. Theoretical calculations indicate that the corresponding relationships are as follows:
-= 3•56wo.s9 kilotons/sec.
-[p (h)lp J0.45
- versus the scaled time, i.e., t/tmax; Pis
-the thermal power at any time t after the
- tmax
-0.038-44[p (h)/pJ0-36  sec.
-explosion, and the Pmax is the maximum value of the thermal power at the time, tmax, of the second temperature maximum (<a href="chapter2.html#§2.125" class="xref">§ 2.125</a>). The resulting (left scale) curve, shown in Fig. 7.84, is then of general applicability irrespective of the yield of the explosion. Changes in yield and altitude can affect the shape of the power pulse; however, the values in Fig. 7.84 are reasonably accurate for most air bursts below 100,000 feet. The zero of the scaled time axis is the time of the first maximum, but for all practical
-In these expressions p (h) is the ambient air density at the burst altitude and p0 is the normal ambient air density at sea level (taken to be 1.225 x 10-Jgrarn/cm3). Values of p (h)/p0 are given in Table 7.85 for several altitudes. Use of the preceding equations results in a discontinuity at 15,000 feet. For heights of burst at or near that altitude, values should be calculated by both sets of equations, and the appropriate result should be used depending on whether offensive or defensive conservatism is desired. For a contact surface burst versus t/tm•• up to that time. The results, (<a href="chapter2.html#§2.127" class="xref">§ 2.127</a> footnote) the fireball develops expressed  as  ElE, (percent) versus
-in a manner approaching that for an air burst of twice the yield, because the blast wave energy is reflected back from the surface into the fireball (<a href="chapter3.html#§3.34" class="xref">§ 3.34</a>). Hence, tmax may be expected to be larger than for an air burst of the same actual yield.
+<p id="§7.85"><strong>7.85</strong> In order to make the power time curve specific for any particular explosion energy yield, it is necessary to know the appropriate values of $P_{max}$ and $t_{max}$ Theoretically, these quantities should depend on the air density, but experimental evidence indicates that the dependence is small for air bursts at altitudes below 15,000 feet; in this altitude range, $P_{max}$ and $t_{max}$ are related approximately to the yield, $W$ kilotons, in the following manner:</p>
+
+\[
+\begin{aligned}
+P_{max} &\approx 3.18 \; W^{0.56} \text{ kilotons/sec}\\
+t_{max} &\approx 0.0417 \; W^{0.44} \text{ sec.}
+\end{aligned}
+\]
+
+<P>For heights of burst above 15,000 feet the data are sparse. Theoretical calculations indicate that the corresponding relationships are as follows:</p>
+
+\[
+\begin{aligned}
+P_{max} = \frac{3.56 \; W^{0.59}}{\left[ \rho(h)/\rho_0 \right]^{0.45}} \text{ kilotons/sec.}\\
+\\
+t_{max} = 0.038 \; W^{0.44} \left[ \rho(h)/\rho_0 \right]^{0.36} \text{ sec.}
+\end{aligned}
+\]
+
+<p>In these expressions $p(h)$ is the ambient air density at the burst altitude and $\rho_0$ is the normal ambient air density at sea level (taken to be 1.225 x 10<sup>-3</sup> gram/cm<sup>3</sup>). Values of $\rho(h)/\rho_0$ are given in Table 7.85 for several altitudes. Use of the preceding equations results in a discontinuity at 15,000 feet. For heights of burst at or near that altitude, values should be calculated by both sets of equations, and the appropriate result should be used depending on whether offensive or defensive conservatism is desired. For a contact surface burst (<a href="chapter2.html#§2.127" class="xref">§ 2.127</a> footnote) the fireball develops in a manner approaching that for an air burst of twice the yield, because the blast wave energy is reflected back from the surface into the fireball (<a href="chapter3.html#§3.34" class="xref">§ 3.34</a>). Hence, $t_{max}$ may be expected to be larger than for an air burst of the same actual yield.</p>
 
 <figure class="table">
 <figcaption>Table 7.85</figcaption>
 (large table TK)
 </figure>
 
-<p id="§7.86"><strong>7.86</strong> The thermal power curve in Fig. 7.84 (left scale) presents some features of special interest. As is to be expected, the thermal power (or rate of emission of radiant energy) of the fire ball rises to a maximum, just as does the temperature in the second radiation pulse. However, since the thermal power is roughly proportional to T4, it increases and decreases much more rapidly than does the temperature. This accounts for the sharp rise to the maximum in the P/Pmax curve, followed by a somewhat less sharp drop which tapers off as the fireball approaches its final stages. The amount of thermal energy, E, emitted by the fireball in an air burst up to any specified time can be obtained from the area under the curve of P!Pmax</p>
- t/tmax’ are shown by the second curve (right scale) in Fig. 7.84, where E,°’ is the total thermal energy emitted by the fireball. It is seen that at a time equal to 10 tmax about 80 percent of the thermal energy will have been emitted; hence this time may be taken as a rough measure of the effective duration of the thermal pulse for an air burst. Since tmax increases with the explosion energy yield, so also does the pulse length.
-<p id="§7.87"><strong>7.87</strong> The fact that the thermal pulse length increases with the weapon yield has a bearing on the possibility of people taking evasive action against thermal radiation. Evasive action is expected to have greater relative effectiveness for explosions of higher than lower yield because of the longer thermal pulse duration. The situation is indicated in another way in Fig. 7.87, which shows the thermal energy emission as a function of actual time, rather than of tltma,’ for four different explosion energy yields. The data were derived from the corresponding curve in Fig. 7.84 by using the appropriate calculated value of tmax for each yield. At the lower energy yields the thermal radiation is emitted in such a short time that no evasive action is possible. At the higher yields, however, exposure to much of the thermal radiation could be avoided if evasive action were taken within a fraction of a second of the explosion time. It must be remembered, of course, that even during this short period a very considerable amount of thermal energy will have been emitted from an explosion of high yield.</p>
+<p id="§7.86"><strong>7.86</strong> The thermal power curve in Fig. 7.84 (left scale) presents some features of special interest. As is to be expected, the thermal power (or rate of emission of radiant energy) of the fire ball rises to a maximum, just as does the temperature in the second radiation pulse. However, since the thermal power is roughly proportional to $T^4$, it increases and decreases much more rapidly than does the temperature. This accounts for the sharp rise to the maximum in the $P/P_{max}$ curve, followed by a somewhat less sharp drop which tapers off as the fireball approaches its final stages. The amount of thermal energy, $E$, emitted by the fireball in an air burst up to any specified time can be obtained from the area under the curve of $P/P_{max}$ versus $t/t_{max}$ up to that time. The results, expressed as $E/E_{tot}$ (percent) versus $t/t_{max}$, are shown by the second curve (right scale) in Fig. 7.84, where $E_{tot}$ is the total thermal energy emitted by the fireball. It is seen that at a time equal to 10 $t_{max}$ about 80 percent of the thermal energy will have been emitted; hence this time may be taken as a rough measure of the effective duration of the thermal pulse for an air burst. Since $t_{max}$ increases with the explosion energy yield, so also does the pulse length.</p>
+<p id="§7.87"><strong>7.87</strong> The fact that the thermal pulse length increases with the weapon yield has a bearing on the possibility of people taking evasive action against thermal radiation. Evasive action is expected to have greater relative effectiveness for explosions of higher than lower yield because of the longer thermal pulse duration. The situation is indicated in another way in Fig. 7.87, which shows the thermal energy emission as a function of actual time, rather than of $t/t_{max}$ for four different explosion energy yields. The data were derived from the corresponding curve in Fig. 7.84 by using the appropriate calculated value of $t_{max}$ for each yield. At the lower energy yields the thermal radiation is emitted in such a short time that no evasive action is possible. At the higher yields, however, exposure to much of the thermal radiation could be avoided if evasive action were taken within a fraction of a second of the explosion time. It must be remembered, of course, that even during this short period a very considerable amount of thermal energy will have been emitted from an explosion of high yield.</p>
 
 <figure>
 <img src="figures/fig07-87.png" alt="">
@@ -380,7 +441,7 @@ in a manner approaching that for an air burst of twice the yield, because the bl
 </figcaption>
 </figure>
 
-<p id="§7.88"><strong>7.88</strong> The fraction of the explosion energy yield in the form of thermal radiation, i.e., E ,fW, is called the “thermal partition” and is represented by the symbol f. Estimated values of / are given in Table 7.88 for air bursts with yields in the range from 1 kiloton to 10 megatons at altitudes up to 100,000 feet (19 miles). The data for heights of burst up to 15,000 feet were obtained primarily from experimental results. For higher bursts altitudes, the values were obtained by calculations, various aspects of which were checked with experimental results. They are considered to be fairly reliable for yields between 1 kiloton and 1 megaton at altitudes up to 50,000 feet (9.5 miles). Outside this range of yields and altitudes, the data in Table 7.88 may be used with less confidence. Values of / for burst altitudes above 100,000 feet are given in <a href="chapter7.html#§7.90" class="xref">§ 7.90</a> (see also<a href="chapter7.html#§7.104" class="xref">§ 7.104</a>).</p>
+<p id="§7.88"><strong>7.88</strong> The fraction of the explosion energy yield in the form of thermal radiation, i.e., $E_{tot}/W$, is called the “thermal partition” and is represented by the symbol $f$. Estimated values of $f$ are given in Table 7.88 for air bursts with yields in the range from 1 kiloton to 10 megatons at altitudes up to 100,000 feet (19 miles). The data for heights of burst up to 15,000 feet were obtained primarily from experimental results. For higher bursts altitudes, the values were obtained by calculations, various aspects of which were checked with experimental results. They are considered to be fairly reliable for yields between 1 kiloton and 1 megaton at altitudes up to 50,000 feet (9.5 miles). Outside this range of yields and altitudes, the data in Table 7.88 may be used with less confidence. Values of $f$ for burst altitudes above 100,000 feet are given in <a href="chapter7.html#§7.90" class="xref">§ 7.90</a> (see also<a href="chapter7.html#§7.104" class="xref">§ 7.104</a>).</p>
 
 <figure class="table">
 <figcaption>Table 7.88</figcaption>
@@ -389,12 +450,10 @@ in a manner approaching that for an air burst of twice the yield, because the bl
 
 
 <h3>THERMAL RADIATION IN HIGH-ALTITUDE EXPLOSIONS</h3>
-<p id="§7.89"><strong>7.89</strong> The results described above are applicable to detonations at altitudes below about 100,000 feet (19 miles) where the density of the air is still appreciable. At higher altitudes, the fire ball phenomena change, as described in <a href="chapterII.html">Chapter II</a>, and so also do the thermal pulse characteristics, such as shape and length, and the thermal partition. With increasing altitude, there is a tendency for the relative duration of the first pulse, i.e., up to the first temperature minimum (§<a href="chapter2.html#§2.39" class="xref">§ 2.39</a>, 2.125), to increase and for the minimum to be less marked. Up to an altitude of about 100,000 feet, these changes are small and so also are those in the second thermal pulse. The normalized plot (Fig. 7.84) is thus a satisfactory representation in this altitude range. However, between 100,000 and 130,000 feet (25 miles), the pulse shape changes drastically. The first minimum observed at lower altitudes disappears and essentially all the thermal radiation is emitted as a single pulse (<a href="chapter2.html#§2.132" class="xref">§ 2.132</a>). The thermal emission rises to a maximum in an extremely short time and then declines steadily, at first rapidly and later more slowly. For an ex plosion in the megaton range at an altitude of 250,000 feet (about 47 miles), the duration of the thermal pulse is less than a second compared with a few seconds for a similar burst below 100,000 feet (cf. Fig. 7.87). Scaling of the pulse length with respect to the explosion yield at high altitudes is very complex and depends on a variety of factors. However, the duration of the thermal pulse is probably not strongly dependent on the total yield. At altitudes above roughly 270,000 feet (51 miles), the pulse length increases because of the larger mass and lower temperature of the radiating region (<a href="chapter7.html#§7.91" class="xref">§ 7.91</a>).</p>
-<p id="§7.90"><strong>7.90</strong> At high altitudes shock waves form much less readily in the thinner air and consequently the fireball is able to radiate thermal energy that would, at lower altitudes, have been transformed to hydrodynamic energy of the blast wave. Furthermore, the thinner air allows the primary thermal radiation (X rays) from the explosion to travel much farther than at lower levels. Some of this radiation travels so far from the source that it makes no contribution to the energy in the fireball. Between about 100,000 and 160,000 feet (30 miles), the first factor is dominant and the proportion of energy in the blast wave decreases; consequently, the thermal energy increases. In this altitude range the thermal partition, /, is about 0.6, compared with 0.40 to 0.45 at 100,000 feet (Table 7.88). Above 160,000 feet, however, the second factor, i.e., escape of thermal X rays, becomes increasingly important; the thermal partition de creases to about 0.25 at 200,000 feet (38 miles) and remains at this value up to roughly 260,000 feet (49 miles). At still higher altitudes there is a change in the fireball behavior (<a href="chapter2.html#§2.135" class="xref">§ 2.135</a>) and the thermal partition decreases very rapidly with increasing altitude of the explosion.</p>
+<p id="§7.89"><strong>7.89</strong> The results described above are applicable to detonations at altitudes below about 100,000 feet (19 miles) where the density of the air is still appreciable. At higher altitudes, the fire ball phenomena change, as described in <a href="chapterII.html">Chapter II</a>, and so also do the thermal pulse characteristics, such as shape and length, and the thermal partition. With increasing altitude, there is a tendency for the relative duration of the first pulse, i.e., up to the first temperature minimum (§§ <a href="chapter2.html#§2.39" class="xref">2.39</a>, <a href="chapter2.html#§2.125" class="xref">2.125</a>), to increase and for the minimum to be less marked. Up to an altitude of about 100,000 feet, these changes are small and so also are those in the second thermal pulse. The normalized plot (Fig. 7.84) is thus a satisfactory representation in this altitude range. However, between 100,000 and 130,000 feet (25 miles), the pulse shape changes drastically. The first minimum observed at lower altitudes disappears and essentially all the thermal radiation is emitted as a single pulse (<a href="chapter2.html#§2.132" class="xref">§ 2.132</a>). The thermal emission rises to a maximum in an extremely short time and then declines steadily, at first rapidly and later more slowly. For an ex plosion in the megaton range at an altitude of 250,000 feet (about 47 miles), the duration of the thermal pulse is less than a second compared with a few seconds for a similar burst below 100,000 feet (cf. Fig. 7.87). Scaling of the pulse length with respect to the explosion yield at high altitudes is very complex and depends on a variety of factors. However, the duration of the thermal pulse is probably not strongly dependent on the total yield. At altitudes above roughly 270,000 feet (51 miles), the pulse length increases because of the larger mass and lower temperature of the radiating region (<a href="chapter7.html#§7.91" class="xref">§ 7.91</a>).</p>
+<p id="§7.90"><strong>7.90</strong> At high altitudes shock waves form much less readily in the thinner air and consequently the fireball is able to radiate thermal energy that would, at lower altitudes, have been transformed to hydrodynamic energy of the blast wave. Furthermore, the thinner air allows the primary thermal radiation (X rays) from the explosion to travel much farther than at lower levels. Some of this radiation travels so far from the source that it makes no contribution to the energy in the fireball. Between about 100,000 and 160,000 feet (30 miles), the first factor is dominant and the proportion of energy in the blast wave decreases; consequently, the thermal energy increases. In this altitude range the thermal partition, $f$, is about 0.6, compared with 0.40 to 0.45 at 100,000 feet (Table 7.88). Above 160,000 feet, however, the second factor, i.e., escape of thermal X rays, becomes increasingly important; the thermal partition de creases to about 0.25 at 200,000 feet (38 miles) and remains at this value up to roughly 260,000 feet (49 miles). At still higher altitudes there is a change in the fireball behavior (<a href="chapter2.html#§2.135" class="xref">§ 2.135</a>) and the thermal partition decreases very rapidly with increasing altitude of the explosion.</p>
 <p id="§7.91"><strong>7.91</strong> At heights of burst above about 270,000 feet, only the primary X rays traveling downward are absorbed and the energy deposition leads to the formation of the incandescent X-ray pancake described in <a href="chapterII.html">Chapter II</a>. This heated region then reradiates its energy at longer wavelengths over a period of several seconds. The altitude and dimensions of the pancake depend to some extent on the explosion yield but, as stated in <a href="chapter2.html#§2.134" class="xref">§ 2.134</a>, reasonable average values are 30,000 feet for the thickness, 270,000 feet for the mean altitude, and the height of burst minus 270,000 feet for the radius at this altitude. The altitude and thickness of the reradiating region are essentially independent of the height of the burst above 270,000 feet, but the mean radius increases with the burst height. The shape of the region thus approaches a thick disk (or frustum) centered at about 270,000 feet altitude.</p>
 <p id="§7.92"><strong>7.92</strong> Not more than one-fourth of the X-ray energy from the explosion is absorbed in the low-density air of the reradiating region, and only a small fraction, which decreases with increasing height of burst, is reradiated as secondary radiation. Consequently, only a few percent of the weapon energy is emitted as thermal radiation capable of causing damage at the earth’s surface. In fact, for bursts at altitudes exceeding some 330,000 feet (63 miles), the thermal radiation from a nuclear explosion even in the megaton range is essentially ineffective so far as skin burns, ignition, etc., are concerned. However, the early-time debris, which separates from the X-ray pancake (<a href="chapter2.html#§2.135" class="xref">§ 2.135</a>), is at a fairly high temperature and it emits a very short pulse of thermal energy that can cause eye injury to individuals looking directly  at  the  explosion (<a href="chapter12.html#§12.79" class="xref">§ 12.79</a> <i>et seq.</i>).</p>
-
-
 
 </section>
 
