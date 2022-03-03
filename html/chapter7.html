@@ -464,14 +464,67 @@ t_{max} = 0.038 \; W^{0.44} \left[ \rho(h)/\rho_0 \right]^{0.36} \text{ sec.}
 
 <h3>AIR BURSTS</h3>
 <p id="§7.93"><strong>7.93</strong> The following procedure is used to calculate the dependence of the radiant exposure of a target (<a href="chapter7.html#§7.35" class="xref">§ 7.35</a>) upon its distance from an air burst of specified yield. As seen earlier in this chapter, such information, which is given in Fig. 7.42, combined with the data in Tables 7.35 and 7.40, permits estimates to be made of the probable ranges for various thermal radiation effects.</p>
-<p id="§7.94"><strong>7.94</strong> If there is no atmospheric attenuation, then at a distance D from the explosion the thermal radiation energy, E.oi. may be regarded as being spread uniformly over the surface of a sphere of area 4,rlJZ. If the radiating fireball is treated as a point source, the energy received per unit area of the sphere would be E,)4irlJZ. If attenuation were due only to absorption in a uniform atmosphere, e.g., for an air burst, this quantity would be multiplied by the factor e-•0, where K is an absorption coefficient averaged over the whole spectrum of wavelengths. Hence in these circumstances, using the symbol Q to represent the radiant exposure, i.e., the energy received per unit area normal to the direction of propagation, at a distance D from the explosion, it follows that</p>
-<p id="§7.95"><strong>7.95</strong> When scattering of the radiation occurs, in addition to absorption, the coefficient K changes with distance and other variables. The simple exponential attenuation factor in equation (7.94. l) is then no longer adequate. A more useful (empirical) formulation is</p>
-where the transmittance, T, i.e., the fraction of the radiation (direct and scattered) which is transmitted, is a complex function of the visibility (scattering), absorption, and distance.s
-<p id="§7.96"><strong>7.96</strong> Since E.oi.  = JW, equation (7.95.1) for the radiant exposure from an air burst of yield W can be expressed as</p>
-By utilizing the fact that 1 kiloton of TNT is equivalent to 1012 calories, equation (7.96.1) for an air burst becomes
-where D is in centimeters and W is in kilotons. If the distance, D, from the explosion to the target, i.e., the slant range, is expressed in kilofeet or miles, equation (7.96.2) reduces approximately to
-<p id="§7.97"><strong>7.97</strong> In nuclear weapons tests, it is possible to measure Q and W, and since the distance D from the explosion is known the magnitude of the product / T can be determined from the equations in <a href="chapter7.html#§7.96" class="xref">§ 7.96</a>. Hence, to obtain / and T individually, one of these two quantities must be determined independently of the other. The method used is to obtain / for different conditions from calculations checked by observations, as stated in <a href="chapter7.html#§7.88" class="xref">§ 7.88</a>. The values of T are then derived from measurements of /T made at a large number of weapons tests.</p>
-<p id="§7.98"><strong>7.98</strong> The transmittance T for any given atmospheric condition depends on the solid angle over which scattered radiation can reach a particular exposed object. For the present purpose it will be assumed that the target is such, e.g., an appreciable flat area, that scattered radiation is received from all directions above, in addition to the direct thermal radiation from the source. Transmittance data for these conditions are presented in Fig. 7.98 in terms of burst altitude and distance of a surface target from ground zero for a cloudless atmosphere with a visibility of 12 miles. Since actual visibilities in cities are often less, the values in Fig. 7.98 are conservative.</p>
+<p id="§7.94"><strong>7.94</strong> If there is no atmospheric attenuation, then at a distance $D$ from the explosion the thermal radiation energy, $E_{tot}$, may be regarded as being spread uniformly over the surface of a sphere of area $4\pi D^2$. If the radiating fireball is treated as a point source, the energy received per unit area of the sphere would be $E_{tot}4\pi D^2$. If attenuation were due only to absorption in a uniform atmosphere, e.g., for an air burst, this quantity would be multiplied by the factor $e^{-\kappa D}$, where &kappa; is an absorption coefficient averaged over the whole spectrum of wavelengths. Hence in these circumstances, using the symbol $Q$ to represent the radiant exposure, i.e., the energy received per unit area normal to the direction of propagation, at a distance D from the explosion, it follows that</p>
+
+<figure class="numbered equation">
+\[
+Q = \frac{E_{tot}}{4\pi D^2} e^{-\kappa D}.
+\]
+<figcaption>(7.94.1)</figcaption>
+</figure>
+
+<p id="§7.95"><strong>7.95</strong> When scattering of the radiation occurs, in addition to absorption, the coefficient &kappa; changes with distance and other variables. The simple exponential attenuation factor in equation (7.94.1) is then no longer adequate. A more useful (empirical) formulation is</p>
+
+<figure class="numbered equation">
+\[
+Q = \frac{E_{tot}\tau}{4\pi D^2} \;,
+\]
+<figcaption>(7.95.1)</figcaption>
+</figure>
+
+<p>where the transmittance, $\tau$, i.e., the fraction of the radiation (direct and scattered) which is transmitted, is a complex function of the visibility (scattering), absorption, and distance.<sup>5</sup></p>
+
+<p id="§7.96"><strong>7.96</strong> Since $E_{tot} = fW$, equation (7.95.1) for the radiant exposure from an air burst of yield $W$ can be expressed as</p>
+
+<figure class="numbered equation">
+\[
+Q = \frac{fW\tau}{4\pi D^2} \;.
+\]
+<figcaption>(7.96.1)</figcaption>
+</figure>
+
+<p>By utilizing the fact that 1 kiloton of TNT is equivalent to 10<sup>12</sup> calories, equation (7.96.1) for an air burst becomes</p>
+
+<figure class="numbered equation">
+\[
+Q \; (\text{cal/cm}^2) = \frac{10^{12}fW\tau}{4\pi D^2} \;,
+\]
+<figcaption>(7.96.2)</figcaption>
+</figure>
+
+<p>where $D$ is in centimeters and $W$ is in kilotons. If the distance, $D$, from the explosion to the target, i.e., the slant range, is expressed in kilofeet or miles, equation (7.96.2) reduces approximately to</p>
+
+<figure class="numbered equation">
+\[
+D \text{ in kilofeet: }
+Q (\text{cal/cm}^2) \approx
+\frac{85.6 \; fW\tau}{D^2}
+\]
+<figcaption>(7.96.3)</figcaption>
+</figure>
+
+<figure class="numbered equation">
+\[
+D \text{ in miles: }
+Q (\text{cal/cm}^2) \approx
+\frac{3.07 \; fW\tau}{D^2}
+\;.
+\]
+<figcaption>(7.96.4)</figcaption>
+</figure>
+
+<p id="§7.97"><strong>7.97</strong> In nuclear weapons tests, it is possible to measure $Q$ and $W$, and since the distance $D$ from the explosion is known the magnitude of the product $f\tau$ can be determined from the equations in <a href="chapter7.html#§7.96" class="xref">§ 7.96</a>. Hence, to obtain $f$ and $\tau$ individually, one of these two quantities must be determined independently of the other. The method used is to obtain $f$ for different conditions from calculations checked by observations, as stated in <a href="chapter7.html#§7.88" class="xref">§ 7.88</a>. The values of $\tau$ are then derived from measurements of $f\tau$ made at a large number of weapons tests.</p>
+<p id="§7.98"><strong>7.98</strong> The transmittance $\tau$ for any given atmospheric condition depends on the solid angle over which scattered radiation can reach a particular exposed object. For the present purpose it will be assumed that the target is such, e.g., an appreciable flat area, that scattered radiation is received from all directions above, in addition to the direct thermal radiation from the source. Transmittance data for these conditions are presented in Fig. 7.98 in terms of burst altitude and distance of a surface target from ground zero for a cloudless atmosphere with a visibility of 12 miles. Since actual visibilities in cities are often less, the values in Fig. 7.98 are conservative.</p>
 
 <figure>
 <img src="figures/fig07-98.png" alt="">
@@ -480,13 +533,12 @@ where D is in centimeters and W is in kilotons. If the distance, D, from the exp
 </figcaption>
 </figure>
 
-<p id="§7.99"><strong>7.99</strong> The transmittance values in Fig. 7.98 were used, in conjunction with equation (7.96.4) and the thermal partitions from Table 7.88, to obtain the data from which the curves in Fig. 7.42 were constructed. If His the height of burst and d is the distance from ground zero of a given point on the surface, the corresponding slant range for use in equation (7.96.4) is D = (d2 + H2)112. A height of burst of 200 W04 feet, with W in kilotons, was used for the calculations, but the results in Fig. 7.42 are reasonably accurate for air bursts at any altitude up to some 15,000 feet.</p>
+<p id="§7.99"><strong>7.99</strong> The transmittance values in Fig. 7.98 were used, in conjunction with equation (7.96.4) and the thermal partitions from Table 7.88, to obtain the data from which the curves in Fig. 7.42 were constructed. If $H$ is the height of burst and $d$ is the distance from ground zero of a given point on the surface, the corresponding slant range for use in equation (7.96.4) is $D = (d^2 + H^2)^{1/2}$. A height of burst of 200 $W^{0.4}$ feet, with $W$ in kilotons, was used for the calculations, but the results in Fig. 7.42 are reasonably accurate for air bursts at any altitude up to some 15,000 feet.</p>
 <p id="§7.100"><strong>7.100</strong> Under unusual conditions and especially for cities at high-altitude locations, the visibility might be greater than at sea level and the transmittance would be larger than the values given in Fig. 7.98. The curves show that most attenuation of radiation occurs within a few thousand feet of the surface; thus, the much clearer air at higher altitudes has less effect. For bursts above about 150,000 feet (28 miles), the transmittance changes slowly with the altitude. Experimental data indicate that multiplying the transmittance by 1.5 corrects approximately for the effect of reflection from a cloud layer over the burst. The same correction may be made for a snow-covered ground surface. If the burst and target are both between a cloud layer and a snow covered surface, the correction is 1.5 x 1.5 = 2.25.</p>
 
 
 <h3>SURFACE BURSTS</h3>
-<p id="§7.101"><strong>7.101</strong> For a surface burst, the radiant exposures along the earth’s surface will be less than for equal distances from an air burst of the same total yield. This difference arises partly, as indicated in <a href="chapter7.html#§7.20" class="xref">§ 7.20</a>, from the decreased transmittance of the intervening low air layer due to dust and water vapor produced by the explosion. Furthermore, the normal atmosphere close to the earth’s surface transmits less than at higher altitudes. In order to utilize the equations in <a href="chapter7.html#§7.96" class="xref">§ 7.96</a> to determine radiant exposure for surface bursts, the concept of an “effective thermal partition” is used, together with the normal transmittance, such as given in Fig. 7.98, for the existing atmospheric conditions.</p>
-Based upon experimental data, contact surface bursts can be represented fairly well by an effective thermal partition of 0.18. Values of the thermal partition for other surface bursts are shown in Table 7.101 they have been derived by as signing a thermal partition of 0.18 to a contact surface burst and interpolating between that value and the air burst thermal partition values in Table 7.88.</p>
+<p id="§7.101"><strong>7.101</strong> For a surface burst, the radiant exposures along the earth’s surface will be less than for equal distances from an air burst of the same total yield. This difference arises partly, as indicated in <a href="chapter7.html#§7.20" class="xref">§ 7.20</a>, from the decreased transmittance of the intervening low air layer due to dust and water vapor produced by the explosion. Furthermore, the normal atmosphere close to the earth’s surface transmits less than at higher altitudes. In order to utilize the equations in <a href="chapter7.html#§7.96" class="xref">§ 7.96</a> to determine radiant exposure for surface bursts, the concept of an “effective thermal partition” is used, together with the normal transmittance, such as given in Fig. 7.98, for the existing atmospheric conditions. Based upon experimental data, contact surface bursts can be represented fairly well by an effective thermal partition of 0.18. Values of the thermal partition for other surface bursts are shown in Table 7.101 they have been derived by as signing a thermal partition of 0.18 to a contact surface burst and interpolating between that value and the air burst thermal partition values in Table 7.88.</p>
 
 <figure class="table">
 <figcaption>Table 7.101</figcaption>
@@ -495,16 +547,39 @@ Based upon experimental data, contact surface bursts can be represented fairly w
 
 
 <h3>VERY-HIGH-ALTITUDE BURSTS</h3>
-<p id="§7.102"><strong>7.102</strong> In the calculation of the thermal radiation exposure at the surface of the earth from very-high-altitude nuclear explosions, two altitude regions must be considered because of the change in the fireball behavior that occurs at altitudes in the vicinity of about 270,000 feet (<a href="chapter7.html#§7.91" class="xref">§ 7.91</a>). At burst heights from roughly 160,000 to 200,000 feet (30 to 38 miles), the thermal energy capable of causing damage at the surface of the earth drops sharply from about 60 percent to about 25 per cent, i.e., from/= 0.60 to/= 0.25. As the height of burst is increased above 200,000 feet, the thermal partition remains about 0.25 up to a height of burst of approximately 260,000 feet (49 miles). Since a nearly spherical fireball forms within this latter altitude region, equation (7.93.3) becomes</p>
-where D is the slant range in kilofeet, and W is the yield in kilotons. A linear interpolation of the variation of thermal partition with burst altitude may be performed for bursts between 160,000 feet and 200,000 feet; however, in view of the uncertainties in high-altitude burst phenomenology, it may be desirable to use the high (0.60) or the low (0.25) value throughout this burst altitude region, depending on the degree of conservatism desired.
-<p id="§7.103"><strong>7.103</strong> At burst altitudes of roughly 270,000 feet and above, the thermal radiation is emitted from the thick X-ray pancake at a mean altitude of about 270,000 feet, essentially independent of the actual height of burst (<a href="chapter7.html#§7.91" class="xref">§ 7.91</a>). In order to use the equations in <a href="chapter7.html#§7.96" class="xref">§ 7.96</a> to calculate radiant exposures at various distances from the burst, the approximation is made of replacing the disklike radiating region by an equivalent source point defined in the following manner. If the distance d from ground zero to the target position where Q is to be calculated is less than the height of burst, H, the source may be regarded as being located at the closest point on a circle with the median radius at an altitude of 270,000 feet; this is indicated by the point S in Fig. 7.103. Hence, for the target point X, the appropriate slant range is given approximately by</p>
-D (kilofeet) =
-{ (270)2 + {½ (H - 270) - d]2}112
- (7.103.1)
-with d and H in kilofeet. This expression holds even when d is greater than
-½ (H - 270); although the quantity in the square brackets is then negative, the square is positive. The slant range, D0, for ground zero is obtained by setting d in equation (7.103. l) equal to zero; thus,
-If the distance d is greater than the height of burst, the equivalent point source may be taken to be approximately at the center of the radiating disk at 270,00 feet altitude; then
-D (kilofeet) = [ (270)2 + d2p12_
+<p id="§7.102"><strong>7.102</strong> In the calculation of the thermal radiation exposure at the surface of the earth from very-high-altitude nuclear explosions, two altitude regions must be considered because of the change in the fireball behavior that occurs at altitudes in the vicinity of about 270,000 feet (<a href="chapter7.html#§7.91" class="xref">§ 7.91</a>). At burst heights from roughly 160,000 to 200,000 feet (30 to 38 miles), the thermal energy capable of causing damage at the surface of the earth drops sharply from about 60 percent to about 25 per cent, i.e., from $f = 0.60$ to $f = 0.25$. As the height of burst is increased above 200,000 feet, the thermal partition remains about 0.25 up to a height of burst of approximately 260,000 feet (49 miles). Since a nearly spherical fireball forms within this latter altitude region, equation (7.93.3) becomes</p>
+
+<figure class="numbered equation">
+\[
+Q (\text{cal/cm}^2) = \frac{21.4 \; W\tau}{D^2} \;,
+\]
+<figcaption>(7.102.1)</figcaption>
+</figure>
+
+<p>where $D$ is the slant range in kilofeet, and $W$ is the yield in kilotons. A linear interpolation of the variation of thermal partition with burst altitude may be performed for bursts between 160,000 feet and 200,000 feet; however, in view of the uncertainties in high-altitude burst phenomenology, it may be desirable to use the high (0.60) or the low (0.25) value throughout this burst altitude region, depending on the degree of conservatism desired.</p>
+<p id="§7.103"><strong>7.103</strong> At burst altitudes of roughly 270,000 feet and above, the thermal radiation is emitted from the thick X-ray pancake at a mean altitude of about 270,000 feet, essentially independent of the actual height of burst (<a href="chapter7.html#§7.91" class="xref">§ 7.91</a>). In order to use the equations in <a href="chapter7.html#§7.96" class="xref">§ 7.96</a> to calculate radiant exposures at various distances from the burst, the approximation is made of replacing the disklike radiating region by an equivalent source point defined in the following manner. If the distance $d$ from ground zero to the target position where $Q$ is to be calculated is less than the height of burst, $H$, the source may be regarded as being located at the closest point on a circle with the median radius at an altitude of 270,000 feet; this is indicated by the point S in Fig. 7.103. Hence, for the target point X, the appropriate slant range is given approximately by</p>
+
+<figure class="numbered equation">
+\[
+D \; (\text{kilofeet}) \approx \{ (270)^2 + [ ½ \; (H - 270) - d]^2\}^{1/2}
+\;.
+\]
+<figcaption>(7.103.1)</figcaption>
+</figure>
+
+<p>with $d$ and $H$ in kilofeet. This expression holds even when $d$ is greater than $½(H - 270)$; although the quantity in the square brackets is then negative, the square is positive. The slant range, $D_0$, for ground zero is obtained by setting $d$ in equation (7.103. l) equal to zero; thus,</p>
+
+\[
+D \; (\text{kilofeet}) \approx [ (270)^2 + ½ \; (H - 270)^2]^{1/2}
+\;.
+\]
+
+<p>If the distance $d$ is greater than the height of burst, the equivalent point source may be taken to be approximately at the center of the radiating disk at 270,00 feet altitude; then</p>
+
+\[
+D \; (\text{kilofeet}) \approx [ (270)^2 + d^2]^{1/2}
+\;.
+\]
 
 <figure>
 <img src="figures/fig07-103.png" alt="" class="halfwidth">
@@ -513,9 +588,13 @@ D (kilofeet) = [ (270)2 + d2p12_
 </figcaption>
 </figure>
 
-<p id="§7.104"><strong>7.104</strong> For the heights of burst under consideration, it is assumed that the fraction 0.8 of the total yield is emitted as X-ray energy and that 0.25 of this energy is absorbed in the radiating disk region. Hence, 0.8 x 0.25 = 0.2 of the total yield is absorbed. For calculating the radiant exposure, the total yield W in the equations in <a href="chapter7.html#§7.96" class="xref">§ 7.96</a> is consequently replaced by 0.2 W. Furthermore, the equivalent of the thermal partition is called the “thermal efficiency,” E, defined as the effective fraction of the absorbed energy that is reradiated. Hence equation (7.96.3), for example, becomes</p>
-Q (caIIcm2) = )7.DIEWT   ,
-where D in kilofeet is determined in accordance with the conditions described in the preceding paragraph. The values of £ given in Fig. 7.104 as a function of height of burst and yield were obtained by theoretical calculations.6 The transmittance may be estimated from Fig. 7.98 but no serious error would be involved by setting it equal to unity for the large burst heights involved.
+<p id="§7.104"><strong>7.104</strong> For the heights of burst under consideration, it is assumed that the fraction 0.8 of the total yield is emitted as X-ray energy and that 0.25 of this energy is absorbed in the radiating disk region. Hence, 0.8 x 0.25 = 0.2 of the total yield is absorbed. For calculating the radiant exposure, the total yield $W$ in the equations in <a href="chapter7.html#§7.96" class="xref">§ 7.96</a> is consequently replaced by $0.2 W$. Furthermore, the equivalent of the thermal partition is called the “thermal efficiency,” &epsilon;, defined as the effective fraction of the absorbed energy that is reradiated. Hence equation (7.96.3), for example, becomes</p>
+
+\[
+Q (\text{cal/cm}^2) = \frac{17.1 \; \epsilon \; W\tau}{D^2} \;,
+\]
+
+<p>where $D$ in kilofeet is determined in accordance with the conditions described in the preceding paragraph. The values of &epsilon; given in Fig. 7.104 as a function of height of burst and yield were obtained by theoretical calculations.<sup>6</sup> The transmittance may be estimated from Fig. 7.98 but no serious error would be involved by setting it equal to unity for the large burst heights involved.</p>
 
 <figure>
 <img src="figures/fig07-104.png" alt="">
@@ -524,12 +603,7 @@ where D in kilofeet is determined in accordance with the conditions described in
 </figcaption>
 </figure>
 
-<p id="§7.105"><strong>7.105</strong> With the information given above, it is possible to utilize the equations in <a href="chapter7.html#§7.96" class="xref">§ 7.96</a> to calculate the approximate radiant exposure, Q, for points on the earth’s surface at a given distance, d, from ground zero, for a prescribed height of burst, H, for explosions of essentially all burst altitudes. If d and H are specified, the appropriate slant range can be determined. Tables 7.88 and</p>
-
-
-•The calculations are actually for the fraction of the absorbed X-ray energy reradiated within 10 seconds; for estimating effects on the ground, the subsequent reradiation can be neglected.
-•
-7. JOI and Fig. 7.104 are used to obtain the required thermal partition or thermal efficiency, and the transmittance can be estimated from Fig. 7.98 for the known d and H. Suppose, however, it is required to reverse the calculations and to find the slant range to a surface target (or the corresponding distance from ground zero for a specified height of burst) at which a particular value of Q will be attained. The situation is then much more difficult because T can be estimated only when the slant range or distance from ground zero is known. One approach would be to prepare figures like Fig. 7.42 for several heights of burst and to interpolate among them for any over burst height. Another possibility is to make use of an <span class="sic">interation</span> procedure by guessing a value of T, e.g., T = 1, to determine a first approximation to D. With this value of D and the known height of burst, an improved estimate of T can be obtained from Fig. 7.98. This is then utilized to derive a better approximation to D, and so on until convergence is attained.
+<p id="§7.105"><strong>7.105</strong> With the information given above, it is possible to utilize the equations in <a href="chapter7.html#§7.96" class="xref">§ 7.96</a> to calculate the approximate radiant exposure, $Q$, for points on the earth’s surface at a given distance, $d$, from ground zero, for a prescribed height of burst, $H$, for explosions of essentially all burst altitudes. If $d$ and $H$ are specified, the appropriate slant range can be determined. Tables 7.88 and 7.101 and Fig. 7.104 are used to obtain the required thermal partition or thermal efficiency, and the transmittance can be estimated from Fig. 7.98 for the known $d$ and $H$. Suppose, however, it is required to reverse the calculations and to find the slant range to a surface target (or the corresponding distance from ground zero for a specified height of burst) at which a particular value of $Q$ will be attained. The situation is then much more difficult because &tau; can be estimated only when the slant range or distance from ground zero is known. One approach would be to prepare figures like Fig. 7.42 for several heights of burst and to interpolate among them for any over burst height. Another possibility is to make use of an <span class="sic">interation</span> procedure by guessing a value of &tau;, e.g., &tau; = 1, to determine a first approximation to $D$. With this value of $D$ and the known height of burst, an improved estimate of &tau; can be obtained from Fig. 7.98. This is then utilized to derive a better approximation to $D$, and so on until convergence is attained.</p>
 
 </section>
 
@@ -568,7 +642,8 @@ where D in kilofeet is determined in accordance with the conditions described in
 <li><sup>2</sup> The thermal radiation energy incident on the front of the house referred to in <a href="chapter7.html#§7.28" class="xref">§ 7.28</a> was about 25 cal/cm<sup>2</sup>.</li>
 <li><sup>3</sup> The effects of thermal radiations on people in Japan are described in <a href="chapterXII.html">Chapter XII</a>.</li>
 <li><sup>4</sup> The remaining sections of this chapter may be omitted without loss of continuity.</li>
-<li><sup>5</sup> Scattered radiation does not cause permanent damage to the retina of the eye. Hence, to determine the effective radiant exposure in this connection equation (7.94.1) should be used; K is about 0.03 km-1 for a visibility of 80 km (50 miles), 0.1 km-1 for 40 km (25 miles) and 0.2 km-1 for 20 km (12.4 miles). Scattered radiation can, however, contribute to flashblindness, resulting from the dazzling effect of bright light (<a href="chapter12.html#§12.83" class="xref">§ 12.83</a>).</li>
+<li><sup>5</sup> Scattered radiation does not cause permanent damage to the retina of the eye. Hence, to determine the effective radiant exposure in this connection equation (7.94.1) should be used; &kappa; is about 0.03 km<sup>-1</sup> for a visibility of 80 km (50 miles), 0.1 km<sup>-1</sup> for 40 km (25 miles) and 0.2 km<sup>-1</sup> for 20 km (12.4 miles). Scattered radiation can, however, contribute to flashblindness, resulting from the dazzling effect of bright light (<a href="chapter12.html#§12.83" class="xref">§ 12.83</a>).</li>
+<li><sup>6</sup>The calculations are actually for the fraction of the absorbed X-ray energy reradiated within 10 seconds; for estimating effects on the ground, the subsequent reradiation can be neglected.</li>
 </ol>
 
 </section>
