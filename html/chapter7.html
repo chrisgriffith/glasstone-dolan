@@ -403,7 +403,6 @@ P = 1.59 \times 10^{-8} T^4R^2 \text{ cal/sec}
 </figcaption>
 </figure>
 
-
 <h3>THERMAL ENERGY FROM AN AIR BURST</h3>
 <p id="§7.85"><strong>7.85</strong> In order to make the power time curve specific for any particular explosion energy yield, it is necessary to know the appropriate values of $P_{max}$ and $t_{max}$ Theoretically, these quantities should depend on the air density, but experimental evidence indicates that the dependence is small for air bursts at altitudes below 15,000 feet; in this altitude range, $P_{max}$ and $t_{max}$ are related approximately to the yield, $W$ kilotons, in the following manner:</p>
 
@@ -430,6 +429,78 @@ t_{max} = 0.038 \; W^{0.44} \left[ \rho(h)/\rho_0 \right]^{0.36} \text{ sec.}
 <figcaption>Table 7.85</figcaption>
 (large table TK)
 </figure>
+
+<aside>
+
+<p>The curves in Fig. 7.84 show the variation with the scaled time $T/t_{max} of the scaled fireball power, PIPm.. (left ordinate) and of the percent of the total thermal energy emitted, ElE,oI (right ordinate), in the thermal pulse of an air burst.</p>
+<p><em>Scaling.</em> In order to apply the data in Fig. 7.84 to an explosion of any yield, $W$ kilotons, the following expressions are used for bursts below
+15,000 feet:</p>
+
+\[
+\begin{aligned}
+P_{max} &\approx 3.18 \; W^{0.56} \text{ kilotons/sec.}\\
+\\
+t_{max} &\approx 0.0417 \; W^{0.44} \text{ sec.}
+\end{aligned}
+\]
+
+<p>For bursts above 15,000 feet, the following expressions are used:</p>
+
+\[
+\begin{aligned}
+P_{max} &= \frac{3.56 \; W^{0.59}}{[\rho(h)/\rho_0]^{0.45}} \text{ kilotons/sec.}\\
+\\
+t_{max} &= 0.038 \; W^{0.44}[\rho(h)/\rho_0]^{0.36} \text{ sec.}
+\end{aligned}
+\]
+
+<p>In all cases $E_{tot} = fW$.</p>
+<p>In these expressions $t_{max}$ is the time after the explosion for the temperature maximum in the second thermal pulse, $P_{max}$ is the maximum rate (at $t_{max}$) of emission of thermal energy from the fireball, $E_{tot}$ is the total thermal energy emitted by the fireball, $f$ is the thermal partition (Table 7.88), and $\rho(h)/\rho_0$ is ratio of the ambient air density at burst altitude to that at sea level (Table 7.85).</p>
+
+<h4>Example</h4>
+
+<p><em>Given:</em> A 500 KT burst at 5,000 feet altitude</p>
+<p><em>Find:</em> (<i>a</i>) The rate of emission of thermal energy, (<i>b</i>) the total amount of thermal energy emitted, at 1 second after the explosion.</p>
+<p><em>Solution:</em> Since the explosion is below 15,000 feet,
+$t_{max} = 0.0417 \times (500)^{0.44} = 0.64$ sec, and the normalized time at 1 sec after the explosion is</p>
+
+\[
+\frac{t}{t_{max}} = \frac{1}{0.64} = 1.56.
+\]
+
+<p>(<i>a</i>) From Fig. 7.84, the value of $P/P_{max}$ at this scaled time is 0.59, and since</p>
+
+\[
+P_{max} = 3.18 \times (500)^{0.56} = 103 \text{ kilotons/sec},
+\]
+
+<p>it follows that</p>
+
+\[
+\begin{aligned}
+P &= 0.59 \times 103 = 60.8 \text{ kilotons/sec}\\
+  &= 60.8 \times 10^{12} \text{ cal/sec.} \;\; \textit{Answer.}
+\end{aligned}
+\]
+
+<p>(<i>b</i>). For a yield of 500 KT and a burst altitude of 5,000 feet, $f(=E_{tot}/W)$ is found from Table 7.88 to be about 0.35; hence,</p>
+
+\[
+E_{tot} = 500 \times 0.35 = 175 \text{ kilotons.}
+\]
+
+<p>At the scaled time of 1.56, the value of $E/E_{tot}$ from Fig. 7.84 is 40 percent, i.e., 0.40, so that</p>
+
+\[
+\begin{aligned}
+E &= 0.40 \times 175 = 70 \text{ kilotons}\\
+ &= 70 \times 10^{12} \text{ cal.} \;\; \textit{Answer.}
+\end{aligned}
+\]
+
+<p><em>Reliability:</em> For bursts below 15,000 feet, the data in Table 7.88 together with the curves in Fig. 7.84 are accurate to within about ± 25 percent. For bursts between 15,000 and 100,000 feet, the accuracy is probably within ± 50 percent. Explosions above 100,000 feet are described in § 7.89 <i>et seq.</i></p>
+
+</aside>
 
 <p id="§7.86"><strong>7.86</strong> The thermal power curve in Fig. 7.84 (left scale) presents some features of special interest. As is to be expected, the thermal power (or rate of emission of radiant energy) of the fire ball rises to a maximum, just as does the temperature in the second radiation pulse. However, since the thermal power is roughly proportional to $T^4$, it increases and decreases much more rapidly than does the temperature. This accounts for the sharp rise to the maximum in the $P/P_{max}$ curve, followed by a somewhat less sharp drop which tapers off as the fireball approaches its final stages. The amount of thermal energy, $E$, emitted by the fireball in an air burst up to any specified time can be obtained from the area under the curve of $P/P_{max}$ versus $t/t_{max}$ up to that time. The results, expressed as $E/E_{tot}$ (percent) versus $t/t_{max}$, are shown by the second curve (right scale) in Fig. 7.84, where $E_{tot}$ is the total thermal energy emitted by the fireball. It is seen that at a time equal to 10 $t_{max}$ about 80 percent of the thermal energy will have been emitted; hence this time may be taken as a rough measure of the effective duration of the thermal pulse for an air burst. Since $t_{max}$ increases with the explosion energy yield, so also does the pulse length.</p>
 <p id="§7.87"><strong>7.87</strong> The fact that the thermal pulse length increases with the weapon yield has a bearing on the possibility of people taking evasive action against thermal radiation. Evasive action is expected to have greater relative effectiveness for explosions of higher than lower yield because of the longer thermal pulse duration. The situation is indicated in another way in Fig. 7.87, which shows the thermal energy emission as a function of actual time, rather than of $t/t_{max}$ for four different explosion energy yields. The data were derived from the corresponding curve in Fig. 7.84 by using the appropriate calculated value of $t_{max}$ for each yield. At the lower energy yields the thermal radiation is emitted in such a short time that no evasive action is possible. At the higher yields, however, exposure to much of the thermal radiation could be avoided if evasive action were taken within a fraction of a second of the explosion time. It must be remembered, of course, that even during this short period a very considerable amount of thermal energy will have been emitted from an explosion of high yield.</p>
