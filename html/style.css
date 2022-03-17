@@ -23,6 +23,12 @@ main h4 {
     margin-block: 1em 0.25em;
 }
 
+dt {
+	margin-inline-start: 1em;
+	margin-block: 1.5em 0.75em;
+	font-style: italic;
+}
+
 p {
     margin: 0;
     padding: 0.25em 0;
@@ -70,6 +76,10 @@ main aside figure {
 }
 main aside em {
     margin-inline-end: 1ch;
+}
+
+.double {
+	columns: 2;
 }
 
 section.biblio > ol {
@@ -147,6 +157,17 @@ figure.numbered.equation figcaption {
 
 /* Table figures */
 
+figure.table {
+	margin-inline: auto;
+	max-width: 95%;
+}
+figure.wide.table {
+	margin-block: 3em;
+}
+figure.wide.table table {
+	margin-inline: calc((90vw - min(90vw,42em)) / -2);
+}
+
 figure.table figcaption, figure.table caption {
     font-weight: 600;
 }
@@ -159,12 +180,14 @@ figure.table figcaption + figcaption {
 }
 figure.table table {
     margin-inline: auto;
-    border-spacing: 2em 0;
+    border-spacing: 1em 0;
+    padding-block: 0.5em;
 }
 figure.table thead th {
     font-weight: normal;
+    padding-block: 0.25em 0.5em;
 }
-figure.table tbody th {
+figure.table :is(tbody, tbody[class]) th {
     font-weight: normal;
     text-align: left;
 }
@@ -174,25 +197,55 @@ figure.table thead th:not(:empty) {
 figure.table :is(tbody,tfoot) th {
     text-align: left;
 }
-figure.table tr:first-child > * {
-    padding-top: 0.5em;
+figure.table tbody tr:first-child > * {
+    padding-block-start: 0.5em;
 }
-figure.table tr:last-child > * {
-    padding-bottom: 0.5em;
+figure.table tbody tr:last-child > * {
+    padding-block-end: 0.5em;
 }
 figure.table :is(td,th) {
     padding-inline: 0.5em;
+    vertical-align: center;
+}
+figure.table thead th {
+	vertical-align: bottom;
 }
 figure.table tbody :is(td, th) {
-    vertical-align: bottom;
     padding-inline-start: 1.5em;
     text-indent: -1em;
     line-height: 1.1;
+}
+figure.table .upper {
+	vertical-align: top;
+}
+figure.table .lower {
+	vertical-align: bottom;
+}
+figure.table .text {
+	padding-block: 0.5em;
+}
+figure.table .left {
+	text-align: left;
+}
+figure.table .flush :is(th, td) {
+	text-indent: 0;
+	padding-inline-start: 0;
+}
+figure.table .right {
+	text-align: right;
+}
+figure.table .center {
+	text-align: center;
 }
 figure.table td.sum {
     border-top: 1px solid;
 }
 figure.table ul {
+    margin: 0;
+    padding: 0;
     text-align: left;
     list-style: none;
+}
+figure.table ul ul {
+	padding-inline-start: 2.5em;
 }
