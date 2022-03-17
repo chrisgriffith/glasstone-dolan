@@ -23,6 +23,12 @@ main h4 {
     margin-block: 1em 0.25em;
 }
 
+dt {
+	margin-inline-start: 1em;
+	margin-block: 1.5em 0.75em;
+	font-style: italic;
+}
+
 p {
     margin: 0;
     padding: 0.25em 0;
@@ -70,6 +76,10 @@ main aside figure {
 }
 main aside em {
     margin-inline-end: 1ch;
+}
+
+.double {
+	columns: 2;
 }
 
 section.biblio > ol {
@@ -177,7 +187,7 @@ figure.table thead th {
     font-weight: normal;
     padding-block: 0.25em 0.5em;
 }
-figure.table tbody th {
+figure.table :is(tbody, tbody[class]) th {
     font-weight: normal;
     text-align: left;
 }
@@ -205,27 +215,27 @@ figure.table tbody :is(td, th) {
     text-indent: -1em;
     line-height: 1.1;
 }
-figure.table .upper :is(td, th) {
+figure.table .upper {
 	vertical-align: top;
 }
-figure.table .lower :is(td, th) {
+figure.table .lower {
 	vertical-align: bottom;
 }
-figure.table .text :is(td, th) {
+figure.table .text {
 	padding-block: 0.5em;
 }
-figure.table .left :is(td, th) {
+figure.table .left {
 	text-align: left;
 }
-figure.table .flush :is(td, th) {
+figure.table .flush :is(th, td) {
 	text-indent: 0;
 	padding-inline-start: 0;
 }
-figure.table .center :is(td, th) {
-	text-align: center;
-}
-figure.table .right :is(td, th) {
+figure.table .right {
 	text-align: right;
+}
+figure.table .center {
+	text-align: center;
 }
 figure.table td.sum {
     border-top: 1px solid;
@@ -235,4 +245,7 @@ figure.table ul {
     padding: 0;
     text-align: left;
     list-style: none;
+}
+figure.table ul ul {
+	padding-inline-start: 2.5em;
 }
