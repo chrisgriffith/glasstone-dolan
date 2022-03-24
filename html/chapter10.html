@@ -441,86 +441,138 @@
 			<h2>TECHNICAL ASPECTS OF RADIO AND RADAR EFFECTS <sup>3</sup></h2>
 
 			<h3>DENSITY OF THE ATMOSPHERE AND ALTITUDE</h3>
-			<p id="§10.123"><strong>10.123</strong> The decrease in density of the atmosphere with increasing altitude can be represented approximately by the equation
-				p (h) = Poe-hlHp g cm-3, (10.123.1)
-				where p (h) and p0 are the densities, in g/cm<sup>3</sup> at height h and at sea level, respectively, and HP is called the scale height; h and HP must be expressed in the same units of length, e.g., miles. Because both temperature and composition of the air change with altitude, the scale height is not actually a constant. However, below about 60 miles, use of a constant density scale height of 4.3 miles in equation (10.123.1) gives a fairly good representation of the change in atmospheric density with altitude. For higher altitudes the density scale height increases, i.e., the density varies more slowly with altitude, but since altitudes below 60 miles are of primary interest for the present purpose, the simple exponential relationships with constant scale height will be employed.</p>
-			<p id="§10.124"><strong>10.124</strong> By setting Hp in equation
-				(10.123.1) equal to 4.3 miles, the result
-				is
-				(10.124.l)
-				and this expression, with h in miles, will be used later. If the base of the exponent is changed from e to 10, where
-				e = 10<sup>-2.3</sup>, then
-				p (h) = p lQ-W43 x 2.J = p to-wrn
+			<p id="§10.123"><strong>10.123</strong> The decrease in density of the atmosphere with increasing altitude can be represented approximately by the equation</p>
 
-				It follows, therefore, that in the altitude range of interest, the density of the atmosphere decreases approximately by a factor of 10 for every 10 miles increase in altitude. Thus, at an altitude of 40 miles the air density is about 10<sup>-4</sup> and at 60 miles roughly 10<sup>-6</sup> of the sea-level density.
+<figure class="numbered equation">
+\[
+			\rho(h) \;\approx\; \rho_0 e^{-h/H_\rho} \text{ g cm}^{-3},
+\]
+<figcaption>(10.123.1)</figcaption>
+</figure>
+
+			<p>where $\rho(h)$ and $\rho_0$ are the densities, in g/cm<sup>3</sup> at height $h$ and at sea level, respectively, and $H_\rho$ is called the scale height; $h$ and $H_\rho$ must be expressed in the same units of length, e.g., miles. Because both temperature and composition of the air change with altitude, the scale height is not actually a constant. However, below about 60 miles, use of a constant density scale height of 4.3 miles in equation (10.123.1) gives a fairly good representation of the change in atmospheric density with altitude. For higher altitudes the density scale height increases, i.e., the density varies more slowly with altitude, but since altitudes below 60 miles are of primary interest for the present purpose, the simple exponential relationships with constant scale height will be employed.</p>
+			<p id="§10.124"><strong>10.124</strong> By setting Hp in equation (10.123.1) equal to 4.3 miles, the result is</p>
+
+<figure class="numbered equation">
+\[
+\rho (h) \;\approx\; \rho_0 e^{-h/4.3}
+\]
+<figcaption>(10.124.1)</figcaption>
+</figure>
+
+			<p>and this expression, with h in miles, will be used later. If the base of the exponent is changed from e to 10, where e = 10<sup>-2.3</sup>, then</p>
+
+\[
+\rho (h) \;\approx\; \rho_0 l0^{-W43 \times 2.3} \;\approx\; \rho_0 10^{-W10}
+\]
+
+			<p>It follows, therefore, that in the altitude range of interest, the density of the atmosphere decreases approximately by a factor of 10 for every 10 miles increase in altitude. Thus, at an altitude of 40 miles the air density is about 10<sup>-4</sup> and at 60 miles roughly 10<sup>-6</sup> of the sea-level density.</p>
 
 			<h3>ATTENUATION AND REFRACTION OF ELECTROMAGNETIC WAVES</h3>
 			<p id="§10.125"><strong>10.125</strong> The propagation of electromagnetic waves of a given frequency through a medium can be described in terms of a "complex" index of refraction, consisting of a real part and an imaginary part. The real part is a phase factor which determines the phase shift and ordinary index of refraction, i.e., the ratio of the phase velocity of the electromagnetic waves in a vacuum to that in the given medium. The imaginary part, on the other hand, is related to the attenuation of the waves by absorption in the medium. From the equations of motion of electromagnetic waves, it is possible to derive expressions for the index of refraction and for the attenuation in an ionized medium. Appropriate forms of these expressions are given and discussed below, with special reference to the effects of nuclear explosions on the ionization of the atmosphere.</p>
-			<p id="§10.126"><strong>10.126</strong> Attenuation of electromagnetic (and other) signals is commonly stated in terms of decibels; thus,
-				Attenuation in decibels = 10 log t-" ,
-				where P is the signal power (or strength) before attenuation and P is that after attenuation. An attenuation of 10 decibels implies that the signal strength has been reduced to 10-1, 20 decibels to 10-2, 30 decibels to 10<sup>-3</sup>, and so on, of the original strength. A decrease of 20 to 40 decibels, depending on the original signal power and the noise level, will generally result in serious degradation of communications. As a rough guide, it may be taken that an attenuation of 30 decibels will reduce substantially the effectiveness of a radio or radar system.</p>
-			<p id="§10.127"><strong>10.127</strong> From the theory of the propagation of electromagnetic waves through an ionized medium, it is found that the signal attenuation, a, in decibels per mile of travel path, is given by
+			<p id="§10.126"><strong>10.126</strong> Attenuation of electromagnetic (and other) signals is commonly stated in terms of decibels; thus,</p>
 
+\[
+\text{Attenuation in decibels } = 10 \log \frac{ P_{\text{in}}}{ P_{\text{out}}},
+\]
+			<p>where $P_{\text{in}}$ is the signal power (or strength) before attenuation and $P_{\text{out}}$ is that after attenuation. An attenuation of 10 decibels implies that the signal strength has been reduced to 10<sup>-1</sup>, 20 decibels to 10<sup>-2</sup>, 30 decibels to 10<sup>-3</sup>, and so on, of the original strength. A decrease of 20 to 40 decibels, depending on the original signal power and the noise level, will generally result in serious degradation of communications. As a rough guide, it may be taken that an attenuation of 30 decibels will reduce substantially the effectiveness of a radio or radar system.</p>
+			<p id="§10.127"><strong>10.127</strong> From the theory of the propagation of electromagnetic waves through an ionized medium, it is found that the signal attenuation, a, in decibels per mile of travel path, is given by</p>
 
-				where N, is the electron density, i.e., number of electrons per cubic centimeter, v is the number of collisions per second which an electron makes with ions, molecules, or atoms, and w is the (angular) frequency of the wave (in radians per second). It follows from equation (10.127.1) that if the collision frequency v is small then, for a given wave frequency, a will be small because of the v in the numerator. On the other hand, if v is very large, a will again be small because of the v2 in the denominator. Thus, the attenuation passes through a maximum for a particular value of the electron collision frequency.</p>
+<figure class="numbered equation">
+\[
+a = 7.4 \times 10^4 \frac{N_e v}{\omega^2 + v^2}
+\]
+<figcaption>(10.127.1)</figcaption>
+</figure>
+
+			<p>where $N_e$ is the electron density, i.e., number of electrons per cubic centimeter, $v$ is the number of collisions per second which an electron makes with ions, molecules, or atoms, and $\omega$ is the (angular) frequency of the wave (in radians per second). It follows from equation (10.127.1) that if the collision frequency $v$ is small then, for a given wave frequency, $a$ will be small because of the $v$ in the numerator. On the other hand, if $v$ is very large, $a$ will again be small because of the $v^2$ in the denominator. Thus, the attenuation passes through a maximum for a particular value of the electron collision frequency.</p>
 			<p id="§10.128"><strong>10.128</strong> Since the collision frequency is proportional to the density of the air, it will decrease exponentially with altitude. It is to be expected, therefore, that the values of v for which attenuation of signals is important would occur only within a relatively narrow altitude region. Theoretical studies show that the attenuation of radio and radar signals caused by nuclear explosions occurs mainly within a 10-mile range centered about an altitude of 40 miles. Hence, by confining attention to the situation in the neighborhood of a 40 mile altitude, it is possible to avoid complexities and yet present a reasonably accurate picture of the effects of the burst on electromagnetic signals.</p>
 			<p id="§10.129"><strong>10.129</strong> There are two exceptions to the foregoing generalizations: (I) attenuation within or close to the fireball or debris regions, and (2) nighttime attenuation by ionization resulting from prompt radiation. In the former case, the altitude of the region of maximum attenuation is governed by the altitude and size of the fireball or debris region. In the second case, the altitude of peak attenuation is about 55 miles, but since the electron density due to delayed radiation is dominant at night after only a few seconds, the prompt ionization can be ignored. The present treatment will, therefore, be mainly concerned with the 10-mile range of the atmosphere centered at an altitude of 40 miles.</p>
-			<p id="§10.130"><strong>10.130</strong> For electromagnetic wave frequencies greater than about 10 megahertz, v2 at an altitude of 40 miles may be neglected in comparison with w2 in the denominator of equation (10.127.1); this equation then reduces
-				to
-				so that the attenuation (in decibels) is approximately proportional to the electron collision frequency. At 40 miles altitude, the latter is roughly 2 x 107 per second. Upon inserting this value for v in equation (10.130.1) and converting the wave frequency from radians per second to megahertz, the result is
+			<p id="§10.130"><strong>10.130</strong> For electromagnetic wave frequencies greater than about 10 megahertz, v2 at an altitude of 40 miles may be neglected in comparison with w2 in the denominator of equation (10.127.1); this equation then reduces to</p>
 
+<figure class="numbered equation">
+\[
+a = 7.4 \times 10^4 \frac{N_e v}{\omega^2} \text{ decibels per mile,}
+\]
+<figcaption>(10.130.1)</figcaption>
+</figure>
+			
+			<p>so that the attenuation (in decibels) is approximately proportional to the electron collision frequency. At 40 miles altitude, the latter is roughly 2 x 10<sup>7</sup> per second. Upon inserting this value for $v$ in equation (10.130.1) and converting the wave frequency from radians per second to megahertz, the result is</p>
 
-				where / is the wave frequency in megahertz, i.e., J0-6w/2,r. If the signal beam has an angle of incidence i, referred to the vertical, and the ionized region is 10 miles thick, the total attenuation, A, is
+\[
+a = 4 \times 10^{-2} \frac{N_e}{f^2} \text{ decibels per mile,}
+\]
 
+			<p>where $f$ is the wave frequency in megahertz, i.e., $10^{-6} \omega/2\pi$. If the signal beam has an angle of incidence $i$, referred to the vertical, and the ionized region is 10 miles thick, the total attenuation, $A$, is</p>
 
-				for frequencies greater than about 10 megahertz.</p>
-			<p id="§10.131"><strong>10.131</strong> The collision frequency used above is for electron collisions with neutral particles, since these pre-dominate at 40 miles altitude. For electron densities greater than about 109 electrons/cm<sup>3</sup>, collisions of electrons with ions can be important, particularly within a fireball at or above 60 miles altitude, where the neutral particle density is low and electron-neutral collision frequencies are small. But for attenuation of electromagnetic signals in the D-region at some distance from the fireball, equation (10.130.2) is applicable.</p>
+<figure class="numbered equation">
+\[
+A = 0.4 \frac{N_e}{f^2} \text{ sec } i \text{ decibels,}
+\]
+<figcaption>(10.130.2)</figcaption>
+</figure>
 
-
-			</p>
-			<p id="§10.132"><strong>10.132</strong> For operational HF circuits, the value of sec 1 is about 5 under normal conditions. It follows then from
-
-
-				equation ( 10.130.2) that, for a frequency of 10 megahertz, a 10-mile thick layer with an electron density of about
-				1.5 x 10<sup>3</sup> electrons/cm<sup>3</sup> at 40 miles altitude will produce 30 decibels of signal attenuation. For a frequency of 30 megahertz, the same attenuation will result from an electron density of about 1.4 x 10<sup>4</sup> electrons/cm<sup>3</sup>. These electron densities may be taken as indicative of the values required to degrade HF systems. Since radars usually operate at frequencies greater than 30 megahertz
-
-				Since electron densities are not known very accurately, this result may be approximated to
-				(10.133.2)</p>
-			<p id="§10.134"><strong>10.134</strong> If an electromagnetic wave crosses a plane interface where the index of refraction changes sharply from 1 to n, a beam will be bent by an amount given by the familiar Snell's law, i.e.,
-
-				and sec i generally will be less than 5,
-				densities exceeding 105 electrons/cm<sup>3</sup> are necessary to cause serious attenuation when the signals pass through the D-region of the ionosphere.</p>
-			<p id="§10.133"><strong>10.133</strong> Consideration will now be given to the phase aspects of the propagation of electromagnetic waves through an ionized medium. Provided the electron collision frequency, v, is small in comparison with the wave frequency, w, as has been assumed above, the ordinary (real) index of refraction, n, is given by
-
-				where i is the angle of incidence and r the angle of refraction. If the index of refraction is such that n = sin i, then
-				sin r = l, i.e., r = 90°, and critical
-				reflection occurs; the refraction is so large that the signal is unable to penetrate the medium. The condition for critical reflection by an ionized medium is obtained by setting n in equation (10.133.2) equal to sin i; the result obtained is
-
-				For reflection of an electromagnetic signal encountering a given ionized medium, with electron density N,, the fre
-
-				where e is the charge (4.8 x 10-10 electrostatic unit) and m is the mass (9.1 x 10<sup>-28</sup> gram) of the electron, and
-
-				quency must be less than that expressed by equation (10.134.l). Alternatively, for reflection of a signal of specified
-				frequency /, the electron density of the ionized medium must be greater than that given by this equation.4</p>
-			<p id="§10.135"><strong>10.135</strong> As in <a href="chapter1.html#§1.132" class="xref">§ 10.132</a>, sec i may be taken to be about 5 for an operational HF system. Hence, for a signal of 5 megahertz, at the lower end of the band, to be reflected, the electron density must exceed 10<sup>4</sup> electrons/cm<sup>3</sup>. For a frequency of 30 megahertz, the minimum density for reflection is 3.6 x 105 electrons/cm<sup>3</sup>. These densities are normally attained in the E- and F-regions of the ionosphere, respectively. A change in the electron density arising from the effects of a nuclear explosion can alter the altitude at which an electromagnetic wave is reflected and can consequently affect communications systems, as seen earlier in this chapter.</p>
-			<p id="§10.136"><strong>10.136</strong> Equation (10.134.1) is applicable only when a nonionized medium is separated from an ionized one by a sharp boundary at which the change in refractive index, from 1 to n, occurs over a distance small in comparison to a wavelength at the propagation frequency. This condition does not exist either in the normal ionosphere or after it has been disturbed by a nuclear detonation. The refractive index does not change sharply and there is a gradual bending of the transmitted wave. In such situations, both the electron density and its gradient determine the phase (refraction) effects.</p>
-			<p id="§10.137"><strong>10.137</strong> When the quantity N,IP. is
-				sufficiently large, electromagnetic waves can be both attenuated and refracted by the ionized medium. The effect that predominates depends on the ratio of the electron density gradient to the electron collision frequency. If this ratio is large, then the wave will be refracted, but if it is small the main effect will be attenuation. In most circumstances associated with a nuclear explosion, attenuation around 40 miles altitude predominates. At altitudes above about 60 miles, however, where the collision frequency is small and the electron density gradient moderately large, refraction may be important. Also, near the fireball but outside the absorbing region, refraction of electromagnetic. waves up to high frequencies, such as radar signals, is possible (<a href="chapter10.html#§10.37" class="xref">§ 10.37</a>). Although the collision frequency is large, the high electron density gradient is here the dominant factor. Within the fireball itself, however, electromagnetic waves are always strongly absorbed.
-
-
-				•The quantity 10-2-VN, megahertz or, more exactly, (4-rrN,&.lm)½ radians per second, is called the "critical frequency" or "plasma frequency" of an ionized medium, i.e., a plasma. It is the frequency for which the index of refraction of the given medium is zero. It is also the lowest frequency of an electromagnetic wave that can penetrate into the medium, and then only for normal incidence, i.e., for
-				j = 0.</p>
-
+			<p>for frequencies greater than about 10 megahertz.</p>
+			<p id="§10.131"><strong>10.131</strong> The collision frequency used above is for electron collisions with neutral particles, since these pre-dominate at 40 miles altitude. For electron densities greater than about 10<sup>9</sup> electrons/cm<sup>3</sup>, collisions of electrons with ions can be important, particularly within a fireball at or above 60 miles altitude, where the neutral particle density is low and electron-neutral collision frequencies are small. But for attenuation of electromagnetic signals in the D-region at some distance from the fireball, equation (10.130.2) is applicable.</p>
 
 
 			</p>
+			<p id="§10.132"><strong>10.132</strong> For operational HF circuits, the value of sec 1 is about 5 under normal conditions. It follows then from	equation (10.130.2) that, for a frequency of 10 megahertz, a 10-mile thick layer with an electron density of about 1.5 &times; 10<sup>3</sup> electrons/cm<sup>3</sup> at 40 miles altitude will produce 30 decibels of signal attenuation. For a frequency of 30 megahertz, the same attenuation will result from an electron density of about 1.4 &times; 10<sup>4</sup> electrons/cm<sup>3</sup>. These electron densities may be taken as indicative of the values required to degrade HF systems. Since radars usually operate at frequencies greater than 30 megahertz and sec i generally will be less than 5, densities exceeding 105 electrons/cm<sup>3</sup> are necessary to cause serious attenuation when the signals pass through the D-region of the ionosphere.</p>
+			<p id="§10.133"><strong>10.133</strong> Consideration will now be given to the phase aspects of the propagation of electromagnetic waves through an ionized medium. Provided the electron collision frequency, v, is small in comparison with the wave frequency, w, as has been assumed above, the ordinary (real) index of refraction, n, is given by</p>
+
+<figure class="numbered equation">
+\[
+n = \left( 1 - \frac{4\pi N_e e^2}{m \omega^2} \right)^{1/2} = \left( 1 - \frac{10^{-12} N_e e^2}{\pi\; m f^2} \right)^{1/2}
+\]
+<figcaption>(10.133.1)</figcaption>
+</figure>
+
+			<p>where $e$ is the charge (4.8 x 10<sup>-10</sup> electrostatic unit) and $m$ is the mass (9.1 x 10<sup>-28</sup> gram) of the electron, and $f$ is the wave frequency in megahertz. Upon inserting the numerical values for $e$ and $m$, it is found that</p>
+\[
+n = \left( 1 - \frac{0.8 N_e}{10^4 f^2} \right)^{1/2}
+\]
+
+			<p>Since electron densities are not known very accurately, this result may be approximated to</p>
+
+
+<figure class="numbered equation">
+\[
+n \approx \left( 1 - \frac{N_e}{10^4 f^2} \right)^{1/2}
+\]
+<figcaption>(10.133.2)</figcaption>
+</figure>
+
+			<p id="§10.134"><strong>10.134</strong> If an electromagnetic wave crosses a plane interface where the index of refraction changes sharply from 1 to $n$, a beam will be bent by an amount given by the familiar Snell's law, i.e.,</p>
+
+\[
+\frac{\sin i}{\sin r} = n,
+\]
+
+			<p>where $i$ is the angle of incidence and $r$ the angle of refraction. If the index of refraction is such that $n = \sin i$, then $\sin r = l$, i.e., $r$ = 90°, and critical reflection occurs; the refraction is so large that the signal is unable to penetrate the medium. The condition for critical reflection by an ionized medium is obtained by setting n in equation (10.133.2) equal to $\sin i$; the result obtained is</p>
+
+<figure class="numbered equation">
+\[
+f \approx 10^{-2} \sqrt N_e \text{ sec } i \text{ (for critical reflection). }
+\]
+<figcaption>(10.134.1)</figcaption>
+</figure>
+
+			<p>For reflection of an electromagnetic signal encountering a given ionized medium, with electron density $N_e$, the frequency must be less than that expressed by equation (10.134.1). Alternatively, for reflection of a signal of specified frequency $f$, the electron density of the ionized medium must be greater than that given by this equation.<sup>4</sup></p>
+			<p id="§10.135"><strong>10.135</strong> As in <a href="chapter1.html#§1.132" class="xref">§ 10.132</a>, sec i may be taken to be about 5 for an operational HF system. Hence, for a signal of 5 megahertz, at the lower end of the band, to be reflected, the electron density must exceed 10<sup>4</sup> electrons/cm<sup>3</sup>. For a frequency of 30 megahertz, the minimum density for reflection is 3.6 &times; 10<sup>5</sup> electrons/cm<sup>3</sup>. These densities are normally attained in the E- and F-regions of the ionosphere, respectively. A change in the electron density arising from the effects of a nuclear explosion can alter the altitude at which an electromagnetic wave is reflected and can consequently affect communications systems, as seen earlier in this chapter.</p>
+			<p id="§10.136"><strong>10.136</strong> Equation (10.134.1) is applicable only when a nonionized medium is separated from an ionized one by a sharp boundary at which the change in refractive index, from 1 to $n$, occurs over a distance small in comparison to a wavelength at the propagation frequency. This condition does not exist either in the normal ionosphere or after it has been disturbed by a nuclear detonation. The refractive index does not change sharply and there is a gradual bending of the transmitted wave. In such situations, both the electron density and its gradient determine the phase (refraction) effects.</p>
+			<p id="§10.137"><strong>10.137</strong> When the quantity $N_e/f^2$ is sufficiently large, electromagnetic waves can be both attenuated and refracted by the ionized medium. The effect that predominates depends on the ratio of the electron density gradient to the electron collision frequency. If this ratio is large, then the wave will be refracted, but if it is small the main effect will be attenuation. In most circumstances associated with a nuclear explosion, attenuation around 40 miles altitude predominates. At altitudes above about 60 miles, however, where the collision frequency is small and the electron density gradient moderately large, refraction may be important. Also, near the fireball but outside the absorbing region, refraction of electromagnetic. waves up to high frequencies, such as radar signals, is possible (<a href="chapter10.html#§10.37" class="xref">§ 10.37</a>). Although the collision frequency is large, the high electron density gradient is here the dominant factor. Within the fireball itself, however, electromagnetic waves are always strongly absorbed.</p>
 
 			<h3>ELECTRON PRODUCTION BY PROMPT RADIATIONS</h3>
-			<p id="§10.138"><strong>10.138</strong> Consider a nuclear explosion of W kilotons yield and let k be the fraction of the yield radiated at a particular energy, i.e., as monochromatic radiation. For a point source of such radiation, assuming negligible scattering and no reradiation, the energy deposited (or absorbed) per unit volume of air, E0,
+			<p id="§10.138"><strong>10.138</strong> Consider a nuclear explosion of $W$ kilotons yield and let $k$ be the fraction of the yield radiated at a particular energy, i.e., as monochromatic radiation. For a point source of such radiation, assuming negligible scattering and no reradiation, the energy deposited (or absorbed) per unit volume of air, $E_D$, at an "observation" point at a slant distance $D$ from the explosion is</p>
 
+<figure class="numbered equation">
+\[
+E_D = \frac{kW}{4 \pi D^2} \rho \mu_m e^{-\mu_M M},
+\]
+<figcaption>(10.138.1)</figcaption>
+</figure>
 
-				at an "observation" point at a slant distance D from the explosion is
-				where p is the air density at the observation altitude, µ., is the mass (energy) absorption coefficient in air of the given radiation,5 and M is the penetration mass, i.e., the mass of air per unit area between the radiation source and the observation point. This equation may be used for all forms of prompt radiation, using the appropriate value of k given in Table 10.138. The fraction of the energy radiated as prompt gamma rays is small and its contribution to the electron density is generally less than the for other radiations. If the energy deposited in the air is reradiated or if the source photons or neutrons are scattered and follow a random path before depositing all their energy, equation (10.138.l) must be modified (<a href="chapter10.html#§10.142" class="xref">§ 10.142</a>).</p>
+			<p>where $\rho$ is the air density at the observation altitude, $\mu_m$, is the mass (energy) absorption coefficient in air of the given radiation,<sup>5</sup> and $M$ is the penetration mass, i.e., the mass of air per unit area between the radiation source and the observation point. This equation may be used for all forms of prompt radiation, using the appropriate value of $k$ given in Table 10.138. The fraction of the energy radiated as prompt gamma rays is small and its contribution to the electron density is generally less than the for other radiations. If the energy deposited in the air is reradiated or if the source photons or neutrons are scattered and follow a random path before depositing all their energy, equation (10.138.1) must be modified (<a href="chapter10.html#§10.142" class="xref">§ 10.142</a>).</p>
 
 <figure class="table">
 <figcaption>Table 10.138</figcaption>
