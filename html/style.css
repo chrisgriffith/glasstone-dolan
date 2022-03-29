@@ -142,6 +142,9 @@ figure figcaption {
     text-align: justify;
     text-align-last: center;
 }
+figure p {
+	text-indent: 0;
+}
 
 /* Equation figures */
 
@@ -167,7 +170,6 @@ figure.wide.table {
 figure.wide.table table {
 	margin-inline: calc((90vw - min(90vw,42em)) / -2);
 }
-
 figure.table figcaption, figure.table caption {
     font-weight: 600;
 }
@@ -218,6 +220,9 @@ figure.table tbody :is(td, th) {
 figure.table .upper {
 	vertical-align: top;
 }
+figure.table .middle {
+	vertical-align: middle;
+}
 figure.table .lower {
 	vertical-align: bottom;
 }
@@ -248,4 +253,53 @@ figure.table ul {
 }
 figure.table ul ul {
 	padding-inline-start: 2.5em;
+}
+
+figure.table table.bordered {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-block: 1px solid;
+}
+figure.table table.bordered caption {
+	padding-block: 1em 2em;
+}
+figure.table table.bordered :is(td, th) {
+    border-inline: 1px solid;
+    padding-block: 0.5em;
+}
+figure.table table.bordered tr > :is(th, td):first-child {
+    border-inline-start: 0;
+    padding-inline-start: 1.1em;
+}
+figure.table table.bordered tr > :is(th, td):not(:first-child) {
+    text-indent: 0;
+    padding: 0.75em;
+}
+figure.table table.bordered tr.subrow > :is(th, td) {
+	padding-block: 0 0.125em;
+}
+figure.table table.bordered tr.subrow > :first-child {
+	padding-inline-start: 2em;
+}
+figure.table table.bordered tr.subrow + tr.subrow > :is(th, td) {
+	padding-block-end: 0.5em;
+}
+figure.table table.bordered tr > :is(th, td):last-child {
+    border-inline-end: 0;
+    padding-inline-end: 0;
+}
+figure.table table.bordered tr.divide :is(td, th) {
+	border-top: 1px solid;
+}
+figure.table table.bordered .compressed tr.divide :is(td, th) {
+	padding-block-end: 0;
+}
+figure.table table.bordered tbody tr:first-child :is(td, th) {
+	border-top: 3px double;
+}
+figure.table table.bordered [colspan] {
+	text-align: center;
+}
+figure.table table.bordered [rowspan] {
+	vertical-align: middle;
 }
