@@ -9,13 +9,24 @@ main {
 main section {
     margin: 4em 0 2em;
 }
-main h2 {
+main *:is(h1, h2) {
     text-align: center;
 }
 main *:is(h1, h2, h3) {
     font-weight: normal;
     transform: scaleY(0.9);
     margin-block: 1.5em 0.25em;
+}
+main h1 {
+	font-size: 2.25em;
+}
+main h1 i {
+	display: block;
+     transform: scaleY(0.85);
+     letter-spacing: -1px;
+	font-size: 75%;
+	margin-block-end: 1.75em;
+	text-transform: uppercase;
 }
 main h4 {
     font-weight: normal;
@@ -264,7 +275,7 @@ figure.table table.bordered caption {
 	padding-block: 1em 2em;
 }
 figure.table table.bordered :is(td, th) {
-    border-inline: 1px solid;
+    border-inline: 1px solid #999;
     padding-block: 0.5em;
 }
 figure.table table.bordered tr > :is(th, td):first-child {
@@ -289,7 +300,7 @@ figure.table table.bordered tr > :is(th, td):last-child {
     padding-inline-end: 0;
 }
 figure.table table.bordered tr.divide :is(td, th) {
-	border-top: 1px solid;
+	border-top: 1px solid #666;
 }
 figure.table table.bordered .compressed tr.divide :is(td, th) {
 	padding-block-end: 0;
