@@ -44,21 +44,25 @@ p {
     margin: 0;
     padding: 0.25em 0;
     text-align: justify;
-    text-indent: 1em;
-}
-:not(p, h2, h3, h4, figure) + p {
-    text-indent: 0;
 }
 p strong {
     margin-inline-end: 1ch;
 }
-p:target, dt:target, dt:target + dd, li:target {
+p[id], [id] p:first-child, aside > p {
+    text-indent: 1em;
+}
+:is(p, div, li):target, dt:target + dd {
     background: #FED;
+    padding-block: 0.75em;
+    padding-inline: 1em;
+    margin-inline: -1em;
+    scroll-margin-block-start: 4em;
 }
 p.cases {
     white-space: pre-wrap;
     margin-block: 0 1em;
     margin-inline: 1em;
+    text-indent: 0;
 }
 
 a.xref {
@@ -132,13 +136,21 @@ section.biblio span.authors span {
    ---------------------------------------------- */
 
 figure {
-    margin: 1em 2em;
+    margin: 2em 1em;
     text-align: center;
     font-size: 95%;
 }
 figure img, figure svg {
     max-width: 100%;
+	display: block;
     height: auto;
+}
+figure.wide {
+	margin-block: 3em;
+}
+figure.wide :is(img, svg) {
+	margin-inline: calc((90vw - min(90vw,42em)) / -2);
+	max-width: 85vw;
 }
 figure .halfwidth {
     max-width: 50%;
@@ -163,6 +175,7 @@ figure.numbered.equation {
     display: grid;
     grid-template-columns: auto min-content;
     align-items: center;
+    margin-block: 0;
 }
 figure.numbered.equation figcaption {
     display: block;
