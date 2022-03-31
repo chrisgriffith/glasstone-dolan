@@ -10,15 +10,105 @@
 	<style>
 	main :is(h2,h3) {text-align: center; margin: 1.5em 0 0.5em;}
 	main :is(h3) {font-size: inherit; transform: none;}
-	h2 + p {text-indent: 1em;}
-	p {padding-block: 0 0;}
-	ul {margin: 0; padding: 0; list-style: none;}
-	ul li {text-indent: -2em; padding-inline-start: 2em;}
-	p + ul {padding-left: 1em;}
-	</style>
+	main h2 + p {text-indent: 1em;}
+	main p {padding-block: 0 0;}
+	main ul {margin: 0; padding: 0; list-style: none;}
+	main ul li {text-indent: -2em; padding-inline-start: 2em;}
+	main p + ul {padding-left: 1em;}
+
+	nav {
+		overflow: hidden;
+		opacity: 0.5;
+		transition: 666ms;
+		border-block-end: 1px solid gray;
+	}
+	nav:hover, nav:focus-within {
+		opacity: 1;
+	}
+	nav div > * {
+		margin-block: 0;
+		margin-inline: 0;
+	}
+	nav > p {
+		text-align: center;
+		font-weight: 500;
+		margin-block-end: -1px;
+		background:
+			linear-gradient(silver, silver) 50% 100% / 50em 1px no-repeat;
+		;
+	}
+	nav:hover div, nav:focus-within div {
+		height: 10em;
+	}
+	nav div {
+		display: grid;
+		grid-template-columns: 1fr auto 1fr;
+		grid-template-rows: repeat(2,min-content);
+		align-items: center;
+		justify-content: center;
+		height: 0;
+		transition: 666ms;
+	}
+	nav ol {
+		width: auto;
+		columns: 2;
+		column-gap: 2em;
+		list-style-type: upper-roman;
+		grid-column: 2;
+		grid-row: 1 / -1;
+	}
+	nav ul {
+		grid-column: 3;
+		list-style: none;
+	}
+	nav :is(ol, ul) {
+		margin-block-start: 1em;
+		padding-inline: 0;
+	}
+	nav :is(ol, ul) [href] {
+		display: inline-block;
+		padding-inline-end: 2em;
+	}
+	nav :is(ol, ul) [href]:hover {
+		background: #FF8;
+	}
+	nav [href]:local-link {
+		font-weight: 900;
+	}
+</style>
 </head>
 
-<body>
+<body id="acknowledgements">
+
+<nav>
+<p>Table of Contents</p>
+<div>
+<ul>
+<li><a href="preface.html">Preface</a></li>
+<li><a href="acknowledgements.html">Acknowledgements</a></li>
+</ul>
+<ol>
+<li><a href="chapter1.html">General Principles of Nuclear Explosions</a></li>
+<li><a href="chapter2.html">Descriptions of Nuclear Explosions</a></li>
+<li><a href="chapter3.html">Air Blast Phenomena in Air and Surface Bursts</a></li>
+<li><a href="chapter4.html">Air Blast Loading</a></li>
+<li><a href="chapter5.html">Structural Damage From Air Blast</a></li>
+<li><a href="chapter6.html">Shock Effects of Surface and Subsurface Bursts</a></li>
+<li><a href="chapter7.html">Thermal Radiation and Its Effects</a></li>
+<li><a href="chapter8.html">Initial Nuclear Radiation</a></li>
+<li><a href="chapter9.html">Residual Nuclear Radiation and Fallout</a></li>
+<li><a href="chapter10.html">Radio and Radar Effects</a></li>
+<li><a href="chapter11.html">The Electromagnetic Pulse and Its Effects</a></li>
+<li><a href="chapter12.html">Biological Effects</a></li>
+</ol>
+<ul>
+<li><a href="glossary.html">Glossary</a></li>
+<li><a href="si.html">Guide to SI Units</a></li>
+<li><a href="bookindex.html">Index</a></li>
+</ul>
+</div>
+</nav>
+
 
 <main>
 
@@ -29,37 +119,37 @@
 
 	<h3>Department of Defense</h3>
 	<ul>
-		<li> Headquarters, Defense Nuclear Agency</li>
-		<li> Defense Civil Preparedness Agency</li>
-		<li> Armed Forces Radiobiology Research Institute</li>
-		<li> U. S. Army Aberdeen Research and Development Center, Ballistic Research Laboratories</li>
-		<li> U.S. Army Engineer Waterways Experiment Station</li>
-		<li> Naval Surface Weapons Center</li>
+		<li>Headquarters, Defense Nuclear Agency</li>
+		<li>Defense Civil Preparedness Agency</li>
+		<li>Armed Forces Radiobiology Research Institute</li>
+		<li>U. S. Army Aberdeen Research and Development Center, Ballistic Research Laboratories</li>
+		<li>U.S. Army Engineer Waterways Experiment Station</li>
+		<li>Naval Surface Weapons Center</li>
 	</ul>
 
 	<h3>Department of Defense Contractors</h3>
 	<ul>
-		<li> Stanford Research Institute</li>
-		<li> General Electric, TEMPO</li>
-		<li> Mission Research Corporation</li>
+		<li>Stanford Research Institute</li>
+		<li>General Electric, TEMPO</li>
+		<li>Mission Research Corporation</li>
 	</ul>
 
 	<h3>Department of Commerce</h3>
 	<ul>
-		<li> National Oceanic and Atmospheric Administration</li>
+		<li>National Oceanic and Atmospheric Administration</li>
 	</ul>
 
 	<h3>Atomic Energy Commission/<br>Energy Research and Development Administration</h3>
 
-	<p> Headquarters Divisions and the laboratories:</p>
+	<p>Headquarters Divisions and the laboratories:</p>
 	<ul>
-		<li> Brookhaven National Laboratory</li>
-		<li> Health and Safety Laboratory</li>
-		<li> Lawrence Livermore Laboratory</li>
-		<li> Los Alamos Scientific Laboratory</li>
-		<li> Lovelace Biomedical and Environmental Research Laboratories</li>
-		<li> Oak Ridge National Laboratory</li>
-		<li> Sandia Laboratories</li>
+		<li>Brookhaven National Laboratory</li>
+		<li>Health and Safety Laboratory</li>
+		<li>Lawrence Livermore Laboratory</li>
+		<li>Los Alamos Scientific Laboratory</li>
+		<li>Lovelace Biomedical and Environmental Research Laboratories</li>
+		<li>Oak Ridge National Laboratory</li>
+		<li>Sandia Laboratories</li>
 	</ul>
 
 </section>
