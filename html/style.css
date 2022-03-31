@@ -327,3 +327,44 @@ figure.table table.bordered [colspan] {
 figure.table table.bordered [rowspan] {
 	vertical-align: middle;
 }
+
+
+/* footnotes/endnotes */
+
+sup a:any-link {
+	padding-inline-start: 0.25em;
+}
+.endnotes li:target {
+	position: fixed;
+	bottom: 0;
+	width: 40rem;
+	padding-block: 2em 4em;
+	padding-inline: 2em;
+	margin-inline: -2em 0;
+	border-top: 1px solid;
+	background: #FFF;
+	box-shadow: 0 0 3em 3em #FFF;
+}
+.endnotes li .close {
+	display: none;
+	visibility: hidden;
+	font: bold 1em sans-serif;
+	text-decoration: none;
+	color: inherit;
+	background: #FED;
+	padding-block: 0.33em 0.15em;
+	padding-inline: 0.5em;
+	text-indent: 0;
+	border: 1px solid;
+}
+.endnotes li:target .close {
+	display: block;
+	visibility: visible;
+	position: absolute;
+	top: -1px;
+	right: 0;
+}
+.endnotes li:target .backjump {
+	display: none;
+	visibility: hidden;
+}
