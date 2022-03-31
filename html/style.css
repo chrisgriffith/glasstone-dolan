@@ -1,7 +1,82 @@
+/* debugging */
+/*
+.sic, em {
+	padding: 1em;
+	background: #F004;
+}
+em.maths {
+	background: #F001;
+}
+*/
+
 body {
     font: 1em/1.35 Cambria, Times, serif;
     hyphens: auto;
 }
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	color: gray;
+	transition: 666ms;
+	border-block-end: 1px solid gray;
+	background: #FFF;
+	z-index: 1;
+}
+nav:hover, nav:focus-within {
+	box-shadow: 0 0 3em 3em #FFF;
+	color: black;
+}
+nav > p {
+	text-align: center;
+	font-weight: 500;
+	margin-block-end: -1px;
+	background:
+		linear-gradient(#000,#000) 50% 100% / 50em 1px no-repeat;
+	;
+}
+nav:hover div, nav:focus-within div {
+	height: 15em;
+	padding-block: 1em;
+}
+nav div {
+	height: 0;
+	padding: 0;
+	transition: 666ms;
+}
+nav ol {
+	width: max-content;
+	margin: 1em auto;
+	padding-inline-start: 2em;
+	columns: 2;
+	gap: 4em;
+	list-style-type: upper-roman;
+	transform: translateX(2em);
+}
+nav ul {
+	display: flex;
+	justify-content: center;
+	gap: 1.5em;
+	list-style: none;
+	margin: 0;
+}
+nav ul li + li {
+	list-style: square;
+}
+nav :is(ol, ul) [href] {
+	display: block;
+}
+nav :is(ol, ul) [href]:hover {
+	background: #FF8;
+}
+nav [href]:local-link {
+	font-weight: 900;
+}
+
+
 main {
     max-width: 40em;
     margin: 0 auto;
@@ -51,7 +126,7 @@ p strong {
 p[id], [id] p:first-child, aside > p {
     text-indent: 1em;
 }
-:is(p, div, li):target, dt:target + dd {
+:target, dt:target + dd {
     background: #FED;
     padding-block: 0.75em;
     padding-inline: 1em;
@@ -333,6 +408,9 @@ figure.table table.bordered [rowspan] {
 
 sup a:any-link {
 	padding-inline-start: 0.25em;
+}
+.endnotes li {
+	margin-block: 0.33em;
 }
 .endnotes li:target {
 	position: fixed;
