@@ -252,9 +252,15 @@ figure.numbered.equation {
 	align-items: center;
 	margin-block: 0;
 }
+figure.numbered.equation mjx-container {
+    grid-row: 1;
+    grid-column: 1;
+}
 figure.numbered.equation figcaption {
 	display: block;
 	padding: 0;
+/*    grid-row: 1;
+    grid-column: 2;*/
 }
 
 /* Table figures */
@@ -265,9 +271,11 @@ figure.table {
 }
 figure.wide.table {
 	margin-block: 3em;
+	margin-inline: calc((90vw - min(90vw,42em)) / -2);
+	max-width: 100vw;
 }
 figure.wide.table table {
-	margin-inline: calc((90vw - min(90vw,42em)) / -2);
+	margin-inline: auto;
 }
 figure.table figcaption, figure.table caption {
 	font-weight: 600;
