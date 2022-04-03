@@ -252,8 +252,14 @@ figure.numbered.equation {
     align-items: center;
     margin-block: 0;
 }
+figure.numbered.equation mjx-container {
+    grid-row: 1;
+    grid-column: 1;
+}
 figure.numbered.equation figcaption {
     display: block;
+    grid-row: 1;
+    grid-column: 2;
     padding: 0;
 }
 
