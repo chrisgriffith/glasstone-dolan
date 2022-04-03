@@ -271,9 +271,11 @@ figure.table {
 }
 figure.wide.table {
 	margin-block: 3em;
+	margin-inline: calc((90vw - min(90vw,42em)) / -2);
+	max-width: 100vw;
 }
 figure.wide.table table {
-	margin-inline: calc((90vw - min(90vw,42em)) / -2);
+	margin-inline: auto;
 }
 figure.table figcaption, figure.table caption {
     font-weight: 600;
