@@ -349,29 +349,29 @@ figure.table {
 	--offset: 0ch;
 }
 figure.table .lpf {
-	transform: translate(calc(0.25ch + var(--offset)));
+	transform: translateX(calc(0.25ch + var(--offset)));
 }
 figure.table .lp1 {
-	transform: translate(calc(0.5ch + var(--offset)));
+	transform: translateX(calc(0.5ch + var(--offset)));
 }
 figure.table .lp2 {
-	transform: translate(calc(1ch + var(--offset)));
+	transform: translateX(calc(1ch + var(--offset)));
 }
 figure.table .lp3 {
-	transform: translate(calc(1.5ch + var(--offset)));
+	transform: translateX(calc(1.5ch + var(--offset)));
 }
 figure.table .lp4 {
-	transform: translate(calc(2ch + var(--offset)));
+	transform: translateX(calc(2ch + var(--offset)));
 }
 figure.table .lp5 {
-	transform: translate(calc(2.5ch + var(--offset)));
+	transform: translateX(calc(2.5ch + var(--offset)));
 }
 
 figure.table .rp1 {
-	transform: translate(calc(-0.5ch + var(--offset)));
+	transform: translateX(calc(-0.5ch + var(--offset)));
 }
 figure.table .rp2 {
-	transform: translate(calc(-1ch + var(--offset)));
+	transform: translateX(calc(-1ch + var(--offset)));
 }
 
 
