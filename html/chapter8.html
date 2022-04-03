@@ -114,7 +114,15 @@
 			<p id="§8.36"><strong>8.36</strong> It will be noted, especially in Fig. 8.33b, that for a specified dose, the slant range increases more rapidly in the higher explosion yield range, i.e., the slope of the curves becomes steeper. The cause is the sustained low air density following the passage of the positive phase of the shock wave (<a href="chapter3.html#§3.04" class="xref">§ 3.04</a>), particularly for explosions of high energy yield. The emission of gamma rays by the fission products is delayed (<a href="#§8.13" class="xref">§ 8.13</a>) and so these radiations do not reach distant points until the shock wave has passed and the air density has decreased. There is consequently less attenuation of the fission product gamma rays by the air than at lower energy yields. This effect is known as the “hydrodynamic enhancement” of the gamma-ray dose.</p>
 			<p id="§8.37"><strong>8.37</strong> The foregoing figures were calculated for heights of burst of 200 W0-4 feet and the conclusions are reasonably applicable provided the height of burst exceeds about 300 feet, even though the fireball may touch the earth’s surface. For a contact surface burst (<a href="chapter2.html#§2.127" class="xref">§ 2.127 footnote</a>) the dose for a specified explosion yield and range may be obtained upon multiplication of the corresponding dose in Fig. 8.33a or b by a factor which depends to some extent on both yield and range. The factors in Table 8.37 for some specific yields are averages which provide a fair approximation for distances of interest. The factors for intermediate yields may be obtained by interpolation. Interpolation between unity and the tabulated factor may also be used to obtain the appropriate factors for bursts between about 300 feet and the actual surface.</p>
 
-<figure class="table">
+<figure class="table" id="tbl8-37">
+<style>
+#tbl8-37 td.lp1 {
+	--offset: 0.33ch;
+}
+#tbl8-37 td.lp2 {
+	--offset: 0.15ch;
+}
+</style>
 <figcaption>Table 8.37</figcaption>
 				<table>
 <caption>CORRECTION FACTORS FOR CONTACT SURFACE BURSTS </caption>
@@ -132,33 +140,33 @@
 					</thead>
 					<tbody>
 						<tr>
-							<th>1 to 50 KT </th>
+							<td>1 to 50 KT </th>
 							<td>⅔</td>
 							<td>100 KT </td>
 							<td>1</td>
 						</tr>
 						<tr>
-							<th>100 KT</th>
+							<td class="lp2">100 KT</th>
 							<td>1</td>
 							<td>300 KT</td>
-							<td>1 ¼</td>
+							<td class="lp1">1¼</td>
 						</tr>
 						<tr>
 							<td></td>
 							<td></td>
 							<td>700 KT </td>
-							<td>1 ½</td>
+							<td class="lp1">1½</td>
 						</tr>
 						<tr>
 							<td></td>
 							<td></td>
-							<td>2 MT</td>
+							<td class="lp2">2 MT</td>
 							<td>2</td>
 						</tr>
 						<tr>
 							<td></td>
 							<td></td>
-							<td>5 to 20 MT</td>
+							<td class="rp2">5 to 20 MT</td>
 							<td>3</td>
 						</tr>
 					</tbody>
@@ -173,7 +181,12 @@
 			<p id="§8.40"><strong>8.40</strong> In shielding against gamma radiations from a nuclear explosion the conditions leading to the tenth-value thickness concept do not exist. In the first place, the gamma-ray energies cover a wide range, the radiations are spread over a large area, and thick shields are necessary in regions of interest. Evaluation of the effectiveness of a given shield material is then a complex problem, but calculations have been made with the aid of electronic computers. It has been found that, beyond the first few inches of a shielding material, the radiation attenuation can be expressed with fair accuracy in many cases in terms of an effective tenth-value thickness. This useful result apparently arises from the fortuitous cancellation of factors which have opposing effects on the simple situation considered in <a href="#§8.39" class="xref">§ 8.39</a>. In the first few inches of the shield the attenuation is generally greater than indicated by the effective tenth-value thickness and so use of the latter would be conservative.</p>
 			<p id="§8.41"><strong>8.41</strong> The effective tenth-value thicknesses of some materials of interest in radiation shielding are given in Table 8.41,7 for broad beams of gamma rays emitted by the fission products in the first minute after the detonation and for those (secondary gamma rays) accompanying the capture of neutrons by nitrogen in the air (<a href="#§8.11" class="xref">§ 8.11</a>). These particular radiations were chosen because they are representative of the main constituents of the initial gamma rays. The thickness of any material required to decrease the nitrogen capture (secondary) gamma rays to one-tenth is about 50 percent greater than for the fission product gamma rays; this is because the former have a considerably higher energy.</p>
 
-<figure class="wide table">
+<figure class="table" id="tbl8-41">
+<style>
+#tbl8-41 .lp2 {
+	--offset: 0.125ch;
+}
+</style>
 <figcaption>Table 8.41</figcaption>
 				<table>
 <caption>APPROXIMATE EFFECTIVE TENTH-VALUE THICKNESSES FOR FISSION PRODUCT AND NITROGEN CAPTURE GAMMA RAYS</caption>
@@ -195,11 +208,11 @@
 					</thead>
 					<tbody>
 						<tr>
-							<th style="width: 4em;">Steel (Iron)</th>
+							<th style="width: 5em;">Steel (Iron)</th>
 							<td>490</td>
-							<td>3.3</td>
+							<td class="lp2">3.3</td>
 							<td>135</td>
-							<td>4.3</td>
+							<td class="lp2">4.3</td>
 							<td>176</td>
 						</tr>
 						<tr>
@@ -220,7 +233,7 @@
 						</tr>
 						<tr>
 							<th>Water</th>
-							<td>62.4</td>
+							<td class="lp2">62.4</td>
 							<td>24</td>
 							<td>125</td>
 							<td>39</td>
@@ -228,7 +241,7 @@
 						</tr>
 						<tr>
 							<th>Wood</th>
-							<td>40</td>
+							<td class="lp1">40</td>
 							<td>38</td>
 							<td>127</td>
 							<td>63</td>
@@ -320,7 +333,16 @@
 
 			<p id="§8.01"><strong>8.72</strong> In addition to the complexities introduced by the arrival of neutrons at a target from many directions, the distribution in energy from each direction makes it impractical to calculate the shielding effectiveness of even simple structures without resort to complex computer codes. Estimates of the shielding afforded by various structures are given in Table 8.72 in terms of a “dose transmission factor”; this is defined as the ratio of the dose received behind the shield to the dose at the same location in the absence of shielding. Some of the transmission factors were obtained by measurements at weapons tests or are extrapolations from such measurements. Others were obtained by relatively detailed calculations, whereas still others are mere estimates. Ranges of values are given for the dose transmission factors for two reasons: uncertainties in the estimates themselves and variations in the degree of shielding that may be obtained at different locations within a structure.</p>
 
-<figure class="table">
+<figure class="table" id="tbl8-72">
+<style>
+#tbl8-72 .rp2 {
+	--offset: 0.5ch;
+}
+#tbl8-72 td:first-child {
+	text-align: left;
+	padding-inline-start: 2em;
+}
+</style>
 <figcaption>Table 8.72</figcaption>
 				<table>
 <caption>DOSE TRANSMISSION FACTORS FOR VARIOUS STRUCTURES</caption>
@@ -335,7 +357,7 @@
 						<tr>
 							<th>Three feet underground</th>
 							<td>0.002-0.004</td>
-							<td>0.002-0.01</td>
+							<td class="rp1">0.002-0.01</td>
 						</tr>
 						<tr>
 							<th>Frame House</th>
@@ -349,8 +371,6 @@
 						</tr>
 						<tr>
 							<th scope="rowgroup">Multistory building (apartment type):</th>
-							<td></td>
-							<td></td>
 						</tr>
 						<tr>
 							<td>Upper stories</th>
@@ -364,8 +384,6 @@
 						</tr>
 						<tr>
 							<th scope="rowgroup">Concrete blockhouse shelter:</th>
-							<td></td>
-							<td></td>
 						</tr>
 						<tr>
 							<td>9-in. walls</td>
@@ -374,18 +392,16 @@
 						</tr>
 						<tr>
 							<td>12-in walls</td>
-							<td>0.05-0.1</td>
+							<td class="rp1">0.05-0.1</td>
 							<td>0.2-0.4</td>
 						</tr>
 						<tr>
 							<td>24-in walls</td>
-							<td>0.007-0.02</td>
+							<td class="rp2">0.007-0.02</td>
 							<td>0.1-0.2</td>
 						</tr>
 						<tr>
 							<th scope="rowgroup">Shelter, partly above grade:</th>
-							<td></td>
-							<td></td>
 						</tr>
 						<tr>
 							<td>With 2 ft earth cover</td>
@@ -394,7 +410,7 @@
 						</tr>
 						<tr>
 							<td>With 3 ft earth cover</td>
-							<td>0.007-0.02</td>
+							<td class="rp2">0.007-0.02</td>
 							<td>0.01-0.05</td>
 						</tr>
 					</tbody>
@@ -458,7 +474,9 @@ I = I_0 e^{-\mu x},
 			<p>where $\mu$ is called the “linear attenuation coefficient.” The distance $x$ is usually expressed in centimeters, so that the corresponding units for $\mu$ are reciprocal centimeters (cm<sup>-1</sup>). It can be seen from the equation (8.95.1) that, for a given thickness $x$ of material, the intensity $I$ of the emerging gamma rays will be less the larger is the value of $\mu$. In other words, the linear attenuation coefficient is a measure of the shielding ability of a definite thickness, e.g., 1 cm, 1 foot, or other thickness, or any material for a collimated beam of monoenergetic gamma rays.</p></div>
 			<p id="§8.96"><strong>8.96</strong> The value of $\mu$, under any given conditions, can be obtained with the aid of equation (8.95.1) by determining the gamma-ray intensity before ($I_0$) and after ($I$) passage through a known thickness, $x$, of material. Some of the data obtained in this manner, for monoenergetic gamma rays with energies ranging from 0.5 MeV to 10 MeV, are recorded in Table 8.96. The values given for concrete apply to the common form with a density of 2.3 grams per cubic centimeter (144 pounds per cubic foot). For special heavy concretes, containing iron, iron oxide, or barytes, the coefficients are increased roughly in proportion to the density.</p>
 
-<figure class="table">
+<figure class="table" id="tbl8-96">
+<style>
+</style>
 <figcaption>Table 8.96</figcaption>
 				<table>
 <caption>LINEAR ATTENUATION COEFFICIENTS FOR GAMMA RAYS</caption>
@@ -481,7 +499,7 @@ I = I_0 e^{-\mu x},
 							<th> 0.5</th>
 							<td>1.11 × 10<sup>-4</sup< /td>
 							<td>0.097</td>
-							<td>0.22</td>
+							<td class="rp1">0.22</td>
 							<td>0.66</td>
 							<td>1.64</td>
 						</tr>
@@ -489,7 +507,7 @@ I = I_0 e^{-\mu x},
 							<th>1.0</th>
 							<td>0.81 × 10<sup>-4</sup< /td>
 							<td>0.071</td>
-							<td>0.15</td>
+							<td class="rp1">0.15</td>
 							<td>0.47</td>
 							<td>0.80</td>
 						</tr>
@@ -497,7 +515,7 @@ I = I_0 e^{-\mu x},
 							<th>2.0</th>
 							<td>0.57 × 10<sup>-4</sup< /td>
 							<td>0.049</td>
-							<td>0.11</td>
+							<td class="rp1">0.11</td>
 							<td>0.33</td>
 							<td>0.52</td>
 						</tr>
