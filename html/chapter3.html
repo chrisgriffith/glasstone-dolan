@@ -61,15 +61,20 @@ AIR BLAST PHENOMENA IN AIR AND SURFACE BURSTS</h1>
 <p id="§3.06"><strong>3.06</strong> The destructive effects of the blast wave are frequently related to values of the peak overpressure, but there is another important quantity called the “dynamic pressure.” For a great variety of building types, the degree of blast damage depends largely on the drag force associated with the strong winds accompanying the passage of the blast wave. The drag force is influenced by certain characteristics-primarily the shape and size--of the structure, but this force also depends on the peak value of the dynamic pressure and its duration at a given location.</p>
 <p id="§3.07"><strong>3.07</strong> The dynamic pressure is proportional to the square of the wind velocity and to the density of the air behind the shock front. Both of these quantities may be related to the overpressure under ideal conditions at the wave front by certain equations, which will be given later (see <a href="#§3.55" class="xref">§ 3.55</a>). For very strong shocks the peak dynamic pressure is larger than the peak overpressure, but below 70 pounds per square inch overpressure at sea level the dynamic pressure is the smaller. Like the peak shock overpressure, the peak dynamic pressure generally decreases with increasing distance from the explosion center, although at a different rate. Some peak dynamic pressures and maximum blast wind velocities corresponding to various peak overpressures, as calculated for an ideal shock front in air at sea level (<a href="#§3.53" class="xref">§ 3.53</a> <i>et seq.</i>) are given in Table 3 .07. The results are based on 1,116 feet per second (761 miles per hour) as the velocity of sound in air (see Table 3.66).</p>
 
-<figure class="table">
+<figure class="table" id="tbl3-07">
+<style>
+#tbl3-07 td:nth-child(3) {
+	--offset: 0.25ch;
+}
+</style>
 <figcaption>Table 3.07</figcaption>
 <table>
 <caption>PEAK OVERPRESSURE AND DYNAMIC PRESSURE AND MAXIMUM WIND VELOCITY IN AIR AT SEA LEVEL CALCULATED FOR AN IDEAL SHOCK FRONT</caption>
   <thead>
     <tr>
       <th scope="col">Peak overpressure (pounds per square inch)</th>
-      <th scope="col">Peak dynamic pressure (pounds per square inch) </th>
-      <th scope="col">Maximum wind velocity (miles per hour) </th>
+      <th scope="col">Peak dynamic pressure (pounds per square inch)</th>
+      <th scope="col">Maximum wind velocity (miles per hour)</th>
     </tr>
   </thead>
   <tbody>
@@ -89,39 +94,39 @@ AIR BLAST PHENOMENA IN AIR AND SURFACE BURSTS</h1>
       <td>1,415</td>
     </tr>
     <tr>
-      <td>72</td>
-      <td>74</td>
+      <td class="lp1">72</td>
+      <td class="lp1">74</td>
       <td>1,168</td>
     </tr>
     <tr>
-      <td>50</td>
-      <td>41</td>
-      <td>934</td>
+      <td class="lp1">50</td>
+      <td class="lp1">41</td>
+      <td class="lp1">934</td>
     </tr>
     <tr>
-      <td>30</td>
-      <td>17</td>
-      <td>669</td>
+      <td class="lp1">30</td>
+      <td class="lp1">17</td>
+      <td class="lp1">669</td>
     </tr>
     <tr>
-      <td>20</td>
-      <td>8.1</td>
-      <td>502</td>
+      <td class="lp1">20</td>
+      <td class="lp3">8.1</td>
+      <td class="lp1">502</td>
     </tr>
     <tr>
-      <td>10</td>
-      <td>2.2</td>
-      <td>294</td>
+      <td class="lp1">10</td>
+      <td class="lp3">2.2</td>
+      <td class="lp1">294</td>
     </tr>
     <tr>
-      <td>5</td>
-      <td>0.6</td>
-      <td>163</td>
+      <td class="lp2">5</td>
+      <td class="lp3">0.6</td>
+      <td class="lp1">163</td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>0.1</td>
-      <td>70</td>
+      <td class="lp2">2</td>
+      <td class="lp3">0.1</td>
+      <td class="lp2">70</td>
     </tr>
 
   </tbody>
@@ -486,7 +491,16 @@ I &= I_1 W^{1/3} S_p S_t.&(3.66.4)
 
 <p>The reference values $P_0$ and $T_0$ are for a standard sea-level atmosphere. The atmospheric pressure $P_0$ is 14.7 pounds per square inch and the temperature is 59°F or 15°C, so that $T_0$ is 519° Rankine or 288° Kelvin. In a strictly homogeneous atmosphere the altitude scaling factors $S_p$, $S_d$, and $S_t$, would all be unity and equations (3.66.1), etc., would reduce to those in <a href="#§3.65" class="xref">§ 3.65</a>. Below an altitude of about 5,000 feet the scaling factors do not differ greatly from unity and the approximation of a homogeneous (sea-level) atmosphere is not seriously in error, as mentioned above.</p></div>
 
-<figure class="table">
+<figure class="table" id="tbl3-66">
+<style>
+#tbl3-66 tbody tr:first-child td:nth-child(1),
+#tbl3-66 tbody td:nth-child(7) {
+	--offset: 0.25ch;
+}
+#tbl3-66 tbody td:nth-child(4) {
+	--offset: 0.1ch;	
+}
+</style>
 <figcaption>Table 3.66</figcaption>
 <table>
 <caption>AVERAGE ATMOSPHERIC DATA FOR MID-LATITUDES</caption>
@@ -508,7 +522,7 @@ I &= I_1 W^{1/3} S_p S_t.&(3.66.4)
   </thead>
   <tbody>
     <tr>
-      <td>0</td>
+      <td class="lp5">0</td>
       <td>288</td>
       <td>14.10</td>
       <td>1.00</td>
@@ -517,7 +531,7 @@ I &= I_1 W^{1/3} S_p S_t.&(3.66.4)
       <td>1,116</td>
     </tr>
     <tr>
-      <td>1,000</td>
+      <td class="lp2">1,000</td>
       <td>286</td>
       <td>14.11</td>
       <td>0.96</td>
@@ -526,7 +540,7 @@ I &= I_1 W^{1/3} S_p S_t.&(3.66.4)
       <td>1,113</td>
     </tr>
     <tr>
-      <td>2,000</td>
+      <td class="lp2">2,000</td>
       <td>284</td>
       <td>13.66</td>
       <td>0.93</td>
@@ -535,7 +549,7 @@ I &= I_1 W^{1/3} S_p S_t.&(3.66.4)
       <td>1,109</td>
     </tr>
     <tr>
-      <td>3,000</td>
+      <td class="lp2">3,000</td>
       <td>282</td>
       <td>13.17</td>
       <td>0.90</td>
@@ -544,7 +558,7 @@ I &= I_1 W^{1/3} S_p S_t.&(3.66.4)
       <td>1,105</td>
     </tr>
     <tr>
-      <td>4,000</td>
+      <td class="lp2">4,000</td>
       <td>280</td>
       <td>12.69</td>
       <td>0.86</td>
@@ -553,7 +567,7 @@ I &= I_1 W^{1/3} S_p S_t.&(3.66.4)
       <td>1,101</td>
     </tr>
     <tr>
-      <td>5,000</td>
+      <td class="lp2">5,000</td>
       <td>278</td>
       <td>12.23</td>
       <td>0.83</td>
@@ -562,7 +576,7 @@ I &= I_1 W^{1/3} S_p S_t.&(3.66.4)
       <td>1,097</td>
     </tr>
     <tr>
-      <td>10,000</td>
+      <td class="lp1">10,000</td>
       <td>268</td>
       <td>10.11</td>
       <td>0.69</td>
@@ -571,172 +585,172 @@ I &= I_1 W^{1/3} S_p S_t.&(3.66.4)
       <td>1,011</td>
     </tr>
     <tr>
-      <td>15,000</td>
+      <td class="lp1">15,000</td>
       <td>258</td>
-      <td>8.30</td>
+      <td class="lp1">8.30</td>
       <td>0.56</td>
       <td>1.21</td>
       <td>1.28</td>
       <td>1,051</td>
     </tr>
     <tr>
-      <td>20,000</td>
+      <td class="lp1">20,000</td>
       <td>249</td>
-      <td>6.76</td>
+      <td class="lp1">6.76</td>
       <td>0.46</td>
       <td>1.30</td>
       <td>1.39</td>
       <td>1,031</td>
     </tr>
     <tr>
-      <td>25,000</td>
+      <td class="lp1">25,000</td>
       <td>239</td>
-      <td>5.46</td>
+      <td class="lp1">5.46</td>
       <td>0.37</td>
       <td>1.39</td>
       <td>1.53</td>
       <td>1,016</td>
     </tr>
     <tr>
-      <td>30,000</td>
+      <td class="lp1">30,000</td>
       <td>229</td>
-      <td>4.37</td>
+      <td class="lp1">4.37</td>
       <td>0.30</td>
       <td>1.50</td>
       <td>1.68</td>
-      <td>995</td>
+      <td class="lp1">995</td>
     </tr>
     <tr>
-      <td>35,000</td>
+      <td class="lp1">35,000</td>
       <td>219</td>
-      <td>3.41</td>
+      <td class="lp1">3.41</td>
       <td>0.24</td>
       <td>1.62</td>
       <td>1.86</td>
-      <td>973</td>
+      <td class="lp1">973</td>
     </tr>
     <tr>
-      <td>40,000</td>
+      <td class="lp1">40,000</td>
       <td>211</td>
-      <td>2.73</td>
+      <td class="lp1">2.73</td>
       <td>0.19</td>
       <td>1.75</td>
       <td>2.02</td>
-      <td>968</td>
+      <td class="lp1">968</td>
     </tr>
     <tr>
-      <td>45,000</td>
+      <td class="lp1">45,000</td>
       <td>217</td>
-      <td>2.15</td>
+      <td class="lp1">2.15</td>
       <td>0.15</td>
       <td>1.90</td>
       <td>2.19</td>
-      <td>968</td>
+      <td class="lp1">968</td>
     </tr>
     <tr>
-      <td>50,000</td>
+      <td class="lp1">50,000</td>
       <td>217</td>
-      <td>1.69</td>
+      <td class="lp1">1.69</td>
       <td>0.12</td>
       <td>2.06</td>
       <td>2.31</td>
-      <td>968</td>
+      <td class="lp1">968</td>
     </tr>
     <tr>
-      <td>55,000</td>
+      <td class="lp1">55,000</td>
       <td>217</td>
-      <td>1.33</td>
-      <td>0.091</td>
+      <td class="lp1">1.33</td>
+      <td class="lp1">0.091</td>
       <td>2.23</td>
       <td>2.51</td>
-      <td>968</td>
+      <td class="lp1">968</td>
     </tr>
     <tr>
-      <td>60,000</td>
+      <td class="lp1">60,000</td>
       <td>217</td>
-      <td>1.05</td>
-      <td>0.011</td>
+      <td class="lp1">1.05</td>
+      <td class="lp1">0.011</td>
       <td>2.41</td>
       <td>2.78</td>
-      <td>968</td>
+      <td class="lp1">968</td>
     </tr>
     <tr>
-      <td>65,000</td>
+      <td class="lp1">65,000</td>
       <td>217</td>
-      <td>0.83</td>
-      <td>0.056</td>
+      <td class="lp1">0.83</td>
+      <td class="lp1">0.056</td>
       <td>2.61</td>
       <td>3.01</td>
-      <td>968</td>
+      <td class="lp1">968</td>
     </tr>
     <tr>
-      <td>70,000</td>
+      <td class="lp1">70,000</td>
       <td>218</td>
-      <td>0.65</td>
-      <td>0.044</td>
+      <td class="lp1">0.65</td>
+      <td class="lp1">0.044</td>
       <td>2.83</td>
       <td>3.25</td>
-      <td>971</td>
+      <td class="lp1">971</td>
     </tr>
     <tr>
-      <td>75,000</td>
+      <td class="lp1">75,000</td>
       <td>219</td>
-      <td>0.51</td>
-      <td>0.035</td>
+      <td class="lp1">0.51</td>
+      <td class="lp1">0.035</td>
       <td>3.06</td>
       <td>3.50</td>
-      <td>914</td>
+      <td class="lp1">914</td>
     </tr>
     <tr>
-      <td>80,000</td>
+      <td class="lp1">80,000</td>
       <td>221</td>
-      <td>0.41</td>
-      <td>0.028</td>
+      <td class="lp1">0.41</td>
+      <td class="lp1">0.028</td>
       <td>3.31</td>
       <td>3.18</td>
-      <td>918</td>
+      <td class="lp1">918</td>
     </tr>
     <tr>
-      <td>85,000</td>
+      <td class="lp1">85,000</td>
       <td>222</td>
-      <td>0.32</td>
-      <td>0.022</td>
+      <td class="lp1">0.32</td>
+      <td class="lp1">0.022</td>
       <td>3.57</td>
       <td>4.01</td>
-      <td>981</td>
+      <td class="lp1">981</td>
     </tr>
     <tr>
-      <td>90,000</td>
+      <td class="lp1">90,000</td>
       <td>224</td>
-      <td>0.25</td>
-      <td>0.011</td>
+      <td class="lp1">0.25</td>
+      <td class="lp1">0.011</td>
       <td>3.86</td>
       <td>4.38</td>
-      <td>984</td>
+      <td class="lp1">984</td>
     </tr>
     <tr>
-      <td>95,000</td>
+      <td class="lp1">95,000</td>
       <td>225</td>
-      <td>0.20</td>
-      <td>0.014</td>
+      <td class="lp1">0.20</td>
+      <td class="lp1">0.014</td>
       <td>4.17</td>
       <td>4.11</td>
-      <td>988</td>
+      <td class="lp1">988</td>
     </tr>
     <tr>
       <td>100,000</td>
       <td>227</td>
-      <td>0.16</td>
-      <td>0.011</td>
+      <td class="lp1">0.16</td>
+      <td class="lp1">0.011</td>
       <td>4.50</td>
       <td>5.07</td>
-      <td>991</td>
+      <td class="lp1">991</td>
     </tr>
     <tr>
       <td>110,000</td>
       <td>232</td>
-      <td>0.10</td>
-      <td>0.0070</td>
+      <td class="lp1">0.10</td>
+      <td class="lp2">0.0070</td>
       <td>5.23</td>
       <td>5.82</td>
       <td>1,003</td>
@@ -744,8 +758,8 @@ I &= I_1 W^{1/3} S_p S_t.&(3.66.4)
     <tr>
       <td>120,000</td>
       <td>241</td>
-      <td>0.067</td>
-      <td>0.0045</td>
+      <td class="lp2">0.067</td>
+      <td class="lp2">0.0045</td>
       <td>6.04</td>
       <td>6.61</td>
       <td>1,021</td>
@@ -753,8 +767,8 @@ I &= I_1 W^{1/3} S_p S_t.&(3.66.4)
     <tr>
       <td>130,000</td>
       <td>249</td>
-      <td>0.044</td>
-      <td>0.0030</td>
+      <td class="lp2">0.044</td>
+      <td class="lp2">0.0030</td>
       <td>6.95</td>
       <td>7.41</td>
       <td>1,038</td>
@@ -762,8 +776,8 @@ I &= I_1 W^{1/3} S_p S_t.&(3.66.4)
     <tr>
       <td>140,000</td>
       <td>258</td>
-      <td>0.029</td>
-      <td>0.0020</td>
+      <td class="lp2">0.029</td>
+      <td class="lp2">0.0020</td>
       <td>7.95</td>
       <td>8.41</td>
       <td>1,056</td>
@@ -771,8 +785,8 @@ I &= I_1 W^{1/3} S_p S_t.&(3.66.4)
     <tr>
       <td>150,000</td>
       <td>266</td>
-      <td>0.020</td>
-      <td>0.0013</td>
+      <td class="lp2">0.020</td>
+      <td class="lp2">0.0013</td>
       <td>9.06</td>
       <td>9.43</td>
       <td>1,073</td>
@@ -784,7 +798,12 @@ I &= I_1 W^{1/3} S_p S_t.&(3.66.4)
 <p id="§3.67"><strong>3.67</strong> The correction factors in <a href="#§3.66" class="xref">§ 3.66</a> are applicable for burst altitudes up to about 40,000 feet (about 7.6 miles). Nearly all of the energy from nuclear explosions below this altitude is absorbed by air molecules near the burst. Deviations from the scaling laws described in the preceding paragraphs are caused principally by differences in the partitioning of the energy components when the burst occurs above 40,000 feet. At such altitudes, part of the energy that would have contributed to the blast wave at lower altitudes is emitted as thermal radiation.</p>
 <p id="§3.68"><strong>3.68</strong> To allow for the smaller fraction of the yield that appears as blast energy at higher altitudes, the actual yield is multiplied by a “blast efficiency factor” to obtain an effective blast yield. There is no simple way to formulate the blast efficiency factor as a function of altitude since, at high altitudes, overpressure varies with distance in such a manner that the effective blast yield is different at different distances. It is possible, however, to specify upper and lower limits on the blast efficiency factor, as shown in Table 3.68 for several altitudes. By using this factor, together with the ambient pressure $P$ and the absolute temperature $T$ at the observation point (or target) in the equations in <a href="#§3.65" class="xref">§ 3.65</a> (or <a href="#§3.66" class="xref">§ 3.66</a>), an estimate can be made of the upper and lower limits of the blast parameters. An example of such an estimate will be given later.</p>
 
-<figure class="table">
+<figure class="table" id="tbl3-68">
+<style>
+#tbl3-68 td:nth-child(1) {
+	--offset: 0.1ch;
+}
+</style>
 <figcaption>Table 3.68</figcaption>
 <table>
 <caption>BLAST EFFICIENCY FACTORS FOR HIGH ALTITUDE BURSTS</caption>
@@ -796,17 +815,17 @@ I &= I_1 W^{1/3} S_p S_t.&(3.66.4)
   </thead>
   <tbody>
     <tr>
-      <td>40,000</td>
+      <td class="lp1">40,000</td>
       <td>1.0</td>
       <td>0.9</td>
     </tr>
     <tr>
-      <td>60,000</td>
+      <td class="lp1">60,000</td>
       <td>1.0</td>
       <td>0.8</td>
     </tr>
     <tr>
-      <td>90,000</td>
+      <td class="lp1">90,000</td>
       <td>0.9</td>
       <td>0.6</td>
     </tr>

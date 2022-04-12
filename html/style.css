@@ -10,8 +10,8 @@ em.maths {
 */
 
 body {
-    font: 1em/1.35 Cambria, Times, serif;
-    hyphens: auto;
+	font: 1em/1.35 Cambria, Times, serif;
+	hyphens: auto;
 }
 
 nav {
@@ -78,35 +78,35 @@ nav [href]:local-link {
 
 
 main {
-    max-width: 40em;
-    margin: 0 auto;
+	max-width: 40em;
+	margin: 0 auto;
 }
 main section {
-    margin: 4em 0 2em;
+	margin: 4em 0 2em;
 }
 main *:is(h1, h2) {
-    text-align: center;
+	text-align: center;
 }
 main *:is(h1, h2, h3) {
-    font-weight: normal;
-    transform: scaleY(0.9);
-    margin-block: 1.5em 0.25em;
+	font-weight: normal;
+	transform: scaleY(0.9);
+	margin-block: 1.5em 0.25em;
 }
 main h1 {
 	font-size: 2.25em;
 }
 main h1 i {
 	display: block;
-     transform: scaleY(0.85);
-     letter-spacing: -1px;
+	 transform: scaleY(0.85);
+	 letter-spacing: -1px;
 	font-size: 75%;
 	margin-block-end: 1.75em;
 	text-transform: uppercase;
 }
 main h4 {
-    font-weight: normal;
-    font-style: italic;
-    margin-block: 1em 0.25em;
+	font-weight: normal;
+	font-style: italic;
+	margin-block: 1em 0.25em;
 }
 
 dt {
@@ -116,56 +116,56 @@ dt {
 }
 
 p {
-    margin: 0;
-    padding: 0.25em 0;
-    text-align: justify;
+	margin: 0;
+	padding: 0.25em 0;
+	text-align: justify;
 }
 p strong {
-    margin-inline-end: 1ch;
+	margin-inline-end: 1ch;
 }
 p[id], [id] p:first-child, aside > p {
-    text-indent: 1em;
+	text-indent: 1em;
 }
 :target, dt:target + dd {
-    background: #FED;
-    padding-block: 0.75em;
-    padding-inline: 1em;
-    margin-inline: -1em;
-    scroll-margin-block-start: 4em;
+	background: #FED;
+	padding-block: 0.75em;
+	padding-inline: 1em;
+	margin-inline: -1em;
+	scroll-margin-block-start: 4em;
 }
 p.cases {
-    white-space: pre-wrap;
-    margin-block: 0 1em;
-    margin-inline: 1em;
-    text-indent: 0;
+	white-space: pre-wrap;
+	margin-block: 0 1em;
+	margin-inline: 1em;
+	text-indent: 0;
 }
 
 a.xref {
-    white-space: nowrap;
+	white-space: nowrap;
 }
 sup {
-    font-size: 75%;
-    line-height: 0.5;
+	font-size: 75%;
+	line-height: 0.5;
 }
 
 main aside {
-    border-block: 2px solid;
-    padding-block: 2em;
-    padding-inline: 2em;
-    margin-block: 4em;
+	border-block: 2px solid;
+	padding-block: 2em;
+	padding-inline: 2em;
+	margin-block: 4em;
 }
 main aside h4 {
-    margin-block: 2em 0.25em;
-    font-style: italic;
-    font-size: inherit;
-    font-size: 105%;
-    transform: none;
+	margin-block: 2em 0.25em;
+	font-style: italic;
+	font-size: inherit;
+	font-size: 105%;
+	transform: none;
 }
 main aside figure {
-    margin-block: 2em;
+	margin-block: 2em;
 }
 main aside em {
-    margin-inline-end: 1ch;
+	margin-inline-end: 1ch;
 }
 
 .double {
@@ -173,52 +173,52 @@ main aside em {
 }
 
 section.biblio > ol {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    columns: 2;
-    gap: 1.5em;
-    font-size: 90%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	columns: 2;
+	gap: 1.5em;
+	font-size: 90%;
 }
 section.biblio li {
-    text-indent: -1em;
-    padding-inline-start: 1em;
-    break-inside: avoid;
+	text-indent: -1em;
+	padding-inline-start: 1em;
+	break-inside: avoid;
 }
 section.biblio span.authors {
-    font-variant: small-caps;
-    font-weight: 500;
+	font-variant: small-caps;
+	font-weight: 500;
 }
 section.biblio span.authors span {
-    font-variant: normal;
+	font-variant: normal;
 }
 
 .endnotes {
-    font-size: 90%;
+	font-size: 90%;
 }
 .endnotes ol {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 .endnotes li {
-    text-indent: -0.75em;
-    padding-left: 0.75em;
+	text-indent: -0.75em;
+	padding-left: 0.75em;
 }
 
 /* ----------------------------------------------
-    Figures
+	Figures
    ---------------------------------------------- */
 
 figure {
-    margin: 2em 1em;
-    text-align: center;
-    font-size: 95%;
+	margin: 2em 1em;
+	text-align: center;
+	font-size: 95%;
 }
 figure img, figure svg {
-    max-width: 100%;
+	max-width: 100%;
 	display: block;
-    height: auto;
+	height: auto;
 }
 figure.wide {
 	margin-block: 3em;
@@ -228,17 +228,17 @@ figure.wide :is(img, svg) {
 	max-width: 85vw;
 }
 figure .halfwidth {
-    max-width: 50%;
-    margin-inline: auto;
+	max-width: 50%;
+	margin-inline: auto;
 }
 figure figcaption {
-    display: grid;
-    grid-template-columns: max-content auto;
-    justify-content: center;
-    gap: 0.75em;
-    padding: 0.5em 1.5em;
-    text-align: justify;
-    text-align-last: center;
+	display: grid;
+	grid-template-columns: max-content auto;
+	justify-content: center;
+	gap: 0.75em;
+	padding: 0.5em 1.5em;
+	text-align: justify;
+	text-align-last: center;
 }
 figure p {
 	text-indent: 0;
@@ -247,20 +247,20 @@ figure p {
 /* Equation figures */
 
 figure.numbered.equation {
-    display: grid;
-    grid-template-columns: auto min-content;
-    align-items: center;
-    margin-block: 0;
+	display: grid;
+	grid-template-columns: auto min-content;
+	align-items: center;
+	margin-block: 0;
 }
 figure.numbered.equation mjx-container {
     grid-row: 1;
     grid-column: 1;
 }
 figure.numbered.equation figcaption {
-    display: block;
-    grid-row: 1;
-    grid-column: 2;
-    padding: 0;
+	display: block;
+	padding: 0;
+/*    grid-row: 1;
+    grid-column: 2;*/
 }
 
 /* Table figures */
@@ -278,51 +278,51 @@ figure.wide.table table {
 	margin-inline: auto;
 }
 figure.table figcaption, figure.table caption {
-    font-weight: 600;
+	font-weight: 600;
 }
 figure.table figcaption {
-    display: block;
-    font-size: 110%;
+	display: block;
+	font-size: 110%;
 }
 figure.table figcaption + figcaption {
-    padding: 0;
+	padding: 0;
 }
 figure.table table {
-    margin-inline: auto;
-    border-spacing: 1em 0;
-    padding-block: 0.5em;
+	margin-inline: auto;
+	border-spacing: 1em 0;
+	padding-block: 0.5em;
+	border-collapse: separate;
+	font-feature-settings:"tnum" 1;
+	font-variant: tabular-nums;
 }
 figure.table thead th {
-    font-weight: normal;
-    padding-block: 0.25em 0.5em;
+	font-weight: normal;
+	padding-block: 0.25em 0.5em;
 }
 figure.table :is(tbody, tbody[class]) th {
-    font-weight: normal;
-    text-align: left;
+	font-weight: normal;
+	text-align: left;
 }
 figure.table thead th:not(:empty) {
-    border-bottom: 1px solid;
+	border-bottom: 1px solid;
 }
 figure.table :is(tbody,tfoot) th {
-    text-align: left;
+	text-align: left;
 }
 figure.table tbody tr:first-child > * {
-    padding-block-start: 0.5em;
+	padding-block-start: 0.5em;
 }
 figure.table tbody tr:last-child > * {
-    padding-block-end: 0.5em;
-}
-figure.table :is(td,th) {
-    padding-inline: 0.5em;
-    vertical-align: center;
+	padding-block-end: 0.5em;
 }
 figure.table thead th {
 	vertical-align: bottom;
 }
-figure.table tbody :is(td, th) {
-    padding-inline-start: 1.5em;
-    text-indent: -1em;
-    line-height: 1.1;
+figure.table tbody td {
+	padding-inline: 1.5em 0.5em;
+	text-indent: -1em;
+	line-height: 1.1;
+	vertical-align: middle;
 }
 figure.table .upper {
 	vertical-align: top;
@@ -350,13 +350,44 @@ figure.table .center {
 	text-align: center;
 }
 figure.table td.sum {
-    border-top: 1px solid;
+	border-top: 1px solid;
 }
+
+figure.table {
+	--offset: 0ch;
+}
+figure.table .lpf {
+	transform: translateX(calc(0.25ch + var(--offset)));
+}
+figure.table .lp1 {
+	transform: translateX(calc(0.5ch + var(--offset)));
+}
+figure.table .lp2 {
+	transform: translateX(calc(1ch + var(--offset)));
+}
+figure.table .lp3 {
+	transform: translateX(calc(1.5ch + var(--offset)));
+}
+figure.table .lp4 {
+	transform: translateX(calc(2ch + var(--offset)));
+}
+figure.table .lp5 {
+	transform: translateX(calc(2.5ch + var(--offset)));
+}
+
+figure.table .rp1 {
+	transform: translateX(calc(-0.5ch + var(--offset)));
+}
+figure.table .rp2 {
+	transform: translateX(calc(-1ch + var(--offset)));
+}
+
+
 figure.table ul {
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	list-style: none;
 }
 figure.table ul ul {
 	padding-inline-start: 2.5em;
@@ -371,16 +402,16 @@ figure.table table.bordered caption {
 	padding-block: 1em 2em;
 }
 figure.table table.bordered :is(td, th) {
-    border-inline: 1px solid #999;
-    padding-block: 0.5em;
+	border-inline: 1px solid #999;
+	padding-block: 0.5em;
 }
 figure.table table.bordered tr > :is(th, td):first-child {
-    border-inline-start: 0;
-    padding-inline-start: 1.1em;
+	border-inline-start: 0;
+	padding-inline-start: 1.1em;
 }
 figure.table table.bordered tr > :is(th, td):not(:first-child) {
-    text-indent: 0;
-    padding: 0.75em;
+	text-indent: 0;
+	padding: 0.75em;
 }
 figure.table table.bordered tr.subrow > :is(th, td) {
 	padding-block: 0 0.125em;
@@ -392,8 +423,8 @@ figure.table table.bordered tr.subrow + tr.subrow > :is(th, td) {
 	padding-block-end: 0.5em;
 }
 figure.table table.bordered tr > :is(th, td):last-child {
-    border-inline-end: 0;
-    padding-inline-end: 0;
+	border-inline-end: 0;
+	padding-inline-end: 0;
 }
 figure.table table.bordered tr.divide :is(td, th) {
 	border-top: 1px solid #666;

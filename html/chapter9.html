@@ -76,7 +76,18 @@
 			<p id="§9.18"><strong>9.18</strong> If the dose rate at any time is known, by actual measurement, the value at any other time can be estimated. All that is necessary is to compare the ratios (to the unit-time reference dose rate) for the two given times as obtained from Fig. 9.16a or Fig. 9.16b. For example, suppose the dose rate at 3 hours after the explosion is found to be 50 rads/hr; what would be the value at 18 hours? The respective ratios, as given by the curve in Fig. 9.16a, are 0.23 and 0.033, with respect to the unit-time reference dose rate. Hence, the dose rate at 18 hours after the explosion is 50 × 0.033/0.23 = 7.2 rads/hr.</p>
 			<p id="§9.19"><strong>9.19</strong> The results in Figs. 9. 16a and b may be represented in an alternative form, as in Table 9.19, which is more convenient, although somewhat less complete. The dose rate, in any suitable units, is taken as 1,000 at 1 hour after a nuclear explosion; the expected dose rate in the same units at a number of subsequent times, for the same quantity of early fallout, are then as given in the table. If the actual dose rate at 1 hour (or any other time) after the explosion is known, the value at any specified time, up to 1,000 hours, can be obtained by simple proportion.<sup>4</sup></p>
 
-<figure class="table">
+<figure class="table" id="tbl9-19">
+<style>
+#tbl9-19 th:first-child {
+	text-align: center;
+}
+#tbl9-19 th.lp2 {
+	--offset: -0.15ch;
+}
+#tbl9-19 td[class] {
+	--offset: 0.25ch;
+}
+</style>
 <figcaption>Table 9.19</figcaption>
 				<table>
 <caption>RELATIVE THEORETICAL DOSE RATES FROM EARLY FALLOUT AT VARIOUS TIMES AFTER A NUCLEAR EXPLOSION</caption>
@@ -90,56 +101,56 @@
 						<tr>
 							<th>1</th>
 							<td>1,000</td>
-							<td>36</td>
+							<td class="lp2">36</td>
 							<td>15</td>
 						</tr>
 						<tr>
-							<th>1½</th>
-							<td>610</td>
-							<td>48</td>
+							<th class="lp2">1½</th>
+							<td class="lp1">610</td>
+							<td class="lp2">48</td>
 							<td>10</td>
 						</tr>
 						<tr>
 							<th>2</th>
-							<td>400</td>
-							<td>72</td>
-							<td>6.2</td>
+							<td class="lp1">400</td>
+							<td class="lp2">72</td>
+							<td class="lp2">6.2</td>
 						</tr>
 						<tr>
 							<th>3</th>
-							<td>230</td>
-							<td>100</td>
-							<td>4.0</td>
+							<td class="lp1">230</td>
+							<td class="lp1">100</td>
+							<td class="lp2">4.0</td>
 						</tr>
 						<tr>
 							<th>5</th>
-							<td>130</td>
-							<td>200</td>
-							<td>1.7</td>
+							<td class="lp1">130</td>
+							<td class="lp1">200</td>
+							<td class="lp2">1.7</td>
 						</tr>
 						<tr>
 							<th>6</th>
-							<td>100</td>
-							<td>400</td>
-							<td>0.69</td>
+							<td class="lp1">100</td>
+							<td class="lp1">400</td>
+							<td class="lp3">0.69</td>
 						</tr>
 						<tr>
-							<th>10</th>
-							<td>63</td>
-							<td>600</td>
-							<td>0.40</td>
+							<th class="rp1">10</th>
+							<td class="lp2">63</td>
+							<td class="lp1">600</td>
+							<td class="lp3">0.40</td>
 						</tr>
 						<tr>
-							<th>15</th>
-							<td>40</td>
-							<td>800</td>
-							<td>0.31</td>
+							<th class="rp1">15</th>
+							<td class="lp2">40</td>
+							<td class="lp1">800</td>
+							<td class="lp3">0.31</td>
 						</tr>
 						<tr>
-							<th>24</th>
-							<td>23</td>
+							<th class="rp1">24</th>
+							<td class="lp2">23</td>
 							<td>1,000</td>
-							<td>0.24</td>
+							<td class="lp3">0.24</td>
 						</tr>
 					</tbody>
 				</table>
@@ -181,7 +192,12 @@
 			<p>The unit-time reference dose rate is 3.8 rads/hr, and so the accumulated dose received in the 12 hours, between 2 and 14 hours after the explosion, is 3.8 × 1.3 = 4.9 rads.</p></div>
 			<p id="§9.22"><strong>9.22</strong> The percentage of the accumulated "infinity dose" or "infinite time dose" that would be received from a given quantity of early fallout, computed from 1 minute to various times after a nuclear explosion, is shown in Table 9.22. The calculated infinite time dose is essentially equal to the dose that would be accumulated as a result of exposure to a fixed quantity of fallout for many years. These data can be used to determine the proportion of the infinite time dose received during any specified period following the complete deposition of the early fallout. Of course, if the deposition of fallout is incomplete or part is removed, Table 9.22 would not be applicable.</p>
 
-<figure class="table">
+<figure class="table" id="tbl9-22">
+<style>
+#tbl9-22 td.lp2:nth-child(3) {
+	--offset: 0.125ch;
+}
+</style>
 <figcaption>Table 9.22</figcaption>
 			  <table>
 <caption>PERCENTAGES OF INFINITE TIME RESIDUAL RADIATION DOSE RECEIVED FROM 1 MINUTE UP TO VARIOUS TIMES AFTER EXPLOSION</caption>
@@ -195,43 +211,43 @@
 					</thead>
 					<tbody>
 						<tr>
-							<th>1</th>
+							<td class="lp1">1</td>
 							<td>55</td>
-							<td>72</td>
+							<td class="lp3">72</td>
 							<td>86</td>
 						</tr>
 						<tr>
-							<th>2</th>
+							<td class="lp1">2</td>
 							<td>62</td>
-							<td>100</td>
+							<td class="lp2">100</td>
 							<td>88</td>
 						</tr>
 						<tr>
-							<th>4</th>
+							<td class="lp1">4</td>
 							<td>68</td>
-							<td>200</td>
+							<td class="lp2">200</td>
 							<td>90</td>
 						</tr>
 						<tr>
-							<th>6</th>
+							<td class="lp1">6</td>
 							<td>71</td>
-							<td>500</td>
+							<td class="lp2">500</td>
 							<td>93</td>
 						</tr>
 						<tr>
-							<th>12</th>
+							<td>12</td>
 							<td>75</td>
-							<td>1,000</td>
+							<td class="lp1">1,000</td>
 							<td>95</td>
 						</tr>
 						<tr>
-							<th>24</th>
+							<td>24</td>
 							<td>80</td>
-							<td>2,000</td>
+							<td class="lp1">2,000</td>
 							<td>97</td>
 						</tr>
 						<tr>
-							<th>48</th>
+							<td>48</td>
 							<td>83</td>
 							<td>10,000</td>
 							<td>99</td>
@@ -346,7 +362,12 @@
 			<p id="§9.56"><strong>9.56</strong> In the Bikini BAKER test (<a href="chapter2.html#§2.63" class="xref">§ 2.63</a>), the contaminated fallout (or rainout) consisted of both solid particles and a slurry of sea salt crystals in drops of water. This contamination was difficult to dislodge and had there been personnel on board the ships used in the test, they would have been subjected to considerable doses of radiation if the fallout were not removed immediately.<sup>6</sup> Since the BAKER shot was fired in shallow water, the bottom material may have helped in the scavenging of the radioactive cloud, thus adding to the contamination. It is expected that for shallow bursts in very deep water the fallout from the cloud will be less than observed at the test in Bikini lagoon.</p>
 			<p id="§9.57"><strong>9.57</strong> An indication of the rate of spread of the active material and the decrease in the dose rate following a shallow underwater burst is provided by the data in Table 9.57, obtained after the Bikini BAKER test. Although the dose rate in the water was still fairly high after 4 hours, there would be considerable attenuation in the interior of a ship, so that during the time required to cross the contaminated area the total dose received would be small. Within 2 or 3 days after the BAKER test the radioactivity had spread over an area of about 50 square miles, but the radiation dose rate in the water was so low that the region could be traversed in safety.</p>
 
-			<figure class="table">
+			<figure class="table" id="tbl9-57">
+			<style>
+			#tbl9-57 td:nth-child(2).rp2 {
+				--offset: -0.2ch;
+			}
+			</style>
 				<figcaption>Table 9.57</figcaption>
 				<table>
 				<caption>DIMENSIONS AND DOSE RATE IN CONTAMINATED WATER AFTER THE 20-KILOTON UNDERWATER EXPLOSION AT BIKINI</caption>
@@ -358,46 +379,46 @@
 					</thead>
 					<tbody>
 						<tr>
-							<th>4</th>
+							<td class="lp2">4</td>
 							<td>16.6</td>
 							<td>4.6</td>
 							<td>3.1</td>
 						</tr>
 						<tr>
-							<th>38</th>
+							<td class="lp1">38</td>
 							<td>18.4</td>
 							<td>4.8</td>
-							<td>0.42</td>
+							<td class="lp1">0.42</td>
 						</tr>
 						<tr>
-							<th>62</th>
+							<td class="lp1">62</td>
 							<td>48.6</td>
 							<td>7.9</td>
-							<td>0.21</td>
+							<td class="lp1">0.21</td>
 						</tr>
 						<tr>
-							<th>86</th>
+							<td class="lp1">86</td>
 							<td>61.8</td>
 							<td>8.9</td>
-							<td>0.042</td>
+							<td class="lp2">0.042</td>
 						</tr>
 						<tr>
-							<th>100</th>
+							<td>100</td>
 							<td>70.6</td>
 							<td>9.5</td>
-							<td>0.025</td>
+							<td class="lp2">0.025</td>
 						</tr>
 						<tr>
-							<th>130</th>
-							<td>107</td>
-							<td>11.7</td>
-							<td>0.008</td>
+							<td>130</td>
+							<td class="rp2">107</td>
+							<td class="rp1">11.7</td>
+							<td class="lp2">0.008</td>
 						</tr>
 						<tr>
-							<th>200</th>
-							<td>160</td>
-							<td>14.3</td>
-							<td>0.0004</td>
+							<td>200</td>
+							<td class="rp2">160</td>
+							<td class="rp1">14.3</td>
+							<td class="lp3">0.0004</td>
 						</tr>
 					</tbody>
 				</table>
@@ -428,7 +449,9 @@
 			<p id="§9.73"><strong>9.73</strong> Much of what has been stated concerning the possible effects of rain on faLLout from both surface and air bursts is based largely on theoretical considerations. Nuclear test operations have been conducted in such a manner as to avoid the danger of rainout. The few recorded cases of rainout which have occurred have involved very low levels of radioactivity and the possibility of severe contamination under suitable conditions has not been verified. Nevertheless, there is little doubt that precipitation scavenging can affect the fallout distribution on the ground from both air and surface bursts with yields in the appropriate range. Because of the many variables in precipitation scavenging, the extent and level of surface contamination to be expected are uncertain. Some estimates have been made, however, of the amounts of rainfall necessary to remove given percentages of the radioactive particles from a nuclear cloud. These estimates are based partly on field experiments with suspended particles and partly on mathematical models for use with a computer; the results are thus dependent on the details of the model, e.g., particle size distribution.</p>
 			<p id="§9.74"><strong>9.74</strong> Two types of precipitation scavenging have been treated in this manner: "rainout" (or "snowout"), when the nuclear cloud is within the rain (or snow) cloud, and "washout" when the nuclear cloud is below the rain (or snow) cloud. The rainfall rate appears to have little effect on rainout but washout is affected to a marked extent. The data in Tables 9. 74a and b give rough estimates of the amounts of rainfall, expressed as the duration, required for the removal of specified percentages of the nuclear cloud particles by rainout and washout; the terms light, moderate, and heavy in Table 9.74b refer to 0.05, 0.20, and 0.47 inch of rain per hour, respectively, as measured at the surface. Thus, it appears that washout is a less effective scavenging mechanism than rainout. The tabulated values are based on the assumption that the nuclear and rain clouds remain in the same relative positions, with the rain cloud at least as large as the nuclear cloud (<a href="#§9.69" class="xref">§ 9.69</a>). It should be noted that the times in Tables 9.74 4a and b are those required for the radioactive debris to be removed by the rain; additional time will elapse before the radioactivity is deposited on the ground. The deposition time will depend on the altitude at which the debris is scavenged and the rate of fall of the rain.</p>
 
-<figure class="table">
+<figure class="table" id="tbl9-74">
+<style>
+</style>
 <figcaption>Table 9.74a</figcaption>
 			  <table>
 <caption>ESTIMATED RAINFALL DURATION FOR RAINOUT</caption>
@@ -440,30 +463,35 @@
 					</thead>
 					<tbody>
 						<tr>
-							<th>25</th>
+							<td>25</td>
 							<td>0.07</td>
 						</tr>
 						<tr>
-							<th>50</th>
+							<td>50</td>
 							<td>0.16</td>
 						</tr>
 						<tr>
-							<th>75</th>
+							<td>75</td>
 							<td>0.32</td>
 						</tr>
 						<tr>
-							<th>90</th>
+							<td>90</td>
 							<td>0.53</td>
 						</tr>
 						<tr>
-							<th>99</th>
-							<td>1.1</td>
+							<td>99</td>
+							<td class="rp1">1.1</td>
 						</tr>
 					</tbody>
 				</table>
 			</figure>
 
-<figure class="table">
+<figure class="table" id="tbl9-74">
+<style>
+#tbl9-74 .rp2 {
+	--offset: -0.125ch;
+}
+</style>
 <figcaption>Table 9.74b</figcaption>
 			  <table>
 <caption>ESTIMATED RAINFALL DURATION FOR WASHOUT</caption>
@@ -481,34 +509,34 @@
 					</thead>
 					<tbody>
 						<tr>
-							<th>25</th>
-							<td>8</td>
+							<td>25</td>
+							<td class="lp2">8</td>
 							<td>1.6</td>
 							<td>0.8</td>
 						</tr>
 						<tr>
-							<th>50</th>
-							<td>19</td>
+							<td>50</td>
+							<td class="lp1">19</td>
 							<td>3.8</td>
 							<td>1.9</td>
 						</tr>
 						<tr>
-							<th>75</th>
-							<td>38</td>
+							<td>75</td>
+							<td class="lp1">38</td>
 							<td>7.7</td>
 							<td>3.6</td>
 						</tr>
 						<tr>
-							<th>90</th>
-							<td>64</td>
-							<td>13</td>
+							<td>90</td>
+							<td class="lp1">64</td>
+							<td class="rp2">13</td>
 							<td>6.4</td>
 						</tr>
 						<tr>
-							<th>99</th>
+							<td>99</td>
 							<td>128</td>
-							<td>26</td>
-							<td>13</td>
+							<td class="rp2">26</td>
+							<td class="rp2">13</td>
 						</tr>
 					</tbody>
 				</table>
@@ -602,7 +630,33 @@
 				</figcaption>
 			</figure>
 
-<figure class="table">
+<figure class="table" id="tbl9-93">
+<style>
+#tbl9-93 tbody th {
+	text-align: center;
+	--offset: 0.25ch;
+}
+#tbl9-93 tbody td {
+	text-indent: 0;
+	padding-inline-start: 0.5em;
+}
+#tbl9-93 tbody span {
+	display: inline-block;
+	text-align: left;	
+}
+#tbl9-93 tbody td:nth-of-type(1) span {
+	width: 1.9em;
+}
+#tbl9-93 tbody td:nth-of-type(2) span {
+	width: 3em;
+}
+#tbl9-93 tbody td:nth-of-type(3) span {
+	width: 2.5em;
+}
+#tbl9-93 tbody sup {
+	margin-inline-start: 0.33ch;
+}
+</style>
 <figcaption>Table 9.93</figcaption>
 				<table>
 <caption>SCALING RELATIONSHIPS FOR UNIT-TIME REFERENCE DOSE-RATE CONTOURS FOR A CONTACT SURFACE BURST WITH A YIELD OF W KILOTONS AND A 15 MPH WIND</caption>
@@ -615,52 +669,52 @@
 					</thead>
 					<tbody>
 						<tr>
-							<th>3.000</th>
-							<td>0.95 W<sup>0.45</sup></td>
-							<td>0.0076 W<sup>0.86</sup></td>
-							<td>0.026 W<sup>0.58</sup></td>
+							<th>3,000</th>
+							<td><span>0.95</span> <i>W</i><sup>0.45</sup></td>
+							<td><span>0.0076</span> <i>W</i><sup>0.86</sup></td>
+							<td><span>0.026</span> <i>W</i><sup>0.58</sup></td>
 						</tr>
 						<tr>
 							<th>1,000</th>
-							<td>1.8 W<sup>0.45</sup></td>
-							<td>0.036 W<sup>0.76</sup></td>
-							<td>0.060 W<sup>0.57</sup></td>
+							<td><span>1.8</span> <i>W</i><sup>0.45</sup></td>
+							<td><span>0.036</span> <i>W</i><sup>0.76</sup></td>
+							<td><span>0.060</span> <i>W</i><sup>0.57</sup></td>
 						</tr>
 						<tr>
-							<th>300</th>
-							<td>4.5 W<sup>0.45</sup></td>
-							<td>0.13 W<sup>0.66</sup></td>
-							<td>0.20 W<sup>0.48</sup></td>
+							<th class="lp1">300</th>
+							<td><span>4.5</span> <i>W</i><sup>0.45</sup></td>
+							<td><span>0.13</span> <i>W</i><sup>0.66</sup></td>
+							<td><span>0.20</span> <i>W</i><sup>0.48</sup></td>
 						</tr>
 						<tr>
-							<th>100</th>
-							<td>8.9 W<sup>0.45</sup></td>
-							<td>0.38 W<sup>0.60</sup></td>
-							<td>0.39 W<sup>0.42</sup></td>
+							<th class="lp1">100</th>
+							<td><span>8.9</span> <i>W</i><sup>0.45</sup></td>
+							<td><span>0.38</span> <i>W</i><sup>0.60</sup></td>
+							<td><span>0.39</span> <i>W</i><sup>0.42</sup></td>
 						</tr>
 						<tr>
-							<th>30</th>
-							<td>16 W<sup>0.45</sup></td>
-							<td>0.76 W<sup>0.56</sup></td>
-							<td>0.53 W<sup>0.41</sup></td>
+							<th class="lp2">30</th>
+							<td><span class="rp2">16</span> <i>W</i><sup>0.45</sup></td>
+							<td><span>0.76</span> <i>W</i><sup>0.56</sup></td>
+							<td><span>0.53</span> <i>W</i><sup>0.41</sup></td>
 						</tr>
 						<tr>
-							<th>10</th>
-							<td>24 W<sup>0.45</sup></td>
-							<td>1.4 W<sup>0.53</sup></td>
-							<td>0.68 W<sup>0.41</sup></td>
+							<th class="lp2">10</th>
+							<td><span class="rp2">24</span> <i>W</i><sup>0.45</sup></td>
+							<td><span>1.4</span> <i>W</i><sup>0.53</sup></td>
+							<td><span>0.68</span> <i>W</i><sup>0.41</sup></td>
 						</tr>
 						<tr>
-							<th>3</th>
-							<td>30 W<sup>0.45</sup></td>
-							<td>2.2 W<sup>0.50</sup></td>
-							<td>0.89 W<sup>0.41</sup></td>
+							<th class="lp3">3</th>
+							<td><span class="rp2">30</span> <i>W</i><sup>0.45</sup></td>
+							<td><span>2.2</span> <i>W</i><sup>0.50</sup></td>
+							<td><span>0.89</span> <i>W</i><sup>0.41</sup></td>
 						</tr>
 						<tr>
-							<th>1</th>
-							<td>40 W<sup>0.45</sup></td>
-							<td>3.3 W<sup>0.48</sup></td>
-							<td>1.5 W<sup>0.41</sup></td>
+							<th class="lp3">1</th>
+							<td><span class="rp2">40</span> <i>W</i><sup>0.45</sup></td>
+							<td><span>3.3</span> <i>W</i><sup>0.48</sup></td>
+							<td><span>1.5</span> <i>W</i><sup>0.41</sup></td>
 						</tr>
 					</tbody>
 				</table>
@@ -774,7 +828,18 @@ F = 1 + \frac{v - 15}{30}
 			<p id="§9.108"><strong>9.108</strong> The period of 96 hours after the explosion, for which Fig. 9.105 gives the accumulated radiation doses, was chosen somewhat arbitrarily. It should be understood, however, as has been frequently stated earlier in this chapter, that the radiations from the fallout will continue to be emitted for a long time, although at a gradually decreasing rate. The persistence of the external gamma radiation may be illustrated in connection with the BRAVO test by considering the situation at two different locations in Rongelap Atoll. Fallout began about 4 to 6 hours after the explosion and continued for several hours at both places.</p>
 			<p id="§9.109"><strong>9.109</strong> The northwestern tip of the atoll, 100 miles from the point of detonation, received 3,300 rads during the first 96 hours after the fallout started. This was the heaviest fallout recorded at the same distance from the explosion and may possibly have represented a hot spot, as mentioned above. About 25 miles south, and 115 miles from ground zero, the dose over the same period was only 220 rads. The inhabitants of Rongelap Atoll were in this area, and were exposed to radiation dosages up to 175 rads before they were evacuated some 44 hours after the fallout began (<a href="chapter12.html#§12.124" class="xref">§§ 12.124</a>, <a href="chapter12.html#§12.156" class="xref">12.156</a>). The maximum theoretical exposures in these two areas of the atoll for various time intervals after the explosion, calculated from the decay curves given earlier in this chapter, are recorded in Table 9.109.</p>
 
-<figure class="table">
+<figure class="table" id="tbl9-109">
+<style>
+#tbl9-109 :is(tbody, tfoot) td {
+	text-align: right;
+}
+#tbl9-109 tfoot td {
+	padding-inline: 0.5em;
+}
+#tbl9-109 tfoot tr:first-child td {
+	border-top: 1px solid;
+}
+</style>
 <figcaption>Table 9.109</figcaption>
 				<table>
 <caption>CALCULATED RADIATION DOSES AT TWO LOCATIONS IN RONGELAP ATOLL FROM FALLOUT FOLLOWING THE MARCH 1, 1954 TEST AT BIKINI</caption>
@@ -815,7 +880,7 @@ F = 1 + \frac{v - 15}{30}
 						<tr>
 							<th scope="row">Total to 1 year</th>
 							<td>405</td>
-							<td> 6,010</td>
+							<td>6,010</td>
 						</tr>
 						<tr>
 							<th>1 year to infinity</th>
@@ -845,7 +910,15 @@ F = 1 + \frac{v - 15}{30}
 			<p id="§9.119"><strong>9.119</strong> Calculation of the attenuation of the gamma radiation from fallout is different and in some ways more complicated than for the initial radiations. The latter come from the explosion point, but the residual radiations arise from fallout particles that are widely distributed on the ground, on roofs, trees, etc. The complication stems from the fact that the effectiveness of a given thickness of material is influenced by the fallout distribution (or geometry) and hence depends on the degree of contamination and its location relative to the position where protection is desired. Estimates of the attenuation of residua radiation in various structures have been made, based partly on calculations and partly on measurements with simulated fallout.</p>
 			<p id="§9.120"><strong>9.120</strong> Some of the results of these estimates are given in Table 9.120 in terms of a dose-transmission factor (<a href="chapter8.html#§8.72" class="xref">§ 8.72</a>). Ranges of values are given in view of the uncertainties in the estimates themselves and the variations in the degree of shielding that may be obtained at different locations within a structure. (Shielding data for the same structures for initial nuclear radiation are given in Table 8.72.) All of the structures are assumed to be isolated, so that possible effects of adjacent buildings have been neglected. For vehicles, such as automobiles, buses, trucks, etc., the transmission factor is about 0.S to 0.7. Rough estimates can thus be made of the shielding from fallout radiation that might be expected in various situations. Depending upon his location, a person in the open in a built-up city area would receive from about 20 to 70 percent of the dose that would be delivered by the same quantity of fallout in the absence of the buildings. An individual standing against a building in the middle of a block would receive a much smaller dose than one standing at the intersection of two streets. In contaminated agricultural areas, the gamma-ray dose above the surface can be reduced by turning over the soil so as to bury the fallout particles.</p>
 
-<figure class="table">
+<figure class="table" id="tbl9-120">
+<style>
+#tbl9-120 td:last-child {
+	text-align: left;
+}
+#tbl9-120 tr.subrow th {
+	padding-inline-start: 1em;
+}
+</style>
 <figcaption>Table 9.120</figcaption>
 				<table>
 <caption>FALLOUT GAMMA-RAY DOSE TRANSMISSION FACTORS FOR VARIOUS STRUCTURES</caption>
@@ -873,11 +946,11 @@ F = 1 + \frac{v - 15}{30}
 							<th scope="rowgroup">Multistory building (apartment type):</th>
 							<td></td>
 						</tr>
-						<tr>
+						<tr class="subrow">
 							<th>Upper stories</th>
 							<td>0.01</td>
 						</tr>
-						<tr>
+						<tr class="subrow">
 							<th>Lower stories</th>
 							<td>0.1</td>
 						</tr>
@@ -885,15 +958,15 @@ F = 1 + \frac{v - 15}{30}
 							<th scope="rowgroup">Concrete blockhouse shelter:</th>
 							<td></td>
 						</tr>
-						<tr>
+						<tr class="subrow">
 							<th>9-in. walls</th>
 							<td>0.007-0.09</td>
 						</tr>
-						<tr>
+						<tr class="subrow">
 							<th>12-in walls</th>
 							<td>0.001-0.03</td>
 						</tr>
-						<tr>
+						<tr class="subrow">
 							<th>24-in walls</th>
 							<td>0.0001-0.002</td>
 						</tr>
@@ -901,11 +974,11 @@ F = 1 + \frac{v - 15}{30}
 							<th scope="rowgroup">Shelter, partly above grade:</th>
 							<td></td>
 						</tr>
-						<tr>
+						<tr class="subrow">
 							<th>With 2 ft earth cover</th>
 							<td>0.005-0.02</td>
 						</tr>
-						<tr>
+						<tr class="subrow">
 							<th>With 3 ft earth cover</th>
 							<td>0.001-0.005</td>
 						</tr>

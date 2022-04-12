@@ -101,7 +101,9 @@
 			<p id="§11.16"><strong>11.16</strong> For locations that are not within or close to the deposition region for a surface or air burst, both the amount and rate of EMP energy received per unit area on or near the ground will be small, regardless of the type of nuclear explosion. Hence, for damage to occur to electrical or electronic systems, it would usually be necessary for the energy to be collected over a considerable area by means of a suitable conductor. In certain systems, however, sufficient energy, mainly from the high-frequency components of the EMP, may be collected by small metallic conductors to damage very sensitive components(<a href="chapter11.html#§11.31" class="xref">§ 11.31</a>). The energy is then delivered from the collector (antenna) in the form of a strong current and voltage surge to attached equipment. Actually, the equipment does not have to be attached directly to the collector; the EMP energy can be coupled in other ways(<a href="chapter11.html#§11.27" class="xref">§ 11.27</a>). For example, it is possible for an electric current to be induced or for a spark to jump from the conductor which collects the EMP energy to an adjacent conductor, not connected to the collector, and thence to a piece of equipment.</p>
 			<p id="§11.17"><strong>11.17</strong> The manner in which the electromagnetic energy is collected from the EMP is usually complex, because much depends on the size and shape of the collector, on its orientation with respect to the source of the pulse, and on the frequency spectrum of the pulse. As a rough general rule, the amount of energy collected increases with the dimensions of the conductor which serves as the collector (or antenna). Typical effective collectors of EMP energy are given in Table 11.17. Deeply buried cables, pipes, etc., are generally less effective than overhead runs because the ground provides some shielding by absorbing the high frequency part of the energy (see, however, <a href="chapter11.html#§11.68" class="xref">§ 11.68</a>).</p>
 
-<figure class="table">
+<figure class="table" id="tbl11-17">
+<style>
+</style>
 <figcaption>Table 11.17</figcaption>
 				<table>
 <caption>TYPICAL COLLECTORS OF EMP ENERGY</caption>
@@ -154,7 +156,9 @@
 			<p id="§11.30"><strong>11.30</strong> Degradation of electrical and electronic system performance as a result of exposure to the EMP may consist of functional damage or operational upset. Functional damage is a catastrophic failure that is permanent; examples are burnout of a device or component, such as a fuse or a transistor, and inability of a component or subsystem to execute its entire range of functions. Operational upset is a temporary impairment which may deny use of a piece of equipment from a fraction of a second to several hours. Change of state in switches and in flip-flop circuits are examples of operational upset. The amount of EMP energy required to cause operational upset is generally a few orders of magnitude smaller than for functional damage.</p>
 			<p id="§11.31"><strong>11.31</strong> Some electronic components are very sensitive to functional damage (burnout) by the EMP. The actual sensitivity will often depend on the characteristics of the circuit containing the component and also on the nature of the semiconductor materials and fabrication details of a solid-state device. In general, however, the components listed in Table 11.31 are given in order of decreasing sensitivity to damage by a sharp pulse of electromagnetic energy. Tests with EMP simulators have shown that a very short pulse of about 10<sup>-7</sup> joule may be sufficient to damage a microwave semiconductor diode, roughly 5 x 10<sup>-2</sup> joule will damage an audio transistor, but 1 joule would be required for vacuum tube damage. Systems using vacuum tubes only would thus be much less sensitive to the EMP than those employing solid-state components. The minimum energy required to damage a microammeter or a low current relay is about the same as for audio transistors.</p>
 
-<figure class="table">
+<figure class="table" id="tbl11-31">
+<style>
+</style>
 <figcaption>Table 11.31</figcaption>
 				<table>
 <caption>ELECTRONIC COMPONENTS IN ORDER OF DECREASING SENSITIVITY</caption>
@@ -178,7 +182,9 @@
 
 			<p id="§11.32"><strong>11.32</strong> As seen earlier, the EMP threat to a particular system, subsystem, or component is largely determined by the nature of the collector (antenna). A sensitive system associated with a poor collector may suffer less damage than a system of lower sensitivity attached to a more efficient collector. Provided the EMP energy collectors are similar in all cases, electrical and electronic systems may be classified in the manner shown in Table 11.32. However, the amount of energy collected is not always a sufficient criterion for damage. For example, an EMP surge can sometimes serve as a trigger mechanism by producing arcing or a change of state which, in tum, allows the normal operating voltage to cause damage to a piece of equipment. Thus, analysis of sensitivity to EMP may require consideration of operational upset and damage mechanisms in addition to the energy collected.</p>
 
-<figure class="table">
+<figure class="table" id="tbl11-32">
+<style>
+</style>
 <figcaption>Table 11.32</figcaption>
 				<table>
 <caption>DEGREES OF SUSCEPTIBILITY TO THE EMP</caption>
@@ -380,7 +386,12 @@ E = \frac{R_0}{R} E_0,
 			<p id="§11.71"><strong>11.71</strong> Unless they happen to be ejected along the lines of the geomagnetic field, the Compton electrons resulting from the interaction of the gamma-ray photons with the air molecules and atoms in the deposition region will be forced to follow curved paths along the field lines.<sup>3</sup> In doing so they are subjected to a radial acceleration and the ensemble of turning electrons, whose density varies with time, emits electromagnetic radiations which add coherently. The EMP produced in this manner from a high-altitude burst—and also to some extent from an air burst—is in a higher frequency range than the EMP arising from local asymmetries in moderate-altitude and surface bursts (<a href="chapter11.html#§11.63" class="xref">§ 11.63</a>).</p>
 			<p id="§11.72"><strong>11.72</strong> The curves in Figs. 11.70a and b indicate the dimensions of the deposition (source) region, but they do not show the extent of coverage on (or near) the earth's surface. The EMP does not radiate solely in a direction down from the source region; it also radiates from the edges and at angles other than vertical beneath this region. Thus, the effect at the earth's surface of the higher-frequency EMP extends to the horizon (or tangent point on the surface as viewed from the burst). The lower frequencies, however, will extend even beyond the horizon because these electromagnetic waves can follow the earth's curvature (cf. <a href="chapter10.html#§10.92" class="xref">§ 10.92</a>). Table 11.72 gives the distances along the surface from ground zero to the tangent point for several burst heights.</p>
 
-<figure class="table">
+<figure class="table" id="tbl11-72">
+<style>
+#tbl11-72 td:last-child {
+	--offset: 0.25ch;
+}
+</style>
 <figcaption>Table 11.72</figcaption>
 				<table>
 <caption>GROUND DISTANCE TO TANGENT POINT FOR VARIOUS BURST ALTITUDES </caption>
@@ -392,16 +403,16 @@ E = \frac{R_0}{R} E_0,
 					</thead>
 					<tbody>
 						<tr>
-							<td>62</td>
-							<td>695</td>
+							<td class="lp1">62</td>
+							<td class="lp1">695</td>
 						</tr>
 						<tr>
-							<td>93</td>
-							<td>850</td>
+							<td class="lp1">93</td>
+							<td class="lp1">850</td>
 						</tr>
 						<tr>
 							<td>124</td>
-							<td>980</td>
+							<td class="lp1">980</td>
 						</tr>
 						<tr>
 							<td>186</td>

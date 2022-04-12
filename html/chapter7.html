@@ -57,7 +57,15 @@
       <p id="§7.11"><strong>7.11</strong> The decrease in energy of thermal radiation due to scattering by particles in the air depends upon the atmospheric conditions, such as the concentration and size of the particles, and also upon the wavelength of the radiation. This means that radiations of different wavelengths, namely, ultraviolet, visible, and infrared, will suffer energy attenuation to different extents. For most practical purposes, however, it is more convenient and reasonably satisfactory, although less precise, to postulate a mean attenuation averaged over all the wavelengths present in the thermal radiation.</p>
       <p id="§7.12"><strong>7.12</strong> The extent to which the atmosphere attenuates thermal energy and limits visibility depends largely on the scattering of radiation. Therefore, the state of the atmosphere as far as scattering is concerned can be represented by what is known as the daylight “visibility range” or, in brief, as the “visibility.” This is defined as the horizontal distance at which a large dark object on the horizon has just enough contrast with the surrounding sky to be discernible in daylight. The international code for correlating the visibility with the condition of the atmosphere is given in Table 7.12.</p>
 
-<figure class="table">
+<figure class="table" id="tbl7-12">
+<style>
+#tbl7-12 tbody td:first-child {
+	text-align: left;
+}
+#tbl7-12 tbody td.lp3:last-child {
+	--offset: 0.15ch;
+}
+</style>
 <figcaption>Table 7.12</figcaption>
         <table>
 <caption>VISIBILITY AND CONDITION OF THE ATMOSPHERE</caption>
@@ -72,7 +80,7 @@
               <th scope="col">Miles </th>
             </tr>
           </thead>
-          <tbody class="left">
+          <tbody>
             <tr>
               <td>Exceptionally clear</td>
               <td>280</td>
@@ -80,32 +88,32 @@
             </tr>
             <tr>
               <td>Very clear</td>
-              <td>50</td>
-              <td>31</td>
+              <td class="lp1">50</td>
+              <td class="lp1">31</td>
             </tr>
             <tr>
               <td>Clear</td>
-              <td>20</td>
-              <td>12</td>
+              <td class="lp1">20</td>
+              <td class="lp1">12</td>
             </tr>
             <tr>
               <td>Light haze</td>
-              <td>10</td>
-              <td>6</td>
+              <td class="lp1">10</td>
+              <td class="lp2">6</td>
             </tr>
             <tr>
               <td>Haze</td>
-              <td>4</td>
-              <td>2.5</td>
+              <td class="lp2">4</td>
+              <td class="lp3">2.5</td>
             </tr>
             <tr>
               <td>Thin fog</td>
-              <td>2</td>
-              <td>1.2</td>
+              <td class="lp2">2</td>
+              <td class="lp3">1.2</td>
             </tr>
             <tr>
               <td>Light to thick fog</td>
-              <td>1 or less</td>
+              <td class="lp1">1 or less</td>
               <td>0.6 or less</td>
             </tr>
           </tbody>
@@ -185,7 +193,17 @@
       <p id="§7.34"><strong>7.34</strong> Dark-colored fabrics absorb the radiation, and hence suffer damage more readily than do the same fabrics if light in color. Even in this connection there are variations according to the method of dyeing and the particular fiber involved. Wool is more resistant to radiant energy than cotton or rayon, and these are less easily affected than nylon. Orlon appears to be appreciably more resistant than nylon. Fabrics of light weight (for a given area) need less thermal energy to cause specific damage than do those of heavy weight. The energy required, for the same exposure time, is roughly proportional to the fabric weight per unit area. Fabric with a moderate moisture content behaves like dry fabric, but if the amount of moisture is fairly high, more thermal energy will be needed to produce damage.</p>
       <p id="§7.35"><strong>7.35</strong> Although extensive studies have been made of the effects of thermal radiation on a large number of individual fabrics, it is difficult to summarize the results because of the many variables that have a significant influence. Some attempt is nevertheless made in Table 7.35 to give an indication of the magnitude of the exposures required to ignite (or otherwise damage) various fabric materials by the absorption of thermal radiation. The values are expressed in terms of gram-calories of thermal energy incident upon a 1 square centimeter area of material, i.e., cal/cm<sup>2</sup>, generally referred to as the “radiant exposure.” Results are presented for low air bursts with arbitrary energy yields of 35 kilotons, 1.4 megatons, and 20 megatons. It will be noted that, for the reasons given in <a href="chapter7.html#§7.30" class="xref">§ 7.30</a>, the radiant exposure required to produce a particular effect increases with the yield.</p>
 
-<figure class="wide table">
+<figure class="wide table" id="tbl7-35">
+<style>
+#tbl7-35 td {
+	vertical-align: top;
+}
+#tbl7-35 td:first-child,
+#tbl7-35 td:nth-last-child(4),
+#tbl7-35 td:nth-last-child(5) {
+	text-align: left;
+}
+</style>
 <figcaption>Table 7.35</figcaption>
         <table>
 <caption>APPROXIMATE RADIANT EXPOSURES FOR IGNITION OF FABRICS FOR LOW AIR BURSTS </caption>
@@ -204,13 +222,13 @@
               <th scope="col">20 megatons</th>
             </tr>
           </thead>
-          <tbody class="left">
+          <tbody>
             <tr>
               <th colspan="7"> CLOTHING FABRICS</th>
             </tr>
             <tr>
-              <td>Cotton</td>
-              <td>8</td>
+              <td rowspan="7">Cotton</td>
+              <td rowspan="7" class="lp1">8</td>
               <td>White</td>
               <td>Ignites</td>
               <td>32</td>
@@ -218,7 +236,6 @@
               <td>85</td>
             </tr>
             <tr>
-              <td colspan="2"></td>
               <td>Khaki</td>
               <td>Tears on flexing</td>
               <td>17</td>
@@ -226,23 +243,20 @@
               <td>34</td>
             </tr>
             <tr>
-              <td colspan="2"></td>
               <td>Khaki</td>
-              <td> Ignites</td>
+              <td>Ignites</td>
               <td>20</td>
               <td>30</td>
               <td>39</td>
             </tr>
             <tr>
-              <td colspan="2"></td>
               <td>Olive</td>
               <td>Tears on flexing</td>
-              <td>9</td>
+              <td class="lp1">9</td>
               <td>14</td>
               <td>21</td>
             </tr>
             <tr>
-              <td colspan="2"></td>
               <td>Olive</td>
               <td>Ignites</td>
               <td>14</td>
@@ -250,7 +264,6 @@
               <td>21</td>
             </tr>
             <tr>
-              <td colspan="2"></td>
               <td>Dark blue</td>
               <td>Tears on flexing</td>
               <td>11</td>
@@ -258,16 +271,15 @@
               <td>17</td>
             </tr>
             <tr>
-              <td colspan="2"></td>
               <td>Dark blue</td>
-              <td> Ignites</td>
+              <td>Ignites</td>
               <td>14</td>
               <td>19</td>
               <td>21</td>
             </tr>
             <tr>
               <td>Cotton corduroy</td>
-              <td>8</td>
+              <td class="lp1">8</td>
               <td>Brown</td>
               <td>Ignites</td>
               <td>11</td>
@@ -285,7 +297,7 @@
             </tr>
             <tr>
               <td>Cotton shirting</td>
-              <td>3</td>
+              <td class="lp1">3</td>
               <td>Khaki</td>
               <td>Ignites</td>
               <td>14</td>
@@ -293,16 +305,15 @@
               <td>28</td>
             </tr>
             <tr>
-              <td>Cotton-nylon mixture</td>
-              <td>5</td>
+              <td rowspan="2">Cotton-nylon mixture</td>
+              <td rowspan="2" class="lp1">5</td>
               <td>Olive</td>
               <td>Tears on flexing</td>
-              <td>8</td>
+              <td class="lp1">8</td>
               <td>15</td>
               <td>17</td>
             </tr>
             <tr>
-              <td colspan="2"></td>
               <td>Olive</td>
               <td>Ignites</td>
               <td>12</td>
@@ -310,8 +321,8 @@
               <td>53</td>
             </tr>
             <tr>
-              <td> Wool</td>
-              <td>8</td>
+              <td rowspan="4">Wool</td>
+              <td rowspan="4" class="lp1">8</td>
               <td>White</td>
               <td>Tears on flexing</td>
               <td>14</td>
@@ -319,7 +330,6 @@
               <td>38</td>
             </tr>
             <tr>
-              <td colspan="2"></td>
               <td>Khaki</td>
               <td>Tears on flexing</td>
               <td>14</td>
@@ -327,24 +337,22 @@
               <td>34</td>
             </tr>
             <tr>
-              <td colspan="2"></td>
               <td>Olive</td>
               <td>Tears on flexing</td>
-              <td>9</td>
+              <td class="lp1">9</td>
               <td>13</td>
               <td>19</td>
             </tr>
             <tr>
-              <td colspan="2"></td>
-              <td> Dark blue</td>
+              <td>Dark blue</td>
               <td>Tears on flexing</td>
-              <td>8</td>
+              <td class="lp1">8</td>
               <td>12</td>
               <td>18</td>
             </tr>
             <tr>
               <td></td>
-              <td> 20</td>
+              <td>20</td>
               <td>Dark blue</td>
               <td>Tears on flexing</td>
               <td>14</td>
@@ -353,66 +361,65 @@
             </tr>
             <tr>
               <td rowspan="2">Rainwear (double neoprene-coated nylon twill)</td>
-              <td>9</td>
+              <td rowspan="2" class="lp1">9</td>
               <td>Olive</td>
               <td>Begins to melt</td>
-              <td>5</td>
-              <td>9</td>
+              <td class="lp1">5</td>
+              <td class="lp1">9</td>
               <td>13</td>
             </tr>
             <tr>
-              <td></td>
               <td>Olive</td>
               <td>Tears on flexing</td>
-              <td>8</td>
+              <td class="lp1">8</td>
               <td>14</td>
               <td>22</td>
             </tr>
           </tbody>
 
-          <tbody class="left">
+          <tbody>
             <tr>
               <th colspan="7">DRAPERY FABRICS</th>
             </tr>
             <tr>
-              <td> Rayon gabardine</td>
-              <td>6</td>
+              <td>Rayon gabardine</td>
+              <td class="lp1">6</td>
               <td>Black</td>
               <td>Ignites</td>
-              <td>9</td>
+              <td class="lp1">9</td>
               <td>20</td>
               <td>26</td>
             </tr>
             <tr>
-              <td> Rayon-acetate drapery</td>
-              <td>5</td>
+              <td>Rayon-acetate drapery</td>
+              <td class="lp1">5</td>
               <td>Wine</td>
               <td>Ignites</td>
-              <td>9</td>
+              <td class="lp1">9</td>
               <td>22</td>
               <td>28</td>
             </tr>
             <tr>
-              <td> Rayon gabardine</td>
-              <td>7</td>
+              <td>Rayon gabardine</td>
+              <td class="lp1">7</td>
               <td>Gold</td>
               <td>Ignites</td>
               <td>**</td>
-              <td>24t</td>
-              <td>28t</td>
+              <td class="lp1">24†</td>
+              <td class="lp1">28†</td>
             </tr>
             <tr>
-              <td> Rayon twill lining</td>
-              <td>3</td>
+              <td>Rayon twill lining</td>
+              <td class="lp1">3</td>
               <td>Black</td>
               <td>Ignites</td>
-              <td>7</td>
+              <td class="lp1">7</td>
               <td>17</td>
               <td>25</td>
             </tr>
             <tr>
-              <td> Rayon twill lining</td>
-              <td>3</td>
+              <td>Rayon twill lining</td>
+              <td class="lp1">3</td>
               <td>Beige</td>
               <td>Ignites</td>
               <td>13</td>
@@ -421,15 +428,15 @@
             </tr>
             <tr>
               <td>Acetate-shantung</td>
-              <td>3</td>
+              <td class="lp1">3</td>
               <td>Black</td>
               <td>Ignites</td>
-              <td>10t</td>
-              <td>22t</td>
-              <td>35t</td>
+              <td class="lp1">10†</td>
+              <td class="lp1">22†</td>
+              <td>35†</td>
             </tr>
             <tr>
-              <td> Cotton heavy draperies</td>
+              <td>Cotton heavy draperies</td>
               <td>13</td>
               <td>Dark colors</td>
               <td>Ignites</td>
@@ -439,12 +446,12 @@
             </tr>
           </tbody>
 
-          <tbody class="left">
+          <tbody>
             <tr>
               <th colspan="7">TENT FABRICS</th>
             </tr>
             <tr>
-              <td> Canvas (cotton)</td>
+              <td>Canvas (cotton)</td>
               <td>12</td>
               <td>White</td>
               <td>Ignites</td>
@@ -453,7 +460,7 @@
               <td>51</td>
             </tr>
             <tr>
-              <td> Canvas</td>
+              <td>Canvas</td>
               <td>12</td>
               <td>Olive drab</td>
               <td>Ignites</td>
@@ -463,21 +470,21 @@
             </tr>
           </tbody>
 
-          <tbody class="left">
+          <tbody>
             <tr>
               <th colspan="7"> OTHER FABRICS</th>
             </tr>
             <tr>
-              <td> Cotton chenille bedspread</td>
+              <td>Cotton chenille bedspread</td>
               <td></td>
               <td>Light blue</td>
               <td>Ignites</td>
               <td>**</td>
-              <td>11t</td>
-              <td>15t</td>
+              <td class="lp1">11†</td>
+              <td class="lp1">15†</td>
             </tr>
             <tr>
-              <td> Cotton venetian blind tape, dirty</td>
+              <td>Cotton venetian blind tape, dirty</td>
               <td></td>
               <td>White</td>
               <td>Ignites</td>
@@ -486,20 +493,20 @@
               <td>22</td>
             </tr>
             <tr>
-              <td> Cotton venetian blind tape</td>
+              <td>Cotton venetian blind tape</td>
               <td></td>
               <td>White</td>
               <td>Ignites</td>
-              <td>13t</td>
-              <td>27t</td>
-              <td>31t</td>
+              <td class="lp1">13†</td>
+              <td class="lp1">27†</td>
+              <td class="lp1">31†</td>
             </tr>
             <tr>
-              <td> Cotton muslin window shade</td>
-              <td>8</td>
+              <td>Cotton muslin window shade</td>
+              <td class="lp1">8</td>
               <td>Green</td>
               <td>Ignites</td>
-              <td>7</td>
+              <td class="lp1">7</td>
               <td>13</td>
               <td>19</td>
             </tr>
@@ -516,7 +523,16 @@
       <h3>RADIANT EXPOSURES FOR IGNITION OF VARIOUS MATERIALS</h3>
       <p id="§7.40"><strong>7.40</strong> Studies have been made in laboratories and at nuclear tests of the radiant exposures required for the ignition of various common household items and other materials of interest. The results for low air bursts with three arbitrary yields are presented in Table 7.40; the conditions and limitations noted in <a href="chapter7.html#§7.36" class="xref">§ 7.36</a> also hold here. The radiant exposures given would be applicable to explosions at altitudes below 100,000 feet.</p>
 
-<figure class="wide table">
+<figure class="wide table" id="tbl7-40">
+<style>
+#tbl7-40 td:first-child,
+#tbl7-40 td:nth-child(3),
+#tbl7-40 td:nth-child(4) {
+	text-align: left;
+	hyphens: none;
+	text-indent: 0;
+}
+</style>
 <figcaption>Table 7.40</figcaption>
         <table>
 <caption>APPROXIMATE RADIANT EXPOSURES FOR IGNITION OF VARIOUS MATERIALS FOR LOW AIR BURSTS </caption>
@@ -535,46 +551,49 @@
               <th scope="col">20 megatons</th>
             </tr>
           </thead>
-          <tbody class="left">
+          <tbody>
             <tr>
               <th colspan="7"> HOUSEHOLD TINDER MATERIALS</th>
             </tr>
             <tr>
               <td>Newspaper, shredded</td>
-              <td>2</td>
+              <td class="lp1">2</td>
+              <td></td>
               <td>Ignites</td>
-              <td>4</td>
-              <td>6</td>
+              <td class="lp1">4</td>
+              <td class="lp1">6</td>
               <td>11</td>
             </tr>
             <tr>
-              <td> Newspaper, dark picture area</td>
-              <td>2</td>
+              <td>Newspaper, dark picture area</td>
+              <td class="lp1">2</td>
+              <td></td>
               <td>Ignites</td>
-              <td>5</td>
-              <td>7</td>
+              <td class="lp1">5</td>
+              <td class="lp1">7</td>
               <td>12</td>
             </tr>
             <tr>
               <td>Newspaper, printed text area</td>
-              <td>2</td>
+              <td class="lp1">2</td>
+              <td></td>
               <td>Ignites</td>
-              <td>6</td>
-              <td>8</td>
+              <td class="lp1">6</td>
+              <td class="lp1">8</td>
               <td>15</td>
             </tr>
             <tr>
-              <td> Crepe paper</td>
-              <td>1</td>
+              <td>Crepe paper</td>
+              <td class="lp1">1</td>
               <td>Green</td>
               <td>Ignites</td>
-              <td>6</td>
-              <td>9</td>
+              <td class="lp1">6</td>
+              <td class="lp1">9</td>
               <td>16</td>
             </tr>
             <tr>
-              <td> Kraft paper</td>
-              <td>3</td>
+              <td>Kraft paper</td>
+              <td class="lp1">3</td>
               <td>Tan</td>
               <td>Ignites</td>
               <td>10</td>
@@ -582,7 +601,7 @@
               <td>20</td>
             </tr>
             <tr>
-              <td> Bristol board, 3 ply</td>
+              <td>Bristol board, 3 ply</td>
               <td>10</td>
               <td>Dark</td>
               <td>Ignites</td>
@@ -591,7 +610,7 @@
               <td>40</td>
             </tr>
             <tr>
-              <td> Kraft paper carton, used (fiat side)</td>
+              <td>Kraft paper carton, used (fiat side)</td>
               <td>16</td>
               <td>Brown</td>
               <td>Ignites</td>
@@ -600,16 +619,16 @@
               <td>40</td>
             </tr>
             <tr>
-              <td> New bond typing paper</td>
-              <td>2</td>
+              <td>New bond typing paper</td>
+              <td class="lp1">2</td>
               <td>White</td>
               <td>Ignites</td>
-              <td>24t</td>
-              <td>30t</td>
-              <td>50t</td>
+              <td class="lp1">24†</td>
+              <td class="lp1">30†</td>
+              <td class="lp1">50†</td>
             </tr>
             <tr>
-              <td> Colton rags</td>
+              <td>Colton rags</td>
               <td></td>
               <td>Black</td>
               <td>Ignites</td>
@@ -618,90 +637,96 @@
               <td>20</td>
             </tr>
             <tr>
-              <td> Rayon rags</td>
+              <td>Rayon rags</td>
               <td></td>
               <td>Black</td>
               <td>Ignites</td>
-              <td>9</td>
+              <td class="lp1">9</td>
               <td>14</td>
               <td>21</td>
             </tr>
             <tr>
-              <td> Colton string scrubbing mop (used)</td>
+              <td>Colton string scrubbing mop (used)</td>
               <td></td>
               <td>Gray</td>
               <td>Ignites</td>
-              <td>10t</td>
-              <td>15t</td>
-              <td>21t</td>
+              <td class="lp1">10†</td>
+              <td class="lp1">15†</td>
+              <td class="lp1">21†</td>
             </tr>
             <tr>
-              <td> Colton string scrubbing mop (weathered)</td>
+              <td>Colton string scrubbing mop (weathered)</td>
               <td></td>
               <td>Cream</td>
               <td>Ignites</td>
-              <td>10t</td>
-              <td>19t</td>
-              <td>26t</td>
+              <td class="lp1">10†</td>
+              <td class="lp1">19†</td>
+              <td class="lp1">26†</td>
             </tr>
             <tr>
               <td>Paper book matches, blue head exposed</td>
-              <td colspan="2"></td>
+              <td></td>
+              <td></td>
               <td>Ignites</td>
-              <td>11t</td>
-              <td>14t</td>
-              <td>20t</td>
+              <td class="lp1">11†</td>
+              <td class="lp1">14†</td>
+              <td class="lp1">20†</td>
             </tr>
             <tr>
-              <td> Excelsior, ponderosa pine</td>
-              <td>2 lb/ft'</td>
+              <td>Excelsior, ponderosa pine</td>
+              <td>2 lb/ft<sup>3</sup></td>
               <td>Light yellow</td>
               <td>Ignites</td>
               <td>**</td>
-              <td>23t</td>
-              <td>23t</td>
+              <td class="lp1">23†</td>
+              <td class="lp1">23†</td>
             </tr>
           </tbody>
 
-          <tbody class="left">
+          <tbody>
             <tr>
               <th colspan="7">OUTDOOR TINDER MATERIALS***</th>
             </tr>
             <tr>
-              <td> Dry rotted wood punk (fir)</td>
-              <td colspan="2"></td>
+              <td>Dry rotted wood punk (fir)</td>
+              <td></td>
+              <td></td>
               <td>Ignites</td>
-              <td>4t</td>
-              <td>6t</td>
-              <td>8t</td>
+              <td class="lp2">4†</td>
+              <td class="lp2">6†</td>
+              <td class="lp2">8†</td>
             </tr>
             <tr>
-              <td> Deciduous leaves (beech)</td>
-              <td colspan="2"></td>
+              <td>Deciduous leaves (beech)</td>
+              <td></td>
+              <td></td>
               <td>Ignites</td>
-              <td>4</td>
-              <td>6</td>
-              <td>8</td>
+              <td class="lp1">4</td>
+              <td class="lp1">6</td>
+              <td class="lp1">8</td>
             </tr>
             <tr>
-              <td> Fine grass (cheat)</td>
-              <td colspan="2"></td>
+              <td>Fine grass (cheat)</td>
+              <td></td>
+              <td></td>
               <td>Ignites</td>
-              <td>5</td>
-              <td>8</td>
+              <td class="lp1">5</td>
+              <td class="lp1">8</td>
               <td>10</td>
             </tr>
             <tr>
-              <td> Coarse grass (sedge)</td>
-              <td colspan="2"></td>
+              <td>Coarse grass (sedge)</td>
+              <td></td>
+              <td></td>
               <td>Ignites</td>
-              <td>6</td>
-              <td>9</td>
+              <td class="lp1">6</td>
+              <td class="lp1">9</td>
               <td>11</td>
             </tr>
             <tr>
-              <td> Pine needles, brown (ponderosa)</td>
-              <td colspan="2"></td>
+              <td>Pine needles, brown (ponderosa)</td>
+              <td></td>
+              <td></td>
               <td>Ignites</td>
               <td>10</td>
               <td>16</td>
@@ -709,45 +734,50 @@
             </tr>
           </tbody>
 
-          <tbody class="left">
+          <tbody>
             <tr>
               <th colspan="7">CONSTRUCTION MATERIALS</th>
             </tr>
             <tr>
-              <td> Roll roofing, mineral surface</td>
-              <td colspan="2"></td>
+              <td>Roll roofing, mineral surface</td>
+              <td></td>
+              <td></td>
               <td>Ignites</td>
               <td>**</td>
-              <td>&gt;34</td>
-              <td>&gt;116</td>
+              <td class="rp1">&gt;34</td>
+              <td class="rp2">&gt;116</td>
             </tr>
             <tr>
-              <td> Roll roofing, smooth surface</td>
-              <td colspan="2"></td>
+              <td>Roll roofing, smooth surface</td>
+              <td></td>
+              <td></td>
               <td>Ignites</td>
               <td>**</td>
               <td>30</td>
               <td>77</td>
             </tr>
             <tr>
-              <td> Plywood, douglas fir</td>
-              <td colspan="2"></td>
+              <td>Plywood, douglas fir</td>
+              <td></td>
+              <td></td>
               <td>Flaming during exposure</td>
-              <td>9</td>
+              <td class="lp1">9</td>
               <td>16</td>
               <td>20</td>
             </tr>
             <tr>
-              <td> Rubber, pale latex</td>
-              <td colspan="2"></td>
+              <td>Rubber, pale latex</td>
+              <td></td>
+              <td></td>
               <td>Ignites</td>
               <td>50</td>
               <td>80</td>
-              <td>110</td>
+              <td class="rp1">110</td>
             </tr>
             <tr>
-              <td> Rubber, black</td>
-              <td colspan="2"></td>
+              <td>Rubber, black</td>
+              <td></td>
+              <td></td>
               <td>Ignites</td>
               <td>10</td>
               <td>20</td>
@@ -755,37 +785,41 @@
             </tr>
           </tbody>
 
-          <tbody class="left">
+          <tbody>
             <tr>
               <th colspan="7">OTHER MATERIALS</th>
             </tr>
             <tr>
-              <td> Aluminum aircraft skin (0.020 in. thick) coated with 0.002 in. of standard white aircraft paint</td>
-              <td colspan="2"></td>
+              <td>Aluminum aircraft skin (0.020 in. thick) coated with 0.002 in. of standard white aircraft paint</td>
+              <td></td>
+              <td></td>
               <td>Blisters</td>
               <td>15</td>
               <td>30</td>
               <td>40</td>
             </tr>
             <tr>
-              <td> Colton canvas sandbags, dry filled</td>
-              <td colspan="2"></td>
+              <td>Colton canvas sandbags, dry filled</td>
+              <td></td>
+              <td></td>
               <td>Failure</td>
               <td>10</td>
               <td>18</td>
               <td>32</td>
             </tr>
             <tr>
-              <td> Coral sand</td>
-              <td colspan="2"></td>
+              <td>Coral sand</td>
+              <td></td>
+              <td></td>
               <td>Explodes (popcorning)</td>
               <td>15</td>
               <td>27</td>
               <td>47</td>
             </tr>
             <tr>
-              <td> Siliceous sand</td>
-              <td colspan="2"></td>
+              <td>Siliceous sand</td>
+              <td></td>
+              <td></td>
               <td>Explodes (popcorning)</td>
               <td>11</td>
               <td>19</td>
@@ -1069,7 +1103,9 @@
 
       <p>In these expressions $p(h)$ is the ambient air density at the burst altitude and $\rho_0$ is the normal ambient air density at sea level (taken to be 1.225 x 10<sup>-3</sup> gram/cm<sup>3</sup>). Values of $\rho(h)/\rho_0$ are given in Table 7.85 for several altitudes. Use of the preceding equations results in a discontinuity at 15,000 feet. For heights of burst at or near that altitude, values should be calculated by both sets of equations, and the appropriate result should be used depending on whether offensive or defensive conservatism is desired. For a contact surface burst (<a href="chapter2.html#§2.127" class="xref">§ 2.127</a> footnote) the fireball develops in a manner approaching that for an air burst of twice the yield, because the blast wave energy is reflected back from the surface into the fireball (<a href="chapter3.html#§3.34" class="xref">§ 3.34</a>). Hence, $t_{max}$ may be expected to be larger than for an air burst of the same actual yield.</p></div>
 
-<figure class="table">
+<figure class="table" id="tbl7-85">
+<style>
+</style>
 <figcaption>Table 7.85</figcaption>
         <table>
 <caption> ATMOSPHERIC DENSITY RATIOS </caption>
@@ -1087,43 +1123,43 @@
             <tr>
               <td>15,000</td>
               <td>0.63</td>
-              <td>60,000</td>
+              <td class="lp1">60,000</td>
               <td>0.095</td>
             </tr>
             <tr>
               <td>20,000</td>
               <td>0.53</td>
-              <td>65,000</td>
+              <td class="lp1">65,000</td>
               <td>0.075</td>
             </tr>
             <tr>
               <td>25,000</td>
               <td>0.45</td>
-              <td>70,000</td>
+              <td class="lp1">70,000</td>
               <td>0.059</td>
             </tr>
             <tr>
               <td>30,000</td>
               <td>0.37</td>
-              <td>75,000</td>
+              <td class="lp1">75,000</td>
               <td>0.046</td>
             </tr>
             <tr>
               <td>35,000</td>
               <td>0.31</td>
-              <td>80,000</td>
+              <td class="lp1">80,000</td>
               <td>0.036</td>
             </tr>
             <tr>
               <td>40,000</td>
               <td>0.24</td>
-              <td>85,000</td>
+              <td class="lp1">85,000</td>
               <td>0.028</td>
             </tr>
             <tr>
-              <td>45.000</td>
+              <td>45,000</td>
               <td>0.19</td>
-              <td>90,000</td>
+              <td class="lp1">90,000</td>
               <td>0.022</td>
             </tr>
             <tr>
@@ -1230,7 +1266,9 @@
 
       <p id="§7.88"><strong>7.88</strong> The fraction of the explosion energy yield in the form of thermal radiation, i.e., $E_{tot}/W$, is called the “thermal partition” and is represented by the symbol $f$. Estimated values of $f$ are given in Table 7.88 for air bursts with yields in the range from 1 kiloton to 10 megatons at altitudes up to 100,000 feet (19 miles). The data for heights of burst up to 15,000 feet were obtained primarily from experimental results. For higher bursts altitudes, the values were obtained by calculations, various aspects of which were checked with experimental results. They are considered to be fairly reliable for yields between 1 kiloton and 1 megaton at altitudes up to 50,000 feet (9.5 miles). Outside this range of yields and altitudes, the data in Table 7.88 may be used with less confidence. Values of $f$ for burst altitudes above 100,000 feet are given in <a href="chapter7.html#§7.90" class="xref">§ 7.90</a> (see also<a href="chapter7.html#§7.104" class="xref">§ 7.104</a>).</p>
 
-<figure class="table">
+<figure class="table" id="tbl7-88">
+<style>
+</style>
 <figcaption>Table 7.88</figcaption>
         <table>
 <caption>THERMAL PARTITION FOR VARIOUS EXPLOSION YIELDS AT DIFFERENT ALTITUDES</caption>
@@ -1326,7 +1364,7 @@
               <td>0.43</td>
             </tr>
             <tr>
-              <td>100</td>
+              <td class="rp1">100</td>
               <td>0.40</td>
               <td>0.40</td>
               <td>0.41</td>
@@ -1431,7 +1469,12 @@
       <h3>SURFACE BURSTS</h3>
       <p id="§7.101"><strong>7.101</strong> For a surface burst, the radiant exposures along the earth’s surface will be less than for equal distances from an air burst of the same total yield. This difference arises partly, as indicated in <a href="chapter7.html#§7.20" class="xref">§ 7.20</a>, from the decreased transmittance of the intervening low air layer due to dust and water vapor produced by the explosion. Furthermore, the normal atmosphere close to the earth’s surface transmits less than at higher altitudes. In order to utilize the equations in <a href="chapter7.html#§7.96" class="xref">§ 7.96</a> to determine radiant exposure for surface bursts, the concept of an “effective thermal partition” is used, together with the normal transmittance, such as given in Fig. 7.98, for the existing atmospheric conditions. Based upon experimental data, contact surface bursts can be represented fairly well by an effective thermal partition of 0.18. Values of the thermal partition for other surface bursts are shown in Table 7.101 they have been derived by as signing a thermal partition of 0.18 to a contact surface burst and interpolating between that value and the air burst thermal partition values in Table 7.88.</p>
 
-<figure class="table">
+<figure class="table" id="tbl7-101">
+<style>
+#tbl7-101 tbody td:first-child {
+	--offset: 0.25ch;
+}
+</style>
 <figcaption>Table 7.101</figcaption>
         <table>
 <caption>EFFECTIVE THERMAL PARTITION FOR SURFACE BURSTS</caption>
@@ -1445,7 +1488,7 @@
               <th colspan="5">Total Yield (kilotons)</th>
             </tr>
             <tr>
-              <th scope="col">Height of Burst (kilofeet)</th>
+              <th scope="col">Height of Burst (feet)</th>
               <th scope="col">1</th>
               <th scope="col">10</th>
               <th scope="col">100</th>
@@ -1455,7 +1498,7 @@
           </thead>
           <tbody>
             <tr>
-              <td>20</td>
+              <td class="lp2">20</td>
               <td>0.19</td>
               <td>*</td>
               <td>*</td>
@@ -1463,7 +1506,7 @@
               <td>*</td>
             </tr>
             <tr>
-              <td>40</td>
+              <td class="lp2">40</td>
               <td>0.21</td>
               <td>0.19</td>
               <td>*</td>
@@ -1471,7 +1514,7 @@
               <td>*</td>
             </tr>
             <tr>
-              <td>70</td>
+              <td class="lp2">70</td>
               <td>0.23</td>
               <td>0.21</td>
               <td>0.19</td>
@@ -1479,7 +1522,7 @@
               <td>*</td>
             </tr>
             <tr>
-              <td>100</td>
+              <td class="lp1">100</td>
               <td>0.26</td>
               <td>0.22</td>
               <td>0.20</td>
@@ -1487,7 +1530,7 @@
               <td>*</td>
             </tr>
             <tr>
-              <td>200</td>
+              <td class="lp1">200</td>
               <td>0.35</td>
               <td>0.25</td>
               <td>0.21</td>
@@ -1495,7 +1538,7 @@
               <td>*</td>
             </tr>
             <tr>
-              <td>400</td>
+              <td class="lp1">400</td>
               <td>**</td>
               <td>0.33</td>
               <td>0.25</td>
@@ -1503,7 +1546,7 @@
               <td>0.19</td>
             </tr>
             <tr>
-              <td>700</td>
+              <td class="lp1">700</td>
               <td>**</td>
               <td>**</td>
               <td>0.28</td>
