@@ -9,6 +9,11 @@ em.maths {
 }
 */
 
+html {
+	--ui-shade : #654;
+	--ui-deg : 45deg;
+}
+
 body {
 	font: 1em/1.35 Cambria, Times, serif;
 	hyphens: auto;
@@ -20,37 +25,63 @@ nav {
 	left: 0;
 	right: 0;
 	overflow: hidden;
-	color: gray;
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
+	gap: 0 1em;
+	color: hsl(var(--ui-deg),80%,10%);
 	transition: 666ms;
 	border-block-end: 1px solid gray;
-	background: #FFF;
+	background: hsl(var(--ui-deg),60%,99%);
 	z-index: 1;
 }
 nav:hover, nav:focus-within {
 	box-shadow: 0 0 3em 3em #FFF;
 	color: black;
+	background: hsl(var(--ui-deg),60%,95%);
 }
 nav > p {
+	grid-row: 1;
+	grid-column: 2;
 	text-align: center;
 	font-weight: 500;
 	margin-block-end: -1px;
+	padding-block: 0.25em 0.5em;
 	background:
-		linear-gradient(#000,#000) 50% 100% / 50em 1px no-repeat;
+		linear-gradient(currentColor,currentColor) 50% 100% / 50em 1px no-repeat;
 	;
+}
+nav > a {
+	grid-row: 1;
+	justify-self: center;
+	padding-block: 0.25em 0.5em;
+}
+nav > a.prev {
+	grid-column: 1;
+}
+nav > a.prev::before {
+	content: "< ";
+}
+nav > a.next {
+	grid-column: 3;
+}
+nav > a.next::after {
+	content: " >";
+}
+nav div {
+	grid-row: 2;
+	grid-column: 2;
+	height: 0;
+	padding: 0;
+	transition: 666ms;
 }
 nav:hover div, nav:focus-within div {
 	height: 15em;
 	padding-block: 1em;
 }
-nav div {
-	height: 0;
-	padding: 0;
-	transition: 666ms;
-}
 nav ol {
 	width: max-content;
 	margin: 1em auto;
-	padding-inline-start: 2em;
+	padding: 0;
 	columns: 2;
 	gap: 4em;
 	list-style-type: upper-roman;
@@ -62,24 +93,46 @@ nav ul {
 	gap: 1.5em;
 	list-style: none;
 	margin: 0;
+	padding: 0;
 }
 nav ul li + li {
 	list-style: square;
 }
-nav :is(ol, ul) [href] {
+nav div [href] {
 	display: block;
 }
-nav :is(ol, ul) [href]:hover {
+nav [href]:hover {
 	background: #FF8;
 }
-nav [href]:local-link {
+nav div [href]:local-link {
 	font-weight: 900;
+}
+nav [href]:any-link {
+	color: currentColor;
+	text-underline-offset: 0.2em;
+	text-decoration-style: dotted;
+}
+nav div [href]:visited {
+	color: #555;
+}
+nav div .currentPage {
+	font-weight: 900;
+}
+nav div .currentPage [href]:any-link {
+	color: #000;
+	text-decoration-style: solid;
+}
+nav div .currentPage [href]:any-link::after {
+	content: "§";
+	float: left;
+	margin-right: 0.5ch;
 }
 
 
 main {
 	max-width: 40em;
 	margin: 0 auto;
+	padding-inline: 1em;
 }
 main section {
 	margin: 4em 0 2em;
