@@ -225,40 +225,6 @@ main aside em {
 	columns: 2;
 }
 
-section.biblio > ol {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	columns: 2;
-	gap: 1.5em;
-	font-size: 90%;
-}
-section.biblio li {
-	text-indent: -1em;
-	padding-inline-start: 1em;
-	break-inside: avoid;
-}
-section.biblio span.authors {
-	font-variant: small-caps;
-	font-weight: 500;
-}
-section.biblio span.authors span {
-	font-variant: normal;
-}
-
-.endnotes {
-	font-size: 90%;
-}
-.endnotes ol {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-.endnotes li {
-	text-indent: -0.75em;
-	padding-left: 0.75em;
-}
-
 /* ----------------------------------------------
 	Figures
    ---------------------------------------------- */
@@ -495,14 +461,52 @@ figure.table table.bordered [rowspan] {
 	vertical-align: middle;
 }
 
+/* bibliography */
+
+section.biblio > ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	columns: 2;
+	gap: 1.5em;
+	font-size: 90%;
+}
+section.biblio li {
+	text-indent: -1em;
+	padding-inline-start: 1em;
+	break-inside: avoid;
+}
+section.biblio span.authors {
+	font-variant: small-caps;
+	font-weight: 500;
+}
+section.biblio span.authors span {
+	font-variant: normal;
+}
 
 /* footnotes/endnotes */
 
 sup a:any-link {
 	padding-inline-start: 0.25em;
 }
+
+.endnotes {
+	font-size: 90%;
+}
+.endnotes ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
 .endnotes li {
 	margin-block: 0.33em;
+	padding-left: 0.75em;
+	text-indent: -0.75em;
+}
+.endnotes li:nth-of-type(9) ~ li {
+	margin-inline-start: -0.33em;
+	padding-left: 1.1em;
+	text-indent: -1.1em;
 }
 .endnotes li:target {
 	position: fixed;
@@ -537,4 +541,10 @@ sup a:any-link {
 .endnotes li:target .backjump {
 	display: none;
 	visibility: hidden;
+}
+.backjump {
+	margin-inline-start: 0.5ch;
+}
+.backjump, .backjump a {
+	white-space: nowrap;
 }
