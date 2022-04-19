@@ -19,6 +19,8 @@ body {
 	hyphens: auto;
 }
 
+/* TOC */
+
 nav {
 	position: fixed;
 	top: 0;
@@ -29,11 +31,11 @@ nav {
 	grid-template-columns: 1fr auto 1fr;
 	gap: 0 1em;
 	color: hsl(var(--ui-deg),80%,10%);
-	transition: 666ms;
 	border-block-end: 1px solid gray;
 	background: hsl(var(--ui-deg),60%,99%);
-	z-index: 1;
+	z-index: 1945;
 }
+
 nav:hover, nav:focus-within {
 	box-shadow: 0 0 3em 3em #FFF;
 	color: black;
@@ -54,6 +56,8 @@ nav > a {
 	grid-row: 1;
 	justify-self: center;
 	padding-block: 0.25em 0.5em;
+	hyphens: auto;
+	white-space: nowrap;
 }
 nav > a.prev {
 	grid-column: 1;
@@ -69,24 +73,51 @@ nav > a.next::after {
 }
 nav div {
 	grid-row: 2;
-	grid-column: 2;
+	grid-column: 1 / -1;
 	height: 0;
 	padding: 0;
-	transition: 666ms;
+	justify-self: center;
 }
+
 nav:hover div, nav:focus-within div {
-	height: 15em;
 	padding-block: 1em;
+	height: auto;
 }
 nav ol {
-	width: max-content;
 	margin: 1em auto;
-	padding: 0;
-	columns: 2;
-	gap: 4em;
+	padding-inline: 2.5em 0.5em;
 	list-style-type: upper-roman;
-	transform: translateX(2em);
 }
+nav ol li {
+	break-inside: avoid;
+}
+nav p span {
+	display: none;
+}
+
+@media (min-width: 42rem) {
+	nav div {
+		grid-column: 2;
+	}
+	nav:hover div, nav:focus-within div {
+		height: auto;
+	}
+	nav p span {
+		display: inline;
+	}
+	nav ol {
+		columns: 2;
+		gap: 4em;
+		padding: 0;
+		transform: translateX(2em);
+	}
+	nav div .currentPage [href]:any-link::before {
+		content: "§";
+		margin-right: 0.5ch;
+	}
+}
+
+
 nav ul {
 	display: flex;
 	justify-content: center;
@@ -121,11 +152,6 @@ nav div .currentPage {
 nav div .currentPage [href]:any-link {
 	color: #000;
 	text-decoration-style: solid;
-}
-nav div .currentPage [href]:any-link::after {
-	content: "§";
-	float: left;
-	margin-right: 0.5ch;
 }
 
 
@@ -507,7 +533,6 @@ sup a:any-link {
 .endnotes li:target {
 	position: fixed;
 	bottom: 0;
-	width: 40rem;
 	padding-block: 2em 4em;
 	padding-inline: 2em;
 	margin-inline: -2em 0;
@@ -537,4 +562,10 @@ sup a:any-link {
 .endnotes li:target .backjump {
 	display: none;
 	visibility: hidden;
+}
+
+@media (min-width: 42rem) {
+	.endnotes li:target {
+		width: 40rem;
+	}
 }
