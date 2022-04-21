@@ -34,6 +34,7 @@ nav {
 	border-block-end: 1px solid gray;
 	background: hsl(var(--ui-deg),60%,99%);
 	z-index: 1945;
+	transition-duration: 500ms;
 }
 
 nav:hover, nav:focus-within {
@@ -77,11 +78,14 @@ nav div {
 	height: 0;
 	padding: 0;
 	justify-self: center;
+	opacity: 0;
+	transition: 250ms;
 }
 
 nav:hover div, nav:focus-within div {
 	padding-block: 1em;
 	height: auto;
+	opacity: 1;
 }
 nav ol {
 	margin: 1em auto;
@@ -172,6 +176,7 @@ main *:is(h1, h2, h3) {
 	margin-block: 1.5em 0.25em;
 }
 main h1 {
+	margin-block: 2.5em 1em;
 	font-size: 2.25em;
 }
 main h1 i {
