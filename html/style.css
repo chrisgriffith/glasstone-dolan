@@ -18,6 +18,9 @@ body {
 	font: 1em/1.35 Cambria, Times, serif;
 	hyphens: auto;
 }
+[href]:any-link {
+	text-underline-offset: 0.2em;
+}
 
 /* TOC */
 
@@ -56,6 +59,7 @@ nav > a {
 	grid-row: 1;
 	justify-self: center;
 	padding-block: 0.25em 0.5em;
+	padding-inline: 2em;
 	hyphens: auto;
 	white-space: nowrap;
 }
@@ -140,7 +144,6 @@ nav div [href]:local-link {
 }
 nav [href]:any-link {
 	color: currentColor;
-	text-underline-offset: 0.2em;
 	text-decoration-style: dotted;
 }
 nav div [href]:visited {
@@ -512,8 +515,10 @@ section.biblio span.authors span {
 
 /* footnotes/endnotes */
 
-sup a:any-link {
-	padding-inline-start: 0.25em;
+sup [href]:any-link {
+	padding-block: 0.5em;
+	padding-inline: 1em;
+	margin-inline: -0.75em -1em;
 }
 
 .endnotes {
@@ -543,6 +548,7 @@ sup a:any-link {
 	border-top: 1px solid;
 	background: #FFF;
 	box-shadow: 0 0 3em 3em #FFF;
+	max-width: 45em;
 }
 .endnotes li .close {
 	display: none;
@@ -575,6 +581,6 @@ sup a:any-link {
 
 @media (min-width: 42rem) {
 	.endnotes li:target {
-		width: 40rem;
+		width: 42rem;
 	}
 }
