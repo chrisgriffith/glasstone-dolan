@@ -33,6 +33,7 @@ nav {
 	display: grid;
 	grid-template-columns: 1fr auto 1fr;
 	gap: 0 1em;
+	transition-duration: 500ms;
 	color: hsl(var(--ui-deg),80%,10%);
 	border-block-end: 1px solid gray;
 	background: hsl(var(--ui-deg),60%,99%);
@@ -82,8 +83,7 @@ nav div {
 	height: 0;
 	padding: 0;
 	justify-self: center;
-	opacity: 0;
-	transition: 250ms;
+	transition-duration: 250ms;
 }
 
 nav:hover div, nav:focus-within div {
