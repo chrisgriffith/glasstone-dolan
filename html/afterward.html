@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>The Effects of Nuclear Weapons - Glasstone and Dolan | Afterward</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body id="afterward">
+
+	<nav>
+		<a class="next" href="chapter1.html">Chapter I</a>
+		<a class="prev" href="preface.html">Preface</a>
+		<p><span><a href="index.html"><cite>The Effects of Nuclear Weapons</cite></a> (1977) – </span>Acknowledgements</p>
+		<div>
+			<ul>
+				<li><a href="preface.html">Preface</a></li>
+				<li><a href="acknowledgements.html">Acknowledgements</a></li>
+			</ul>
+			<ol>
+				<li><a href="chapter1.html">General Principles of Nuclear Explosions</a></li>
+				<li><a href="chapter2.html">Descriptions of Nuclear Explosions</a></li>
+				<li><a href="chapter3.html">Air Blast Phenomena in Air and Surface Bursts</a></li>
+				<li><a href="chapter4.html">Air Blast Loading</a></li>
+				<li><a href="chapter5.html">Structural Damage From Air Blast</a></li>
+				<li><a href="chapter6.html">Shock Effects of Surface and Subsurface Bursts</a></li>
+				<li><a href="chapter7.html">Thermal Radiation and Its Effects</a></li>
+				<li><a href="chapter8.html">Initial Nuclear Radiation</a></li>
+				<li><a href="chapter9.html">Residual Nuclear Radiation and Fallout</a></li>
+				<li><a href="chapter10.html">Radio and Radar Effects</a></li>
+				<li><a href="chapter11.html">The Electromagnetic Pulse and Its Effects</a></li>
+				<li><a href="chapter12.html">Biological Effects</a></li>
+			</ol>
+			<ul>
+				<li><a href="glossary.html">Glossary</a></li>
+				<li><a href="si.html">Guide to SI Units</a></li>
+				<li><a href="bookindex.html">Index</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<main>
+
+		<section>
+
+			<h1>AFTERWARD</h1>
+			<p>The Effects of Nuclear Weapons, 1977 edition has been a mainstay for anyone doing unclassified research on nuclear weapons. Several editions of the book sit in my bookcase. In addition, a PDF version of the 1977 edition, is hosted on atomicarchive.com for anyone to view. These PDFs are of fairly good quality, the images aren’t just black and white and the text is also readable online. Recently, I had to pull some text from the document to answer a question that someone had asked about fallout patterns. It was then I discovered one of the issues within the PDFs. The physical edition, and also the PDF version have the text laid out in a two-column format. </p>
+			<p>IMAGE TO BE ADDED</p>
+			<p>When I went to select the text from the column, the selection also included the text from the other column. After cleaning that mess up and answering the question, I began to consider converting these PDFs into something more accessible such as pure HTML. I looked over the document with a more technically focused eye and could break the project down into some major milestones:
+			<ul>
+				<li>Convert the text portion from the PDFs into pure text. This will allow a review for errors that may have been introduced in the OCR process. For example, the OCR system likes to convert a 1 into I. Most equations will be skipped during this process, as will tables, graphs, and photos.</li>
+				<li> Create the base HTML documents from the text files. Some discussion will be needed for the proper semantic structure of headings, and some other elements as well. Generic graph and photo assets will be used as placeholders.</li>
+				<li> There are some tables in the document, so their conversion might happen during step 2, or as its own task cycle.</li>
+				<li>The equations in the book will be a challenge. The current plan is to use <a href="https://github.com/mathjax/">https://github.com/mathjax/</a> as the solution to display them.</li>
+				<li> Adding in the various graphs will be done in two phases. The first phase will be simply displaying them as images taken from the PDFs. Phase 2 would be recreating them as SVGs. This will be a large undertaking and would occur later in the project.</li>
+				<li> The photographs will be added last. While some already exist in digital form, others will need to be reacquired. This may be scanned from the printed book, or by contacting the DOD/DOE for source images.</li>
+				</li>
+			</ul>
+			</p>
+			
+			<p>This would help me focus on the effort and keep me from skipping around too much. Given the size of the project, I decided to ask if anyone in my Twitter-verse might want to assist in collaborating with me on this effort. My friend, Eric Meyer, offered his help fairly quickly. The project plan made sense to him. </p>
+
+			<p>One of our goals for this conversion was to create a version that was as semantically correct as possible, and not based on the CSS framework of the day. I began working through each chapter’s PDF and extracting the text and bringing it into Google Docs. There I hoped to find the various OCR issues, like 1’s becoming l’s, among other things. Once I had a mostly clean raw text file, I was ready to transform it into the base HTML skeleton. Now is when we had some of our first semantic discussions. In the text, each paragraph is denoted with the chapter number and paragraph number for identification purposes. How to semantically mark this up? Visually in the printed book, it is shown in bold, but should each item just be wrapped in a &lt;strong&gt; tag and call it a day? Or was a &lt;span&gt; the correct tag? Where should we add the ID attribute to allow the text to be internally hyperlinked? Should that be placed on the &lt;p&gt; tag, or in the tag around the number? In the end, we agreed that we should use the &lt;strong&gt; tag, as it reflected the intent of the markup, and the ID attribute was attached to the paragraph itself.</p>
+
+			<p>We then had to sort out the various headers used in the book. At first, it might have been easy to match hedging levels based on their default size to mirror the printed version, but after some discussion, we knew that was a trap we did not want to fall into. Instead, we applied the headers based on the semantic meaning of each level and would adjust the visual styling independently.</p>
+
+			<p>For most of the conversion, it went fairly smooth. We would still find text issues that had been missed and would have to correct them, but we had our HTML skeleton. </p>
+
+			<p>We took the structure further by wrapping the content with a &lt;section&gt; tag to provide more semantic context. Both of us would look over the HTML spec for additional tags that would push this further. Often we used the same handful of tags in our markup, forgetting that there is a richer set of tags available to us.</p>
+
+			<p>Eric took the lead on the styling tasks as well as integrating MathJAX to display the complex equations used throughout the book. While he focused on that, I took on the challenge of recreating all the data tables. This was another area where extracting the data from the PDFs was problematic. For many of them, it was an extremely manual process. Beyond getting this content, I wanted to make sure that the tables were as accessible and semantic as possible. I made sure each table had proper headers, and its content’s scopes were defined. This effort took some time, with some tables requiring some shared analysis to their underlying structure. </p>
+
+			<p>Initially, I considered converting the graphs shown in the book into SVGs, but that level of effort was clearly going to be too much and was dismissed.</p>
+
+			<p>Eric continued to surprise me with delightfully simple styling that quickly brought the content to life. I continued working on the core content, footnotes, glossary, and index, which all took some time to process. </p>
+
+			<p>Along the way, we encountered surprises like a missing footnote in Chapter 6. In the 1977 edition, it does not have a footnote 4, but has footnotes 3 and 5. In the earlier editions, the chapter was shorter, so that was no help. Our best guess was that it was an editing error, possibly between the unclassified and classified versions of the book. We also had an issue with some missing content in the index as well. Eric and I debated what to do, and decided that we should add the missing term back into the text. </p>
+
+			<p>Once the dust had settled on most of the core content issues, we turned our attention to the visuals. Eric took the lead on much of this, while I began researching if higher-quality versions of the photographs might be located. Alas, none of the agencies I contacted could assist. Since the imagery we had was fine, I stopped working on that effort for now. I might revisit it when I have more time to perform some better research. </p>
+
+		</section>
+
+	</main>
+
+</body>
+
+</html>
