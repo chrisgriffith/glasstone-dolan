@@ -18,9 +18,9 @@
 <body>
 <nav>
 
-<!-- a class="next" href="acknowledgements.html">Acknowledgements</a>
-<a class="prev" href="titlepage.html">Title page</a -->
-<p><span><a href="index.html"><cite>The Effects of Nuclear Weapons</cite></a> (1977) – </span>Online Edition Afterword</p>
+<a class="prev" href="chapter12.html">Chapter XII</a>
+<a class="next" href="glossary.html">Glossary</a></li>
+<p><span><a href="index.html"><cite>The Effects of Nuclear Weapons</cite></a> (1977) – </span>Afterword</p>
 <div>
 <ul>
 <li><a href="preface.html">Preface</a></li>
@@ -41,6 +41,7 @@
 <li><a href="chapter12.html">Biological Effects</a></li>
 </ol>
 <ul>
+<li class="currentPage"><a href="afterword-2022.html">Afterword</a></li>
 <li><a href="glossary.html">Glossary</a></li>
 <li><a href="si.html">Guide to SI Units</a></li>
 <li><a href="bookindex.html">Index</a></li>
@@ -54,13 +55,19 @@
 
 	<h1>AFTERWORD <small>(2022 ONLINE EDITION)</small></h1>
 
-	<p>[ opening text ]</p>
-	<p>[ something about why we did it in the first place? ]</p>
-	<p>[ something about accessibility and recreating appearance, to a point? ]</p>
-	<p>[ something about the challenge of the photos? ]</p>
-	<p>[ something about MathJax? ]</p>
-	<p>[ anything else? ]</p>
-	<p>[ concluding text ]</p>
+	<p>For more than four decades, the 1977 edition of <cite>The Effects of Nuclear Weapons</cite> has been a mainstay for anyone doing unclassified research on nuclear weapons.  As the World Wide Web grew, a fairly good-quality <a href="https://en.wikipedia.org/wiki/PDF">PDF</a> (Portable Document Format) version of that 1977 edition was <a href="https://atomicarchive.com/resources/documents/effects/glasstone-dolan.html">published on atomicarchive.com</a>.</p>
+	
+	<p>In the time since that PDF copy was published, much new capability has become available to users of the Web.  This is in part due to the expansion of semantic markup, but even more due to the huge strides made in the areas of styling content with <a href="https://en.wikipedia.org/wiki/CSS">Cascading Style Sheets</a> and the ability to create customized parsing and rendering capabilities through the medium of <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>.  In addition, a great deal has been learned about making Web content as accessible and useful as possible to as many readers as possible, no matter when or how they come across the content.</p>
+	
+	<p>We have thus structured the content in a manner that should permit any reader to access as much information as they please, without having to cope with the undue burdens of information that is difficult to parse or slow to load.  We did our best to balance fidelity to the original print layout with the unique demands of online information; as one example, we switched from the two-column format of the print edition to a single-column layout, which is much more readable online.</p>
+	
+	<p>The choice of what document markup to use was a difficult one, but we believe we found the right mixture of classic and modern <a href="https://en.wikipedia.org/wiki/HTML">HTML</a> (HyperText Markup Language) elements, using semantic markup structures that we hope will stand the test of time.  When it came to mathematical expressions, of which there are many, we chose to avail ourselves of <a href="https://www.mathjax.org/">MathJax</a> and its ability to parse and re-render <a href="https://en.wikipedia.org/wiki/LaTeX">LaTeX</a> markup.  As <a href="https://en.wikipedia.org/wiki/MathML">MathML</a> (Mathematical Markup Language) support finally makes its way into Chromium browsers, we may return to replace the LaTeX with straight MathML, which would greatly reduce the size of the project files and would also allow for faster page renders.</p>
+	
+	<p>In a like vein, the technical graphs and diagrams found in the book presented us with a dilemma.  We considered converting them to the <a href="https://en.wikipedia.org/wiki/Scalable_Vector_Graphics">SVG</a> (Scalable Vector Graphics) format, which would have made them considerably smaller and more robustly rendered at various screen sizes.  Unfortunately, that would have required a massive amount of effort, and would be too prone to inaccuracies, and was thus dismissed.  We instead chose the <a href="https://en.wikipedia.org/wiki/Portable_Network_Graphics">PNG</a> (Portable Network Graphics) format for its alpha-channel capability and optimized the images as best we could, as we did for the <a href="https://en.wikipedia.org/wiki/JPEG">JPEG</a> (Joint Photographic Experts Group) images of the book’s many photographs.</p>
+
+	<p>It should be noted that we did discover some errors in the original text; for example, Chapter 6 has footnotes 1, 2, 3, and 5, but no footnote 4.  Similarly, few index entries are referred to, but do not exist.  Our best guess was that these were probably lost between the classified and unclassified versions of the book.  We did preserve the few typographical errors we found in the original, wrapping them in <code>&lt;span class="sic"&gt;</code> elements, mainly for future reference.</p>
+
+	<p>As we write this message in the summer of 2022, we believe this will be a living project.  As web capabilities advance, we expect to revisit what we have done here and improve the technology as best we can.  We also stand ready to correct any errors we introduced in the conversion and did not catch in the cleanup.  If there are errors or barriers to the use of this online edition, please let us know either by <a href="https://github.com/chrisgriffith/glasstone-dolan/issues">filing a Github issue</a> or contacting us directly.  We hope our labors have been useful to you, and to your understanding of the effects of these terrible weapons.</p>
 
 	<p class="signature">Chris Griffith<br>Eric A. Meyer</p>
 
