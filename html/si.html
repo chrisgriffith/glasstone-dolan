@@ -23,6 +23,17 @@
       }
     });
   </script>
+<style>
+main {padding-bottom: 15em;}
+main h1 {font-size: 1.2em; font-weight: 700; margin-block: 6em 0.5em; transform: none;}
+table {width: 100%; border-collapse: separate; border-spacing: 0;}
+table, p.footnote {font-size: 95%;}
+table caption, th[colspan="3"] {font-size: larger; font-weight: 700; padding-block: 1em; padding-inline: 0;}
+thead > tr > * {border-bottom: 1px solid; text-align: left; font-weight: 500;}
+td, th {padding-inline-end: 1em;}
+table:first-of-type {width: auto;}
+table:last-of-type + p {margin-top: 1.5em;}
+</style>
 </head>
 
 <body>
@@ -59,14 +70,14 @@
 
   <main>
     <h1>Guide to SI Units</h1>
-    <p>The International System of Units (SI) has been adopted in the publications of several scientific and technical societies in the United States and other countries. It is expected that in due course that these units will come into general use. The SI units and conversion factors applicable to this book are given below. For further information, see "The International System of Units (SI)," National Bureau of Standards Special Publication 330, U.S. Government Printing Office, Washington, D.C. 20402. </p>
+    <p>The International System of Units (SI) has been adopted in the publications of several scientific and technical societies in the United States and other countries. It is expected that in due course that these units will come into general use. The SI units and conversion factors applicable to this book are given below. For further information, see “The International System of Units (SI),” National Bureau of Standards Special Publication 330, U.S. Government Printing Office, Washington, D.C. 20402.</p>
 
     <table>
-      <caption>Base Units </caption>
+      <caption>Base Units</caption>
       <thead>
         <tr>
-          <th scope="col">Quanity </th>
-          <th scope="col">SI Unit </th>
+          <th scope="col">Quanity</th>
+          <th scope="col">SI Unit</th>
           <th scope="col">Symbol</th>
         </tr>
       </thead>
@@ -92,20 +103,20 @@
           <td>A</td>
         </tr>
         <tr>
-          <td>Temperature<sup>*</sup></td>
+          <td>Temperature*</td>
           <td>kelvin</td>
           <td>K</td>
         </tr>
       </tbody>
     </table>
-    <p>* (Temperatures may also be expressed in &deg;C) </p>
+    <p class="footnote">* (Temperatures may also be expressed in &deg;C) </p>
 
     <table>
-      <caption>Derived Units </caption>
+      <caption>Derived Units</caption>
       <thead>
         <tr>
-          <th scope="col">Quanity </th>
-          <th scope="col">Unit </th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Unit</th>
           <th scope="col">Symbol</th>
           <th scope="col">Formula</th>
         </tr>
@@ -115,7 +126,7 @@
           <td>Force</td>
           <td>newton</td>
           <td>N</td>
-          <td>kg &middot; m/s<sup>2</sup></td>
+          <td>kg&middot;m/s<sup>2</sup></td>
         </tr>
         <tr>
           <td>Pressure</td>
@@ -127,7 +138,7 @@
           <td>Energy, heat, etc.</td>
           <td>joule</td>
           <td>J</td>
-          <td>N &middot; m</td>
+          <td>N&middot;m</td>
         </tr>
         <tr>
           <td>Power</td>
@@ -173,7 +184,7 @@
         <tr>
           <td>inch</td>
           <td>meter (m)</td>
-          <td>2.540 x 10<sup>-2</sup></td>
+          <td>2.540 × 10<sup>-2</sup></td>
         </tr>
         <tr>
           <td>foot</td>
@@ -192,31 +203,33 @@
         </tr>
         <tr>
           <td>centimeter</td>
-          <td>meter (m)10<sup>-2</sup></td>
+          <td>meter (m)</td>
+          <td>10<sup>-2</sup></td>
         </tr>
         <tr>
           <td>angstrom</td>
-          <td>meter (m)10<sup>-10</sup></td>
+          <td>meter (m)</td>
+          <td>10<sup>-10</sup></td>
         </tr>
         <tr>
           <td>square inch</td>
           <td>meter<sup>2</sup> (m<sup>2</sup>)</td>
-          <td>6.452 x 10<sup>-2</sup></td>
+          <td>6.452 × 10<sup>-4</sup></td>
         </tr>
         <tr>
           <td>square foot</td>
           <td>meter<sup>2</sup></td>
-          <td>9.290 x 10<sup>-2</sup></td>
+          <td>9.290 × 10<sup>-2</sup></td>
         </tr>
         <tr>
-          <td>square >mile</td>
+          <td>square mile</td>
           <td>kilometer<sup>2</sup> (km<sup>2</sup>)</td>
           <td>2.590</td>
         </tr>
         <tr>
           <td>cubic foot</td>
           <td>meter<sup>3</sup> (m<sup>3</sup>)</td>
-          <td>2.832 x 10<sup>-2</sup></td>
+          <td>2.832 × 10<sup>-2</sup></td>
         </tr>
 
 
@@ -225,14 +238,14 @@
         </tr>
 
         <tr>
-          <td> pound</td>
+          <td>pound</td>
           <td>kilogram (kg)</td>
           <td>0.4536</td>
         </tr>
         <tr>
           <td>ounce</td>
           <td>kilogram (kg)</td>
-          <td>2.835 x 10<sup>-2</sup></td>
+          <td>2.835 × 10<sup>-2</sup></td>
         </tr>
 
         <tr>
@@ -246,17 +259,17 @@
         <tr>
           <td>erg</td>
           <td>joule (J)</td>
-          <td>1.00 x 10<sup>-7</sup></td>
+          <td>1.00 × 10<sup>-7</sup></td>
         </tr>
         <tr>
           <td>MeV</td>
           <td>joule (J)</td>
-          <td>1.602 x 10<sup>-15</sup></sup></td>
+          <td>1.602 × 10<sup>-13</sup></sup></td>
         </tr>
         <tr>
           <td>ton (TNT equivalent)</td>
-          <td>joule (J</td>
-          <td>4.2 x 10<sup>9</sup></td>
+          <td>joule (J)</td>
+          <td>4.2 × 10<sup>9</sup></td>
         </tr>
 
         <tr>
@@ -265,17 +278,17 @@
         <tr>
           <td>density (lb/ft<sup>3</sup>)</td>
           <td>kg/m<sup>3</sup></td>
-          <td>1.602 x 10</td>
+          <td>1.602 × 10</td>
         </tr>
         <tr>
           <td>pressure (psi)</td>
           <td>pascal (Pa)</td>
-          <td>6.895 x 10<sup>3</sup></td>
+          <td>6.895 × 10<sup>3</sup></td>
         </tr>
         <tr>
           <td>radiant exposure (cal/cm<sup>2</sup>)</td>
           <td>J/m<sup>2</sup></td>
-          <td>4.187 x 10<sup>4</sup></td>
+          <td>4.187 × 10<sup>4</sup></td>
         </tr>
         <tr>
           <td>speed (ft/sec)</td>
@@ -283,24 +296,24 @@
           <td>0.3048</td>
         </tr>
         <tr>
-          <td>speed (mileslhour)</td>
+          <td>speed (miles/hour)</td>
           <td>m/s</td>
           <td>0.4470</td>
         </tr>
         <tr>
           <td>dose (rads)</td>
           <td>gray (Gy)</td>
-          <td>1.00 x 10<sup>-2</sup></td>
+          <td>1.00 × 10<sup>-2</sup></td>
         </tr>
         <tr>
-          <td>dose rate (radslhour)</td>
+          <td>dose rate (rads/hour)</td>
           <td>Gy/s</td>
-          <td>2.778 x 10<sup>-6</sup></td>
+          <td>2.778 × 10<sup>-6</sup></td>
         </tr>
         <tr>
           <td>curie</td>
           <td>becquerel (Bq)</td>
-          <td>3.700 x 10<sup>10</sup></td>
+          <td>3.700 × 10<sup>10</sup></td>
         </tr>
       </tbody>
     </table>
