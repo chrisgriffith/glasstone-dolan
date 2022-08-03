@@ -1,11 +1,11 @@
-# Glasstone & Dolan - The Effects of Nuclear Weapons - 1977 edition
-This project manages the conversion of the available PDFs of the 1977 edition into HTML. If you have worked with the PDFs, you will know while readable in PDF format, text selection is difficult. In addition, the scan is purely black and white, so any photographs found in the printed edition are very poor in the PDF version.
+# Glasstone & Dolan: The Effects of Nuclear Weapons (1977 edition), online edition (2022)
 
-## Project Plan
-The base project plan is to  complete each step before moving on. This process focuses on having the base document complete before enhancing it.  
-1. Convert the text portion from the PDFs into pure text. This will allow a review for errors that may have been introduced in the OCR process. For example, the OCR system likes to convert 1 into I. Most equations will be skipped during this process, as will tables, graphs and photos.
-2. Create the base HTML documents from the text files. Some discussion will be needed for the proper semantic structure of headings, and some other elements as well. Generic graph and photos assets will be used as placeholders.
-3. There are some tables in the document, their conversion might happen during step 2, or as its own task cycle.
-4. The equations in the book will be a challenge. The current plan is to use https://github.com/mathjax/ as the solution to display them.
-5. Adding in the various graphs will be done in two phases. The first phase will be just displaying them as images taken from the PDFs. Phase 2 would be recreating them as SVGs. This will be a large undertaking, and would occur later in the project.
-6. The photographs will be added last. While some already exist in digital form, others will need to be reacquired. This may be scans from the printed book, or contact the DOD/DOE for source images.
+This repository contains a web-native, accessible conversion of the 1977 edition of “The Effects of Nuclear Weapons”, an unclassified publication of the United States government compiled and edited by Samuel Glasstone and Philip J. Dolan.  The repository also contains the PDF scans of the original text that were the basis of this conversion project.
+
+The conversion of this venerable document was undertaken in 2022 by Chris Griffith and Eric A. Meyer.  For some details on the technical aspects of this version, see the Preface (2022) file (`html/preface2022.html`).  You can find [the live version of this project](https://atomicarchive.com/resources/documents/effects/html/) at [The Atomic Archive](https://atomicarchive.com).
+
+In the online conversion process, we did our best to make the content as robust, accessible, and readable as possible across a wide range of browsers and browsing contexts.  If you find there are accessibility barriers or any other problems, and are not sure how to fix them, please file a Github issue on this repository outlining the problem and what should have happened instead.  We would particularly welcome well-written `alt` text for the various photographs and figures, which all have descriptive captions but would almost certainly benefit from more precise descriptions.
+
+For the more technically inclined, please feel free to fork the repository and submit pull requests containing fixes for any errors or omissions.  Please note that where content is enclosed in a `<span class="sic">…</span>` element, the error existed in the original print publication, and has been preserved for the sake of historical accuracy.  Errors which are not so marked are likely the fault of the conversion team, and fixes or issues regarding them will be gratefully accepted.  Common errors in the image-to-text conversion process included substituting uppercase I for the number 1, uppercase J for a closing parenthesis, and lowercase L for a solidus (forward slash).
+
+This version does not (as yet) include a recreation of the Nuclear Bomb Effects Computer (NBEC) that was included with the print edition.  For a much more modern and full-featured take on the NBEC, see Alex Wellerstein’s [NUKEMAP](https://nukemap.org/nukemap/).
