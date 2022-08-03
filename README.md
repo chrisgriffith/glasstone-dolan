@@ -2,7 +2,7 @@
 
 This repository contains a web-native, accessible conversion of the 1977 edition of “The Effects of Nuclear Weapons”, an unclassified publication of the United States government compiled and edited by Samuel Glasstone and Philip J. Dolan.  The repository also contains the PDF scans of the original text that were the basis of this conversion project.
 
-The conversion of this venerable document was undertaken in 2022 by Chris Griffith and Eric A. Meyer.  For some details on the technical aspects of this version, see the Preface (2022) [html/preface2022.html].  You can find [the live version of this project](https://atomicarchive.com/resources/documents/effects/html/) at [The Atomic Archive](https://atomicarchive.com).
+The conversion of this venerable document was undertaken in 2022 by Chris Griffith and Eric A. Meyer.  For some details on the technical aspects of this version, see the Preface (2022) file (`html/preface2022.html`).  You can find [the live version of this project](https://atomicarchive.com/resources/documents/effects/html/) at [The Atomic Archive](https://atomicarchive.com).
 
 In the online conversion process, we did our best to make the content as robust, accessible, and readable as possible across a wide range of browsers and browsing contexts.  If you find there are accessibility barriers or any other problems, and are not sure how to fix them, please file a Github issue on this repository outlining the problem and what should have happened instead.  We would particularly welcome well-written `alt` text for the various photographs and figures, which all have descriptive captions but would almost certainly benefit from more precise descriptions.
 
