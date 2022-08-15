@@ -309,6 +309,13 @@ figure figcaption {
 figure p {
 	text-indent: 0;
 }
+figure :is(h4, h5, h6) {
+	font-size: 1em;
+	font-style: normal;
+	font-weight: bold;
+	margin-block: 0;
+	padding: 0.5em;
+}
 
 @media (min-width: 30em) {
 	figure {
