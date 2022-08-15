@@ -240,9 +240,15 @@ sup {
 main aside {
 	border-block: 2px solid;
 	padding-block: 2em;
-	padding-inline: 2em;
 	margin-block: 4em;
 }
+
+@media (min-width: 32em) {
+	main aside {
+		padding-inline: 2em;
+	}
+}
+
 main aside h4 {
 	margin-block: 2em 0.25em;
 	font-style: italic;
