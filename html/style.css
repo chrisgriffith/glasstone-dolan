@@ -42,7 +42,8 @@ nav {
 	background: hsl(var(--ui-deg),60%,99%);
 	border-block-end: 1px solid gray;
 	z-index: 1945;
-	transition-duration: 500ms;
+	transition-duration: 333ms;
+	transition-property: color, background, box-shadow;
 }
 
 nav:hover, nav:focus-within {
@@ -85,9 +86,8 @@ nav div {
 	height: 0;
 	padding: 0;
 	justify-self: center;
-	transition-duration: 250ms;
 }
-nav:hover div, nav:focus-within div {
+nav p:hover ~ div, nav p:focus-within ~ div, nav div:hover, nav div:focus-within {
 	padding-block: 1em;
 	height: auto;
 	opacity: 1;
@@ -106,10 +106,9 @@ nav p span {
 
 @media (min-width: 42rem) {
 	nav > p {
-		grid-column: 2;
-		padding-block: 0.25em 0.5em;
+		grid-column: 2; 
 		background:
-			linear-gradient(currentColor,currentColor) 50% 100% / 50em 1px no-repeat;
+			linear-gradient(currentColor,currentColor) 50% 100% / 50em 1px no-repeat
 		;
 	}
 	nav > a[class] {
@@ -151,7 +150,8 @@ nav div [href] {
 	display: block;
 }
 nav [href]:hover {
-	background: #FF8;
+	background: #0002;
+	background: hsla(var(--ui-deg),60%,50%,0.2);
 }
 nav div [href]:local-link {
 	font-weight: 900;
