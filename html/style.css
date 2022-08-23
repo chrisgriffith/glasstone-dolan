@@ -572,9 +572,11 @@ section.biblio span.authors span {
 /* footnotes/endnotes */
 
 sup [href]:any-link {
-	padding-block: 0.5em;
-	padding-inline: 1em;
-	margin-inline: -0.75em -1em;
+	padding-block: 1.5em;
+	padding-inline: 2em;
+	margin-inline: -1.75em -2em;
+	position: relative;
+	z-index: 1;
 }
 
 .endnotes {
