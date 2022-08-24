@@ -328,6 +328,19 @@ figure :is(h4, h5, h6) {
 		gap: 0.75em;
 		padding-inline: 1.25em;
 	}
+	figure:not(.wide) :is(img, svg, figcaption) {
+		transition-duration: 333ms;
+		transition-delay: 333ms;
+	}
+	figure:not(.wide):hover :is(img, svg, figcaption) {
+		max-width: 90vw;
+		max-width: min(84em,94vw);
+		margin-inline: calc((min(84em,94vw) - min(94vw,42em)) / -2);
+	}
+	figure:not(.wide):hover figcaption {
+		padding-block: 2em; 
+		font-size: 1.5em;
+	}
 }
 
 /* Equation figures */
@@ -559,9 +572,11 @@ section.biblio span.authors span {
 /* footnotes/endnotes */
 
 sup [href]:any-link {
-	padding-block: 0.5em;
-	padding-inline: 1em;
-	margin-inline: -0.75em -1em;
+	padding-block: 1.5em;
+	padding-inline: 2em;
+	margin-inline: -1.75em -2em;
+	position: relative;
+	z-index: 1;
 }
 
 .endnotes {
