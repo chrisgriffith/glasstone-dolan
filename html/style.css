@@ -589,12 +589,12 @@ sup [href]:any-link {
 }
 .endnotes li {
 	margin-block: 0.33em;
-	padding-left: 0.75em;
+	padding-inline-start: 0.75em;
 	text-indent: -0.75em;
 }
 .endnotes li:nth-of-type(9) ~ li {
 	margin-inline-start: -0.33em;
-	padding-left: 1.1em;
+	padding-inline-start: 1.1em;
 	text-indent: -1.1em;
 }
 .endnotes li:target {
