@@ -328,19 +328,6 @@ figure :is(h4, h5, h6) {
 		gap: 0.75em;
 		padding-inline: 1.25em;
 	}
-	figure:not(.wide) :is(img, svg, figcaption) {
-		transition-duration: 333ms;
-		transition-delay: 333ms;
-	}
-	figure:not(.wide):hover :is(img, svg, figcaption) {
-		max-width: 90vw;
-		max-width: min(84em,94vw);
-		margin-inline: calc((min(84em,94vw) - min(94vw,42em)) / -2);
-	}
-	figure:not(.wide):hover figcaption {
-		padding-block: 2em; 
-		font-size: 1.5em;
-	}
 }
 
 /* Equation figures */
@@ -606,7 +593,22 @@ sup [href]:any-link {
 	border-top: 1px solid;
 	background: #FFF;
 	box-shadow: 0 0 3em 3em #FFF;
+	width: 100%;
 	max-width: 45em;
+	animation: fnSlide 0.5s forwards ease-out;
+}
+
+@keyframes fnSlide {
+	from {
+		max-height: 0;
+		bottom: -8rem;
+		box-shadow: 0 0 0 0 #FFF;
+	}
+	to {
+		max-height: 100vh;
+		bottom: 0;
+		box-shadow: 0 0 3em 3em #FFF;
+	}
 }
 
 .endnotes li .close {
