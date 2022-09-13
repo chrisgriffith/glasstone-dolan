@@ -608,6 +608,7 @@ sup [href]:any-link {
 	box-shadow: 0 0 3em 3em #FFF;
 	max-width: 45em;
 }
+
 .endnotes li .close {
 	display: none;
 	visibility: hidden;
