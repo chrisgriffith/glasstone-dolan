@@ -589,13 +589,24 @@ sup [href]:any-link {
 	bottom: 0;
 	padding-block: 2em 4em;
 	padding-inline: 2em;
-	margin-inline: -2em 0;
+	margin-inline: -1.1em auto;
 	border-top: 1px solid;
 	background: #FFF;
 	box-shadow: 0 0 3em 3em #FFF;
+	box-sizing: border-box;
 	width: 100%;
 	max-width: 45em;
 	animation: fnSlide 0.5s forwards ease-out;
+}
+
+@media (min-width: 45rem) {
+	.endnotes li:target {
+		margin-inline: auto;
+	}
+}
+
+.fnOpen {
+	background: red;
 }
 
 @keyframes fnSlide {
