@@ -18,6 +18,7 @@ html {
 
 body {
 	font: 1em/1.35 Cambria, Times, serif;
+	-webkit-hyphens: auto;
 	hyphens: auto;
 }
 [href]:any-link {
@@ -214,7 +215,6 @@ dt {
 
 p {
 	margin: 0;
-	padding: 0.25em 0;
 	text-align: justify;
 }
 p strong {
@@ -225,9 +225,8 @@ p[id], [id] p:first-child, aside > p {
 }
 :target, dt:target + dd {
 	background: #FED;
-	padding-block: 0.75em;
-	padding-inline: 1em;
-	margin-inline: -1em;
+	padding-inline: 2.5ch;
+	margin-inline: -2.5ch;
 	scroll-margin-block-start: 4em;
 }
 p.cases {
@@ -327,19 +326,6 @@ figure :is(h4, h5, h6) {
 		justify-content: center;
 		gap: 0.75em;
 		padding-inline: 1.25em;
-	}
-	figure:not(.wide) :is(img, svg, figcaption) {
-		transition-duration: 333ms;
-		transition-delay: 333ms;
-	}
-	figure:not(.wide):hover :is(img, svg, figcaption) {
-		max-width: 90vw;
-		max-width: min(84em,94vw);
-		margin-inline: calc((min(84em,94vw) - min(94vw,42em)) / -2);
-	}
-	figure:not(.wide):hover figcaption {
-		padding-block: 2em; 
-		font-size: 1.5em;
 	}
 }
 
@@ -600,13 +586,34 @@ sup [href]:any-link {
 .endnotes li:target {
 	position: fixed;
 	bottom: 0;
+	top: auto;
 	padding-block: 2em 4em;
 	padding-inline: 2em;
-	margin-inline: -2em 0;
+	margin-inline: -1.1em auto;
 	border-top: 1px solid;
 	background: #FFF;
 	box-shadow: 0 0 3em 3em #FFF;
-	max-width: 45em;
+	box-sizing: border-box;
+	width: min(100%,100vw);
+	max-width: min(45em,100vw);
+	animation: fnSlide 333ms forwards ease-out;
+}
+
+@keyframes fnSlide {
+	from {
+		max-height: 0;
+		bottom: -8rem;
+	}
+	to {
+		max-height: 67vh;
+		bottom: 0rem;
+	}
+}
+
+@media (min-width: 45rem) {
+	.endnotes li:target {
+		margin-inline: auto;
+	}
 }
 
 .endnotes li .close {
