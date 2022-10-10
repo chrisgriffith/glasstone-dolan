@@ -226,7 +226,8 @@ p[id], [id] p:first-child, aside > p {
 :target, dt:target + dd {
 	background: #FED;
 	padding-inline: 2.5ch;
-	margin-inline: -2.5ch;
+	margin-inline-start: -2.5ch;
+	margin-inline-end: -2ch;
 	scroll-margin-block-start: 4em;
 }
 p.cases {
@@ -644,6 +645,7 @@ sup [href]:any-link {
 }
 .backjump, .backjump a {
 	white-space: nowrap;
+}
 
 @media (min-width: 42rem) {
 	.endnotes li:target {
