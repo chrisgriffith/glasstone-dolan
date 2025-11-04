@@ -663,7 +663,7 @@ sup [href]:any-link {
 	.endnotes li, .endnotes li:target {
 		width: auto;
 	}
-	[style^='--is:'] {
+	a[style*='--is'] {
 		anchor-name: var(--is);
 	}
 
@@ -686,10 +686,10 @@ sup [href]:any-link {
 			text-decoration: none;
 			cursor: text;
 		}
-		.endnotes ol li[style^="--for:"] {
-			anchor-name: --sidenote;
+		.endnotes ol li[style*="--for"] {
 			position: absolute;
-			top: max(anchor(var(--for) top), calc(anchor(--sidenote bottom) + 0.67em));
+			anchor-name: --sidenote;
+			top: max(anchor(var(--for) top), calc(anchor(--sidenote bottom, 0px) + 0.67em));
 			bottom: auto;
 			left: calc(anchor(--main right) + 3em);
 			right: 0;
@@ -711,9 +711,6 @@ sup [href]:any-link {
 			right: 100%;
 			margin-right: 0.25em;
 			font-size: 80%;
-		}
-		.endnotes #fnote01, .endnotes #fnote01:target {
-			top: anchor(var(--for) top);
 		}
 		.endnotes h2,
 		.endnotes li:target .close {
